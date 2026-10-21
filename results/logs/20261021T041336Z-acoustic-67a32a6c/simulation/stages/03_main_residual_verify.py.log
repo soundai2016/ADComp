@@ -1,0 +1,12 @@
+[stdout] {
+[stdout]   "analytic_vs_original_gram_relative_difference": 0.0,
+[stdout]   "analytic_vs_gauss_legendre_gram_relative_difference": 8.921957223691321e-15,
+[stdout]   "full_state_sparse_vs_modal_relative_difference": 3.23635226683408e-14,
+[stdout]   "modal_defect_identity_relative_difference": 1.9847909155271246e-15,
+[stdout]   "all_small_system_bounds_hold": true,
+[stdout]   "small_system_bound_over_actual": [
+[stdout]     8.468931292872742,
+[stdout]     7.419730823425567,
+[stdout]     8.762950445335115
+[stdout]   ]
+[stdout] }

@@ -1,0 +1,99 @@
+[stdout] {
+[stdout]   "status": "pass",
+[stdout]   "numerical_checks_pass": true,
+[stdout]   "grid384_exponential_chebyshev_relative_difference": {
+[stdout]     "receiver_pressure": 9.857059947819766e-13,
+[stdout]     "pressure_snapshots": 8.309071245510978e-13
+[stdout]   },
+[stdout]   "relative_agreement_tolerance": 2e-10,
+[stdout]   "energy_sampling": "641 times for the exponential; snapshot times 0,2,4,6,8 for Chebyshev.",
+[stdout]   "tail_interpretation": "Exact-arithmetic uniform matrix-function truncation estimates; floating-point error is checked by independent propagation.",
+[stdout]   "verified_implementation_sha256": "212a3bbc5d95295523fc5b85702503a555f49c74564b275f6031c8e9e9deddbb",
+[stdout]   "reference_cases": [
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "grid": 384,
+[stdout]       "shape_ok": true,
+[stdout]       "finite": true,
+[stdout]       "wall_seconds": 1583.188560238923,
+[stdout]       "energy_relative_drift": 1.0014211682118912e-13,
+[stdout]       "energy_check_count": 641,
+[stdout]       "sha256": "d2f86dea2f9805450afce33cfbbf770c1f9efc19ef297e47bc6783838132de79"
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "grid": 384,
+[stdout]       "shape_ok": true,
+[stdout]       "finite": true,
+[stdout]       "wall_seconds": 76.55095589300618,
+[stdout]       "energy_relative_drift": 8.664180484174722e-13,
+[stdout]       "energy_check_count": 5,
+[stdout]       "sha256": "6db535c0db834a59860ea1694e13dbe047ed4701e70306f8f8e48fa46e90111e",
+[stdout]       "polynomial_degree": 8888,
+[stdout]       "recomputed_uniform_cosine_tail_bound": 8.470812383808575e-18,
+[stdout]       "recomputed_sinc_coefficient_tail_bound": 7.108949607469697e-36,
+[stdout]       "recomputed_total_integrated_cosine_tail_bound": 6.77664990704686e-17,
+[stdout]       "tail_criterion_pass": true
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "grid": 384,
+[stdout]       "shape_ok": true,
+[stdout]       "finite": true,
+[stdout]       "wall_seconds": 90.45309788908344,
+[stdout]       "energy_relative_drift": 3.886890809212673e-12,
+[stdout]       "energy_check_count": 5,
+[stdout]       "sha256": "db39b1f5d77b61031b63b719b929a5232cfb5e97ac998afd0c2aad7caa8d989b",
+[stdout]       "polynomial_degree": 10579,
+[stdout]       "recomputed_uniform_cosine_tail_bound": 9.17607386506069e-18,
+[stdout]       "recomputed_sinc_coefficient_tail_bound": 1.2099671197579109e-34,
+[stdout]       "recomputed_total_integrated_cosine_tail_bound": 7.340859092048552e-17,
+[stdout]       "tail_criterion_pass": true
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "grid": 512,
+[stdout]       "shape_ok": true,
+[stdout]       "finite": true,
+[stdout]       "wall_seconds": 171.47753726004157,
+[stdout]       "energy_relative_drift": 9.210410212290299e-13,
+[stdout]       "energy_check_count": 5,
+[stdout]       "sha256": "b06c950e8cc7a986af354fa402870a83325f1e4ca9e59c7392e25f6f0a3fb1b9",
+[stdout]       "polynomial_degree": 11198,
+[stdout]       "recomputed_uniform_cosine_tail_bound": 7.14264349720424e-18,
+[stdout]       "recomputed_sinc_coefficient_tail_bound": 2.0723725264782416e-34,
+[stdout]       "recomputed_total_integrated_cosine_tail_bound": 5.714114797763392e-17,
+[stdout]       "tail_criterion_pass": true
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "grid": 512,
+[stdout]       "shape_ok": true,
+[stdout]       "finite": true,
+[stdout]       "wall_seconds": 251.64185410004575,
+[stdout]       "energy_relative_drift": 1.6999734953060397e-12,
+[stdout]       "energy_check_count": 5,
+[stdout]       "sha256": "ad39bed8996aff69a67a5391695d7260a7d19bb39825266215f919064a02bd4c",
+[stdout]       "polynomial_degree": 11814,
+[stdout]       "recomputed_uniform_cosine_tail_bound": 9.721276558360214e-18,
+[stdout]       "recomputed_sinc_coefficient_tail_bound": 6.6780553489574766e-34,
+[stdout]       "recomputed_total_integrated_cosine_tail_bound": 7.777021246688171e-17,
+[stdout]       "tail_criterion_pass": true
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "grid": 512,
+[stdout]       "shape_ok": true,
+[stdout]       "finite": true,
+[stdout]       "wall_seconds": 256.4129614790436,
+[stdout]       "energy_relative_drift": 3.1294966618133913e-12,
+[stdout]       "energy_check_count": 5,
+[stdout]       "sha256": "15ecf8192ba663ab590acae05b86c28cf86d64f0db2c1c9b84ce1f4be69a1eb9",
+[stdout]       "polynomial_degree": 14074,
+[stdout]       "recomputed_uniform_cosine_tail_bound": 7.623785671535495e-18,
+[stdout]       "recomputed_sinc_coefficient_tail_bound": 5.7342250235722974e-33,
+[stdout]       "recomputed_total_integrated_cosine_tail_bound": 6.099028537228396e-17,
+[stdout]       "tail_criterion_pass": true
+[stdout]     }
+[stdout]   ]
+[stdout] }

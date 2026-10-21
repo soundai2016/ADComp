@@ -1,0 +1,63 @@
+[stdout] full state rotated_stripes n=32
+[stdout]   craig_bampton m=16: worst T=8 error 0.85255
+[stdout]   craig_bampton m=32: worst T=8 error 0.65244
+[stdout]   craig_bampton m=64: worst T=8 error 0.50657
+[stdout]   craig_bampton m=128: worst T=8 error 0.25519
+[stdout]   rational_krylov m=16: worst T=8 error 1.0885
+[stdout]   rational_krylov m=32: worst T=8 error 0.87441
+[stdout]   rational_krylov m=64: worst T=8 error 0.45513
+[stdout]   rational_krylov m=128: worst T=8 error 0.2398
+[stdout] full state rotated_stripes n=64
+[stdout]   craig_bampton m=16: worst T=8 error 0.85453
+[stdout]   craig_bampton m=32: worst T=8 error 0.66845
+[stdout]   craig_bampton m=64: worst T=8 error 0.5393
+[stdout]   craig_bampton m=128: worst T=8 error 0.28569
+[stdout]   rational_krylov m=16: worst T=8 error 0.82593
+[stdout]   rational_krylov m=32: worst T=8 error 0.48506
+[stdout]   rational_krylov m=64: worst T=8 error 0.3593
+[stdout]   rational_krylov m=128: worst T=8 error 0.18256
+[stdout] full state double_inclusion n=32
+[stdout]   craig_bampton m=16: worst T=8 error 0.90305
+[stdout]   craig_bampton m=32: worst T=8 error 0.71249
+[stdout]   craig_bampton m=64: worst T=8 error 0.33226
+[stdout]   craig_bampton m=128: worst T=8 error 0.11008
+[stdout]   rational_krylov m=16: worst T=8 error 0.83975
+[stdout]   rational_krylov m=32: worst T=8 error 0.51949
+[stdout]   rational_krylov m=64: worst T=8 error 0.19959
+[stdout]   rational_krylov m=128: worst T=8 error 0.050192
+[stdout] full state double_inclusion n=64
+[stdout]   craig_bampton m=16: worst T=8 error 0.87898
+[stdout]   craig_bampton m=32: worst T=8 error 0.72212
+[stdout]   craig_bampton m=64: worst T=8 error 0.37625
+[stdout]   craig_bampton m=128: worst T=8 error 0.14704
+[stdout]   rational_krylov m=16: worst T=8 error 0.52
+[stdout]   rational_krylov m=32: worst T=8 error 0.26358
+[stdout]   rational_krylov m=64: worst T=8 error 0.099087
+[stdout]   rational_krylov m=128: worst T=8 error 0.038985
+[stdout] full state smooth_checker n=32
+[stdout]   craig_bampton m=16: worst T=8 error 0.70558
+[stdout]   craig_bampton m=32: worst T=8 error 0.49911
+[stdout]   craig_bampton m=64: worst T=8 error 0.26652
+[stdout]   craig_bampton m=128: worst T=8 error 0.12856
+[stdout]   rational_krylov m=16: worst T=8 error 0.57383
+[stdout]   rational_krylov m=32: worst T=8 error 0.45509
+[stdout]   rational_krylov m=64: worst T=8 error 0.27337
+[stdout]   rational_krylov m=128: worst T=8 error 0.14999
+[stdout] full state smooth_checker n=64
+[stdout]   craig_bampton m=16: worst T=8 error 0.72762
+[stdout]   craig_bampton m=32: worst T=8 error 0.53791
+[stdout]   craig_bampton m=64: worst T=8 error 0.29066
+[stdout]   craig_bampton m=128: worst T=8 error 0.1454
+[stdout]   rational_krylov m=16: worst T=8 error 0.45326
+[stdout]   rational_krylov m=32: worst T=8 error 0.29482
+[stdout]   rational_krylov m=64: worst T=8 error 0.18674
+[stdout]   rational_krylov m=128: worst T=8 error 0.12187
+[stdout] {
+[stdout]   "model_count": 48,
+[stdout]   "rows": 288,
+[stdout]   "all_bounds_hold": true,
+[stdout]   "minimum_bound_minus_error": 0.03153986901202805,
+[stdout]   "wall_seconds": 28.647951527033,
+[stdout]   "full_reference_reused": false,
+[stdout]   "config_sha256": "405b1c026ff2340a38f82d1bf46e111a995ca7d9bb7d04444daae0bb369ffdf6"
+[stdout] }

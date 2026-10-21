@@ -1,0 +1,128 @@
+[stdout] rotated_stripes fixed_interface_modes 32 96 0.1637882319217842 0.4607033587320457
+[stdout] rotated_stripes global_low_eigenmode_oracle 32 96 0.06988064976360495 0.27779582800696834
+[stdout] rotated_stripes fixed_interface_plus_exact_source_span 32 99 0.19380992000605568 0.5825926903460026
+[stdout] rotated_stripes fixed_interface_modes 64 160 0.07267567720047269 0.30407459556415006
+[stdout] rotated_stripes global_low_eigenmode_oracle 64 160 0.02290437382397892 0.16788071711502156
+[stdout] rotated_stripes fixed_interface_modes 96 224 0.03828383736010891 0.20745643128962957
+[stdout] rotated_stripes global_low_eigenmode_oracle 96 224 0.009199442315889176 0.11935010756907197
+[stdout] rotated_stripes fixed_interface_modes 128 288 0.022801018643447333 0.15134715749573052
+[stdout] rotated_stripes global_low_eigenmode_oracle 128 288 0.005709301754658677 0.08713078148167225
+[stdout] double_inclusion fixed_interface_modes 32 96 0.266956002784973 0.4941461775856916
+[stdout] double_inclusion global_low_eigenmode_oracle 32 96 0.035580325145699206 0.14422585836540244
+[stdout] double_inclusion fixed_interface_plus_exact_source_span 32 99 0.2684324229436733 0.5175741565887156
+[stdout] double_inclusion fixed_interface_modes 64 160 0.07231740298965703 0.21778782018739515
+[stdout] double_inclusion global_low_eigenmode_oracle 64 160 0.003738395778964258 0.044767795134842775
+[stdout] double_inclusion fixed_interface_modes 96 224 0.027481357762399607 0.10738799059039972
+[stdout] double_inclusion global_low_eigenmode_oracle 96 224 0.0010729372107804492 0.018640505739634276
+[stdout] double_inclusion fixed_interface_modes 128 288 0.013072148026860552 0.05807686821634699
+[stdout] double_inclusion global_low_eigenmode_oracle 128 288 0.0002080809656499152 0.00836962273444897
+[stdout] smooth_checker fixed_interface_modes 32 96 0.08177143869177747 0.3344823306825557
+[stdout] smooth_checker global_low_eigenmode_oracle 32 96 0.014531126412749711 0.16949131710443613
+[stdout] smooth_checker fixed_interface_plus_exact_source_span 32 99 0.09134923014355513 0.39991054191687014
+[stdout] smooth_checker fixed_interface_modes 64 160 0.021745514465794025 0.185119784966798
+[stdout] smooth_checker global_low_eigenmode_oracle 64 160 0.003619645109734774 0.10782556327784919
+[stdout] smooth_checker fixed_interface_modes 96 224 0.009190333901458767 0.12314240710911832
+[stdout] smooth_checker global_low_eigenmode_oracle 96 224 0.0018325102982801066 0.08654994336916466
+[stdout] smooth_checker fixed_interface_modes 128 288 0.005477221154224915 0.09108845981590126
+[stdout] smooth_checker global_low_eigenmode_oracle 128 288 0.001037134332448192 0.05914419136443374
+[stdout] [
+[stdout]   {
+[stdout]     "method": "fixed_interface_modes",
+[stdout]     "modes_per_patch": 32,
+[stdout]     "pressure_dof": 96,
+[stdout]     "same_grid_receiver_error": 0.17083855779951154,
+[stdout]     "same_grid_field_error": 0.4297772890000977,
+[stdout]     "same_grid_transfer_error": 0.14397601167550078,
+[stdout]     "receiver_error_vs_48": 0.21762811228174098,
+[stdout]     "initial_energy_retained": 0.9230207350302698,
+[stdout]     "receiver_online_seconds": 0.0013565543728570144
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "fixed_interface_modes",
+[stdout]     "modes_per_patch": 64,
+[stdout]     "pressure_dof": 160,
+[stdout]     "same_grid_receiver_error": 0.055579531551974586,
+[stdout]     "same_grid_field_error": 0.23566073357278108,
+[stdout]     "same_grid_transfer_error": 0.0316851038927597,
+[stdout]     "receiver_error_vs_48": 0.2516245544336934,
+[stdout]     "initial_energy_retained": 0.9781284299040872,
+[stdout]     "receiver_online_seconds": 0.0019774643005803227
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "fixed_interface_modes",
+[stdout]     "modes_per_patch": 96,
+[stdout]     "pressure_dof": 224,
+[stdout]     "same_grid_receiver_error": 0.024985176341322426,
+[stdout]     "same_grid_field_error": 0.1459956096630492,
+[stdout]     "same_grid_transfer_error": 0.013918529073185576,
+[stdout]     "receiver_error_vs_48": 0.26171352783391694,
+[stdout]     "initial_energy_retained": 0.989136641969763,
+[stdout]     "receiver_online_seconds": 0.0025926949456334114
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "fixed_interface_modes",
+[stdout]     "modes_per_patch": 128,
+[stdout]     "pressure_dof": 288,
+[stdout]     "same_grid_receiver_error": 0.0137834626081776,
+[stdout]     "same_grid_field_error": 0.10017082850932625,
+[stdout]     "same_grid_transfer_error": 0.00767919271652625,
+[stdout]     "receiver_error_vs_48": 0.26516673347964786,
+[stdout]     "initial_energy_retained": 0.9939857526151971,
+[stdout]     "receiver_online_seconds": 0.0031546393098930516
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "global_low_eigenmode_oracle",
+[stdout]     "modes_per_patch": 32,
+[stdout]     "pressure_dof": 96,
+[stdout]     "same_grid_receiver_error": 0.039997367107351287,
+[stdout]     "same_grid_field_error": 0.19717100115893563,
+[stdout]     "same_grid_transfer_error": 0.01665676744623649,
+[stdout]     "receiver_error_vs_48": 0.2659405073991321,
+[stdout]     "initial_energy_retained": 0.9577221184070247,
+[stdout]     "receiver_online_seconds": 0.001265532337129116
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "global_low_eigenmode_oracle",
+[stdout]     "modes_per_patch": 64,
+[stdout]     "pressure_dof": 160,
+[stdout]     "same_grid_receiver_error": 0.010087471570892651,
+[stdout]     "same_grid_field_error": 0.10682469184257117,
+[stdout]     "same_grid_transfer_error": 0.0003999086503018541,
+[stdout]     "receiver_error_vs_48": 0.2688856348780588,
+[stdout]     "initial_energy_retained": 0.9860438217976286,
+[stdout]     "receiver_online_seconds": 0.0018592276222382982
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "global_low_eigenmode_oracle",
+[stdout]     "modes_per_patch": 96,
+[stdout]     "pressure_dof": 224,
+[stdout]     "same_grid_receiver_error": 0.004034963274983244,
+[stdout]     "same_grid_field_error": 0.07484685222595697,
+[stdout]     "same_grid_transfer_error": 9.958153026914453e-05,
+[stdout]     "receiver_error_vs_48": 0.26911563048510684,
+[stdout]     "initial_energy_retained": 0.9926290057030943,
+[stdout]     "receiver_online_seconds": 0.00246082265706112
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "global_low_eigenmode_oracle",
+[stdout]     "modes_per_patch": 128,
+[stdout]     "pressure_dof": 288,
+[stdout]     "same_grid_receiver_error": 0.002318172350918928,
+[stdout]     "same_grid_field_error": 0.051548198526851656,
+[stdout]     "same_grid_transfer_error": 4.914891134548182e-05,
+[stdout]     "receiver_error_vs_48": 0.26912589047878266,
+[stdout]     "initial_energy_retained": 0.9962747908056923,
+[stdout]     "receiver_online_seconds": 0.003072592973088225
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "fixed_interface_plus_exact_source_span",
+[stdout]     "modes_per_patch": 32,
+[stdout]     "pressure_dof": 99,
+[stdout]     "same_grid_receiver_error": 0.18453052436442804,
+[stdout]     "same_grid_field_error": 0.5000257962838628,
+[stdout]     "same_grid_transfer_error": 0.15162740987474446,
+[stdout]     "receiver_error_vs_48": 0.22775081120276375,
+[stdout]     "initial_energy_retained": 1.0000000000000002,
+[stdout]     "receiver_online_seconds": 0.001394856294306616
+[stdout]   }
+[stdout] ]

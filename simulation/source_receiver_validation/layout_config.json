@@ -1,0 +1,44 @@
+{
+  "original_source_centres": [
+    [
+      0.19,
+      0.76
+    ],
+    [
+      0.54,
+      0.47
+    ],
+    [
+      0.81,
+      0.22
+    ]
+  ],
+  "original_receiver_centres": [
+    [
+      0.22,
+      0.21
+    ],
+    [
+      0.79,
+      0.77
+    ],
+    [
+      0.28,
+      0.69
+    ],
+    [
+      0.68,
+      0.33
+    ]
+  ],
+  "source_layouts": [
+    "original",
+    "second"
+  ],
+  "receiver_layouts": [
+    "original",
+    "second"
+  ],
+  "scope": "All four source/receiver layout combinations use the same material, full eigensystems, Craig--Bampton spaces, grids, dimensions and observation windows.",
+  "rationale": "Separate changes in source excitation and receiver coupling using fixed port positions."
+}

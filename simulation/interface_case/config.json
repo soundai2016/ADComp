@@ -1,0 +1,79 @@
+{
+  "material": "aligned_impedance_step",
+  "interface_x": 0.5,
+  "density": [
+    1.0,
+    8.0
+  ],
+  "bulk_modulus": [
+    1.0,
+    8.0
+  ],
+  "grids": [
+    32,
+    64,
+    96,
+    128,
+    256
+  ],
+  "reduced_grids": [
+    32,
+    64,
+    96,
+    128
+  ],
+  "modes_per_patch": [
+    32,
+    64,
+    128
+  ],
+  "source_centres": [
+    [
+      0.19,
+      0.76
+    ],
+    [
+      0.54,
+      0.47
+    ],
+    [
+      0.81,
+      0.22
+    ]
+  ],
+  "receiver_centres": [
+    [
+      0.22,
+      0.21
+    ],
+    [
+      0.79,
+      0.77
+    ],
+    [
+      0.28,
+      0.69
+    ],
+    [
+      0.68,
+      0.33
+    ]
+  ],
+  "sigma": 0.07,
+  "max_x_mode": 20,
+  "max_y_mode": 16,
+  "initial_energy": 1.0,
+  "quadrature_order": 192,
+  "time_end": 8.0,
+  "samples": 641,
+  "threads": 2,
+  "cpu_affinity": [
+    6,
+    7
+  ],
+  "error_sampling": "All 641 output times including t=0; equal weights over times and sources.",
+  "initial_condition": "Beta-weighted projection of each Gaussian pressure onto exact modes 0<=m<=20, 0<=l<=16 excluding (0,0), normalized to unit acoustic energy; initial velocity is zero. This finite expansion defines the source, not an approximation claimed to be an unfiltered Gaussian.",
+  "field_reference": "Continuous beta-weighted L2 pressure error of the piecewise-constant finite-volume reconstruction, including exact subcell projection error. Analytic modal orthogonality supplies the common continuum norm.",
+  "receiver_reference": "Continuous Gaussian-weighted pressure averages; Gaussian windows normalized on the unit square.",
+  "scope": "Interface-aligned two-dimensional rigid cavity with a planar impedance jump of eight and equal sound speeds."
+}

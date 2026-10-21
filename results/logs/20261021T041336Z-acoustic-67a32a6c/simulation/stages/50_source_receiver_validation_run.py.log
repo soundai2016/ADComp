@@ -1,0 +1,18 @@
+[stdout] Grid 64: separated full spectrum and complete modal matching
+[stdout] Grid 64: Craig--Bampton m=32
+[stdout] Grid 64, m=32: 30 accepted triples
+[stdout] Grid 64: Craig--Bampton m=64
+[stdout] Grid 64, m=64: 43 accepted triples
+[stdout] Grid 64: Craig--Bampton m=128
+[stdout] Grid 64, m=128: 49 accepted triples
+[stdout] Grid 64: continuous pressure-field errors
+[stdout] Grid 64 complete in 5.3 s (execution log only)
+[stdout] Grid 128: separated full spectrum and complete modal matching
+[stdout] Grid 128: Craig--Bampton m=32
+[stdout] Grid 128, m=32: 28 accepted triples
+[stdout] Grid 128: Craig--Bampton m=64
+[stdout] Grid 128, m=64: 44 accepted triples
+[stdout] Grid 128: Craig--Bampton m=128
+[stdout] Grid 128, m=128: 50 accepted triples
+[stdout] Grid 128: continuous pressure-field errors
+[stdout] Grid 128 complete in 15.5 s (execution log only)

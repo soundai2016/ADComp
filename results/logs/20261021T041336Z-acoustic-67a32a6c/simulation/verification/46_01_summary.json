@@ -1,0 +1,404 @@
+{
+  "material_summary": [
+    {
+      "material": "rotated_stripes",
+      "fine_grid": 128,
+      "default_matched_count": 41.0,
+      "matched_count_range": [
+        28.0,
+        47.0
+      ],
+      "common_count": 28.0,
+      "fixed_rom_error_change_pp_range": [
+        2.7754757023870456,
+        5.764715527194346
+      ],
+      "all_paths_all_thresholds_error_change_pp_range": [
+        2.7754757023870456,
+        6.186213905281765
+      ],
+      "default_path_error_changes_pp": {
+        "rom": 4.6287270479586295,
+        "fine": 4.915616355705266,
+        "symmetric": 4.759944134689683
+      },
+      "frequency_compensation_ratio_default": 0.18815773008596282,
+      "frequency_compensation_ratio_range": [
+        0.16663492509463274,
+        0.1976510532848727
+      ],
+      "modal_coverage_difference": 0.003984950762256062,
+      "path_interaction_norm": 0.041487269535410466,
+      "channel_full_window_sign_changes_across_thresholds": 0,
+      "full_window_threshold_channel_comparisons": 108,
+      "linear_sign_agreements": 94,
+      "linear_sign_comparisons": 96,
+      "reference_margin_gt_one": 96,
+      "reference_margin_comparisons": 96,
+      "minimum_reference_sign_margin": 1.520114515135357,
+      "aggregate_T8_exact_squared_change": 0.03605070045630642,
+      "aggregate_T8_linear_squared_change": 0.04465771082261658,
+      "aggregate_T8_ritz_linearization_error": 1.1304215636898072,
+      "aggregate_T8_grid_linearization_error": 0.6526986370016616,
+      "aggregate_T8_maximum_phase_offset": 4.491144361253305
+    },
+    {
+      "material": "rotated_stripes",
+      "fine_grid": 192,
+      "default_matched_count": 41.0,
+      "matched_count_range": [
+        27.0,
+        47.0
+      ],
+      "common_count": 27.0,
+      "fixed_rom_error_change_pp_range": [
+        2.7886653454889316,
+        5.764715527194346
+      ],
+      "all_paths_all_thresholds_error_change_pp_range": [
+        2.7886653454889316,
+        6.190282685361783
+      ],
+      "default_path_error_changes_pp": {
+        "rom": 4.6287270479586295,
+        "fine": 4.919391192590279,
+        "symmetric": 4.761560824303155
+      },
+      "frequency_compensation_ratio_default": 0.1815110642552321,
+      "frequency_compensation_ratio_range": [
+        0.16181263368054205,
+        0.19065413396687408
+      ],
+      "modal_coverage_difference": 0.003930981208459981,
+      "path_interaction_norm": 0.04392345244661302,
+      "channel_full_window_sign_changes_across_thresholds": 0,
+      "full_window_threshold_channel_comparisons": 108,
+      "linear_sign_agreements": 94,
+      "linear_sign_comparisons": 96,
+      "reference_margin_gt_one": 96,
+      "reference_margin_comparisons": 96,
+      "minimum_reference_sign_margin": 1.520114515135357,
+      "aggregate_T8_exact_squared_change": 0.03605070045630642,
+      "aggregate_T8_linear_squared_change": 0.04449910967249681,
+      "aggregate_T8_ritz_linearization_error": 1.166864224180423,
+      "aggregate_T8_grid_linearization_error": 0.6753514504299533,
+      "aggregate_T8_maximum_phase_offset": 4.65525839078839
+    },
+    {
+      "material": "double_inclusion",
+      "fine_grid": 128,
+      "default_matched_count": 37.0,
+      "matched_count_range": [
+        25.0,
+        42.0
+      ],
+      "common_count": 25.0,
+      "fixed_rom_error_change_pp_range": [
+        4.35905875728122,
+        7.672127937077739
+      ],
+      "all_paths_all_thresholds_error_change_pp_range": [
+        4.35905875728122,
+        8.497654842292992
+      ],
+      "default_path_error_changes_pp": {
+        "rom": 6.973906590184506,
+        "fine": 7.734081101128567,
+        "symmetric": 7.312953893610073
+      },
+      "frequency_compensation_ratio_default": 0.24445221742212883,
+      "frequency_compensation_ratio_range": [
+        0.21986177067945872,
+        0.25899760943877054
+      ],
+      "modal_coverage_difference": 0.0002038952450778104,
+      "path_interaction_norm": 0.07595690863544369,
+      "channel_full_window_sign_changes_across_thresholds": 0,
+      "full_window_threshold_channel_comparisons": 108,
+      "linear_sign_agreements": 94,
+      "linear_sign_comparisons": 96,
+      "reference_margin_gt_one": 96,
+      "reference_margin_comparisons": 96,
+      "minimum_reference_sign_margin": 8.34531632921016,
+      "aggregate_T8_exact_squared_change": 0.06111439759190314,
+      "aggregate_T8_linear_squared_change": 0.07360748262215014,
+      "aggregate_T8_ritz_linearization_error": 1.033149887402842,
+      "aggregate_T8_grid_linearization_error": 0.6253002325841974,
+      "aggregate_T8_maximum_phase_offset": 3.344303569207
+    },
+    {
+      "material": "double_inclusion",
+      "fine_grid": 192,
+      "default_matched_count": 37.0,
+      "matched_count_range": [
+        25.0,
+        42.0
+      ],
+      "common_count": 25.0,
+      "fixed_rom_error_change_pp_range": [
+        4.35905875728122,
+        7.672127937077739
+      ],
+      "all_paths_all_thresholds_error_change_pp_range": [
+        4.35905875728122,
+        8.520024544725416
+      ],
+      "default_path_error_changes_pp": {
+        "rom": 6.973906590184506,
+        "fine": 7.744052902421295,
+        "symmetric": 7.316531782830436
+      },
+      "frequency_compensation_ratio_default": 0.23594013621472265,
+      "frequency_compensation_ratio_range": [
+        0.21213536007416714,
+        0.25006685900601516
+      ],
+      "modal_coverage_difference": 0.00019706820247708317,
+      "path_interaction_norm": 0.08058668410552368,
+      "channel_full_window_sign_changes_across_thresholds": 0,
+      "full_window_threshold_channel_comparisons": 108,
+      "linear_sign_agreements": 94,
+      "linear_sign_comparisons": 96,
+      "reference_margin_gt_one": 96,
+      "reference_margin_comparisons": 96,
+      "minimum_reference_sign_margin": 8.34531632921016,
+      "aggregate_T8_exact_squared_change": 0.06111439759190314,
+      "aggregate_T8_linear_squared_change": 0.07344787115224076,
+      "aggregate_T8_ritz_linearization_error": 1.0667052681822873,
+      "aggregate_T8_grid_linearization_error": 0.6453323314656771,
+      "aggregate_T8_maximum_phase_offset": 3.46408600072445
+    },
+    {
+      "material": "smooth_checker",
+      "fine_grid": 128,
+      "default_matched_count": 22.0,
+      "matched_count_range": [
+        13.0,
+        30.0
+      ],
+      "common_count": 13.0,
+      "fixed_rom_error_change_pp_range": [
+        0.22388266831987724,
+        1.3793804279845987
+      ],
+      "all_paths_all_thresholds_error_change_pp_range": [
+        0.22383934393721572,
+        1.3793804279845987
+      ],
+      "default_path_error_changes_pp": {
+        "rom": 0.5915635324038784,
+        "fine": 0.5456365918504925,
+        "symmetric": 0.568224465197935
+      },
+      "frequency_compensation_ratio_default": 0.08498091912523573,
+      "frequency_compensation_ratio_range": [
+        0.06224668679898968,
+        0.11991243909405672
+      ],
+      "modal_coverage_difference": 0.001148073482660643,
+      "path_interaction_norm": 0.012443562620386721,
+      "channel_full_window_sign_changes_across_thresholds": 2,
+      "full_window_threshold_channel_comparisons": 108,
+      "linear_sign_agreements": 87,
+      "linear_sign_comparisons": 96,
+      "reference_margin_gt_one": 96,
+      "reference_margin_comparisons": 96,
+      "minimum_reference_sign_margin": 1.1833884529134246,
+      "aggregate_T8_exact_squared_change": 0.0035343240290616283,
+      "aggregate_T8_linear_squared_change": 0.0036634309401147236,
+      "aggregate_T8_ritz_linearization_error": 0.6599534024142364,
+      "aggregate_T8_grid_linearization_error": 0.5052973430048179,
+      "aggregate_T8_maximum_phase_offset": 4.028447974667301
+    },
+    {
+      "material": "smooth_checker",
+      "fine_grid": 192,
+      "default_matched_count": 22.0,
+      "matched_count_range": [
+        13.0,
+        28.0
+      ],
+      "common_count": 13.0,
+      "fixed_rom_error_change_pp_range": [
+        0.22388266831987724,
+        1.2118591755163743
+      ],
+      "all_paths_all_thresholds_error_change_pp_range": [
+        0.2238185623543082,
+        1.2118591755163743
+      ],
+      "default_path_error_changes_pp": {
+        "rom": 0.5915635324038784,
+        "fine": 0.545748085450057,
+        "symmetric": 0.5682753912805724
+      },
+      "frequency_compensation_ratio_default": 0.08193546249612556,
+      "frequency_compensation_ratio_range": [
+        0.06001297789315806,
+        0.09940604767162513
+      ],
+      "modal_coverage_difference": 0.0011395462095780777,
+      "path_interaction_norm": 0.01301041652569183,
+      "channel_full_window_sign_changes_across_thresholds": 2,
+      "full_window_threshold_channel_comparisons": 108,
+      "linear_sign_agreements": 86,
+      "linear_sign_comparisons": 96,
+      "reference_margin_gt_one": 96,
+      "reference_margin_comparisons": 96,
+      "minimum_reference_sign_margin": 1.1833884529134246,
+      "aggregate_T8_exact_squared_change": 0.0035343240290616283,
+      "aggregate_T8_linear_squared_change": 0.003627947831918166,
+      "aggregate_T8_ritz_linearization_error": 0.6838747168806572,
+      "aggregate_T8_grid_linearization_error": 0.5215648426854546,
+      "aggregate_T8_maximum_phase_offset": 4.1757176971458705
+    }
+  ],
+  "reference_matching": [
+    {
+      "material": "rotated_stripes",
+      "base_grid": 128.0,
+      "comparison_grid": 192.0,
+      "base_count": 41.0,
+      "comparison_count": 41.0,
+      "intersection": 41.0,
+      "lost": 0.0,
+      "gained": 0.0
+    },
+    {
+      "material": "double_inclusion",
+      "base_grid": 128.0,
+      "comparison_grid": 192.0,
+      "base_count": 37.0,
+      "comparison_count": 37.0,
+      "intersection": 37.0,
+      "lost": 0.0,
+      "gained": 0.0
+    },
+    {
+      "material": "smooth_checker",
+      "base_grid": 128.0,
+      "comparison_grid": 192.0,
+      "base_count": 22.0,
+      "comparison_count": 22.0,
+      "intersection": 22.0,
+      "lost": 0.0,
+      "gained": 0.0
+    }
+  ],
+  "verification": {
+    "all_declared_sweep_rows_present": true,
+    "all_declared_channel_rows_present": true,
+    "all_current_configuration_hashes_match": true,
+    "all_current_analysis_hashes_match": true,
+    "baseline_stable_quantities_reproduced": true,
+    "original_order_baseline_reproduced": true,
+    "exact_paths_close": true,
+    "exact_budgets_close": true,
+    "gram_identity_closes": true,
+    "gram_positive_semidefinite_to_roundoff": true,
+    "reference_change_identity_closes": true,
+    "reference_change_within_cauchy_bound": true,
+    "cluster_basis_rotation_preserves_response": true,
+    "common_sets_give_identical_results_across_thresholds": true
+  },
+  "counts": {
+    "sensitivity": 324,
+    "channel_sensitivity": 33696,
+    "finite_time": 1716,
+    "cluster": 174
+  },
+  "maximum_baseline_difference_any_quantity": 1.757811287916855e-06,
+  "maximum_baseline_difference_stable_quantities": 8.881784197001252e-16,
+  "maximum_original_order_baseline_difference": 1.734723475976807e-18,
+  "ill_conditioned_angle_comparisons": [
+    {
+      "material": "rotated_stripes",
+      "method": "rational_krylov",
+      "m": 128.0,
+      "quantity": "ritz_grid_cosine",
+      "original": 0.05978247767193933,
+      "recomputed": 0.0597824776490914,
+      "absolute_difference": 2.2847931879788064e-11,
+      "original_order_recomputed": 0.05978247767193933,
+      "original_order_absolute_difference": 0.0,
+      "ritz_relative_norm": 5.768237267054989e-08,
+      "angle_near_zero_component": true
+    },
+    {
+      "material": "double_inclusion",
+      "method": "rational_krylov",
+      "m": 128.0,
+      "quantity": "ritz_grid_cosine",
+      "original": -0.1382791152894523,
+      "recomputed": -0.13828087310074022,
+      "absolute_difference": 1.757811287916855e-06,
+      "original_order_recomputed": -0.1382791152894523,
+      "original_order_absolute_difference": 0.0,
+      "ritz_relative_norm": 2.6239513971825262e-12,
+      "angle_near_zero_component": true
+    },
+    {
+      "material": "smooth_checker",
+      "method": "rational_krylov",
+      "m": 128.0,
+      "quantity": "ritz_grid_cosine",
+      "original": -0.012107242126542477,
+      "recomputed": -0.01210735926637535,
+      "absolute_difference": 1.1713983287357788e-07,
+      "original_order_recomputed": -0.012107242126542477,
+      "original_order_absolute_difference": 0.0,
+      "ritz_relative_norm": 3.306550017953672e-11,
+      "angle_near_zero_component": true
+    }
+  ],
+  "reverse_checker_channel": [
+    {
+      "material": "smooth_checker",
+      "fine_grid": 128.0,
+      "method": "craig_bampton",
+      "m": 32.0,
+      "matched_count": 22.0,
+      "window_kind": "cumulative",
+      "start": 0.0,
+      "end": 8.0,
+      "group": "channel",
+      "source": 2.0,
+      "receiver": 2.0,
+      "original_error": 0.37135066961693575,
+      "replaced_error": 0.3523175855944788,
+      "exact_squared_error_change": -0.01377363870582371,
+      "negative_ritz_square": -0.001163663181156447,
+      "negative_twice_ritz_grid": -0.001987471523642966,
+      "negative_twice_ritz_remainder": -0.010622504001024295,
+      "exact_same_mode_frequency_terms": 0.007568808004908569,
+      "exact_cross_mode_frequency_terms": -0.010719942709707983,
+      "coupling_cross": -0.00013229880410050497,
+      "unmatched_reference_cross": -0.01049020519692379,
+      "linear_full": -0.01209873665625439,
+      "linear_without_q": -0.001014510449338472,
+      "linear_diagonal_without_q": 0.00827725624548125,
+      "exact_sign": -1.0,
+      "linear_sign": -1.0,
+      "alternate_reference_squared_change_same_denominator": -0.013727671578546796,
+      "reference_change_exact_cross": -4.5967127276904906e-05,
+      "reference_change_bound": 9.73828902740379e-05,
+      "reference_sign_margin": 141.43797403285467,
+      "reference_change_identity_defect": 8.985325504473618e-18,
+      "exact_budget_defect": 1.734723475976807e-18,
+      "linear_gram_identity_defect": 1.734723475976807e-18,
+      "gram_relative_minimum_eigenvalue": 5.521091215928729e-08,
+      "gram_relative_symmetry_defect": 0.0,
+      "ritz_linearization_error": 0.5367670278637093,
+      "grid_linearization_error": 0.5605805437889924,
+      "maximum_phase_offset": 4.028447974667301,
+      "relative_signal_energy": 0.02960369731268039,
+      "single_mode_condition_residue_fraction": 1.0
+    }
+  ],
+  "max_exact_budget_defect": 3.752490406273315e-16,
+  "maximum_reference_change_identity_defect": 3.6468327421316454e-16,
+  "maximum_cluster_rotation_defect": 9.972727939521816e-14,
+  "no_success_condition_on_scientific_signs": true,
+  "scope": "Gram analyses are reference-assisted local approximations evaluated without fitted parameters. Full q uses the reference response. Exact identities are verification and attribution, not independent forecasts. No reference-free or unseen-source prediction is claimed.",
+  "linearization_caution": "The exact q is retained in the linear approximation. A correct sign is not a reference-free forecast; vector linearization errors are reported separately."
+}

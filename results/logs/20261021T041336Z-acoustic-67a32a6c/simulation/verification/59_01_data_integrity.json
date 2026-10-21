@@ -1,0 +1,1787 @@
+{
+  "status": "pass",
+  "setting_count": 54,
+  "timing_repetition_count": 162,
+  "raw_npz_count": 54,
+  "config_sha256": "a44df54373a754f8b41147b37b13d57c41cdf62a1bafedb71f97dda01686addb",
+  "computational_code_hashes_match": {
+    "accuracy_cost/run.py": true,
+    "acoustic_core.py": true
+  },
+  "actual_cpu_affinity": [
+    0,
+    1
+  ],
+  "raw_arrays": [
+    {
+      "file": "double_inclusion_n32_craig_bampton_m128.npz",
+      "bytes": 2972899,
+      "sha256": "f4827906d71f6b90a09e41c638244f8eb84bc5adebab6bb629408218e4bd65de",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          288
+        ],
+        "reduced_eigenvectors": [
+          288,
+          288
+        ],
+        "reduced_eigenvalues": [
+          288
+        ],
+        "initial_modal_coefficients": [
+          288,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_craig_bampton_m16.npz",
+      "bytes": 601257,
+      "sha256": "aef74791352ad7d5b6136c68677d4bfad368fb8616b751f94f0fe18b216f5b34",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          64
+        ],
+        "reduced_eigenvectors": [
+          64,
+          64
+        ],
+        "reduced_eigenvalues": [
+          64
+        ],
+        "initial_modal_coefficients": [
+          64,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_craig_bampton_m32.npz",
+      "bytes": 892719,
+      "sha256": "43d4314883f129ded0dfc533603b112a17d4c3a3d201d76177162ef495740488",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_craig_bampton_m64.npz",
+      "bytes": 1523126,
+      "sha256": "ddb80a098028006b361109f89e6e5fd7e3d67d2dbc411b37e98eafd879047828",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          160
+        ],
+        "reduced_eigenvectors": [
+          160,
+          160
+        ],
+        "reduced_eigenvalues": [
+          160
+        ],
+        "initial_modal_coefficients": [
+          160,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_full.npz",
+      "bytes": 15139510,
+      "sha256": "281844bd64478a65ca71ed770b9f5c22d3b067f3d0334926b2fb1071d8b48f41",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "mass_weighted_pressure": [
+          641,
+          1024,
+          3
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "mass": [
+          1024
+        ],
+        "rho": [
+          32,
+          32
+        ],
+        "bulk_modulus": [
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_rational_krylov_m128.npz",
+      "bytes": 2957238,
+      "sha256": "711b50e21af74d31094ffd8c09354345b39bf9195e2f498540b4b072aab34ae2",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          288
+        ],
+        "reduced_eigenvectors": [
+          288,
+          288
+        ],
+        "reduced_eigenvalues": [
+          288
+        ],
+        "initial_modal_coefficients": [
+          288,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_rational_krylov_m16.npz",
+      "bytes": 604754,
+      "sha256": "59f9aa25229685619bbfaa3c352e4faa5355ea5c0e44b77967a6d2bfe04aaaf7",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          64
+        ],
+        "reduced_eigenvectors": [
+          64,
+          64
+        ],
+        "reduced_eigenvalues": [
+          64
+        ],
+        "initial_modal_coefficients": [
+          64,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_rational_krylov_m32.npz",
+      "bytes": 895593,
+      "sha256": "c5bbecf391a70dd8422c39a231d777e737adc4c2662ee53db65759ef59c6251f",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n32_rational_krylov_m64.npz",
+      "bytes": 1521518,
+      "sha256": "eaf5df1b538b75fbb2ea98738c6d7f4b977f58e21c54d2c9aaf785f978875f1a",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          160
+        ],
+        "reduced_eigenvectors": [
+          160,
+          160
+        ],
+        "reduced_eigenvalues": [
+          160
+        ],
+        "initial_modal_coefficients": [
+          160,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_craig_bampton_m128.npz",
+      "bytes": 10916248,
+      "sha256": "06b7bf31ebf5c4be1d8dc9b7b5cd2623130ee5c1ef73d4a4bc245c91d0ec4bfe",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          320
+        ],
+        "reduced_eigenvectors": [
+          320,
+          320
+        ],
+        "reduced_eigenvalues": [
+          320
+        ],
+        "initial_modal_coefficients": [
+          320,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_craig_bampton_m16.npz",
+      "bytes": 3156200,
+      "sha256": "31f1670406bd7fd598b75b3aa9447b6e4849f5b00728dc4472f7808643420b4b",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_craig_bampton_m32.npz",
+      "bytes": 4216713,
+      "sha256": "0a6ef13ad733ea4cae047ccbf091f9143f904504de916b5c7d303adf3166da81",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          128
+        ],
+        "reduced_eigenvectors": [
+          128,
+          128
+        ],
+        "reduced_eigenvalues": [
+          128
+        ],
+        "initial_modal_coefficients": [
+          128,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_craig_bampton_m64.npz",
+      "bytes": 6386595,
+      "sha256": "68cc91dedccacdf57bfd70c2b459041bdcc7e8465a911cf8d2e91f1d5ad21d77",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          192
+        ],
+        "reduced_eigenvectors": [
+          192,
+          192
+        ],
+        "reduced_eigenvalues": [
+          192
+        ],
+        "initial_modal_coefficients": [
+          192,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_full.npz",
+      "bytes": 60375245,
+      "sha256": "25ccd7bdedf2961267feb56489aa9e7dbf03ead6afc9c459cd7057fb4e831832",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "mass_weighted_pressure": [
+          641,
+          4096,
+          3
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "mass": [
+          4096
+        ],
+        "rho": [
+          64,
+          64
+        ],
+        "bulk_modulus": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_rational_krylov_m128.npz",
+      "bytes": 10910935,
+      "sha256": "a393469ed7ddfb6b506c554efd12a0389ada9068ccc3e77954271f546a403390",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          320
+        ],
+        "reduced_eigenvectors": [
+          320,
+          320
+        ],
+        "reduced_eigenvalues": [
+          320
+        ],
+        "initial_modal_coefficients": [
+          320,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_rational_krylov_m16.npz",
+      "bytes": 3174711,
+      "sha256": "9e8990a7d73bad4d682fc1b2056ccfcb14de392519396a54eea32e059806f389",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_rational_krylov_m32.npz",
+      "bytes": 4234517,
+      "sha256": "f5d99bd66374f11360219ba8d3a8c8e8ceebd955ea0a5b22ece4a82e30f31554",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          128
+        ],
+        "reduced_eigenvectors": [
+          128,
+          128
+        ],
+        "reduced_eigenvalues": [
+          128
+        ],
+        "initial_modal_coefficients": [
+          128,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "double_inclusion_n64_rational_krylov_m64.npz",
+      "bytes": 6399155,
+      "sha256": "c9b19a503667c540b0dfdd1d561dfaf9f24d57c1de4a6f77ec3528bc33ab7765",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          192
+        ],
+        "reduced_eigenvectors": [
+          192,
+          192
+        ],
+        "reduced_eigenvalues": [
+          192
+        ],
+        "initial_modal_coefficients": [
+          192,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_craig_bampton_m128.npz",
+      "bytes": 2970479,
+      "sha256": "a4d46709813679f79f2c36041b6c375c870ea0ad987430e3421ef7ba334b6f2b",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          288
+        ],
+        "reduced_eigenvectors": [
+          288,
+          288
+        ],
+        "reduced_eigenvalues": [
+          288
+        ],
+        "initial_modal_coefficients": [
+          288,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_craig_bampton_m16.npz",
+      "bytes": 599087,
+      "sha256": "83a17d1f5c611ece2e197a75919aa3eeb342bcd0bd65d78c3d96fe37daaaceaa",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          64
+        ],
+        "reduced_eigenvectors": [
+          64,
+          64
+        ],
+        "reduced_eigenvalues": [
+          64
+        ],
+        "initial_modal_coefficients": [
+          64,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_craig_bampton_m32.npz",
+      "bytes": 890579,
+      "sha256": "1ff73d3f4bc04f0c500323eeb222f1a21f619da7edc55559986c8fb3eb1f5823",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_craig_bampton_m64.npz",
+      "bytes": 1520745,
+      "sha256": "55a34cb589a37bfc963ab495d38d48ef993cdd9d8acb231e40ba811befdb2182",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          160
+        ],
+        "reduced_eigenvectors": [
+          160,
+          160
+        ],
+        "reduced_eigenvalues": [
+          160
+        ],
+        "initial_modal_coefficients": [
+          160,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_full.npz",
+      "bytes": 15137890,
+      "sha256": "2e9ea9831dcd8e70694f5b7c5b5aa39081b5ce8e511679e308a0fe0e2b0ff9f3",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "mass_weighted_pressure": [
+          641,
+          1024,
+          3
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "mass": [
+          1024
+        ],
+        "rho": [
+          32,
+          32
+        ],
+        "bulk_modulus": [
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_rational_krylov_m128.npz",
+      "bytes": 2954521,
+      "sha256": "ee2ee6ae2f3ffd40f72c8ea0d0d23892befaf2709fb97b75ee007f1e7adc914a",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          288
+        ],
+        "reduced_eigenvectors": [
+          288,
+          288
+        ],
+        "reduced_eigenvalues": [
+          288
+        ],
+        "initial_modal_coefficients": [
+          288,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_rational_krylov_m16.npz",
+      "bytes": 599969,
+      "sha256": "d8ca4ddfe8e3977fe14e0fa812d1dc75e1a971ba1ace214cf10843c1c74944e1",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          64
+        ],
+        "reduced_eigenvectors": [
+          64,
+          64
+        ],
+        "reduced_eigenvalues": [
+          64
+        ],
+        "initial_modal_coefficients": [
+          64,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_rational_krylov_m32.npz",
+      "bytes": 891075,
+      "sha256": "ebfe59d0fb25d0c961e5fc6152de772830ace0ef81336f08be5a46ded1906e2c",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n32_rational_krylov_m64.npz",
+      "bytes": 1517325,
+      "sha256": "a19818b21e44df5c78f87e3feadaf5738fc14f555828fceebbd743556f956352",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          160
+        ],
+        "reduced_eigenvectors": [
+          160,
+          160
+        ],
+        "reduced_eigenvalues": [
+          160
+        ],
+        "initial_modal_coefficients": [
+          160,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_craig_bampton_m128.npz",
+      "bytes": 10909735,
+      "sha256": "626b091bcc740f7bd88c6565d22e940cebb858861ed8d7db2a4dd8e42a395f3f",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          320
+        ],
+        "reduced_eigenvectors": [
+          320,
+          320
+        ],
+        "reduced_eigenvalues": [
+          320
+        ],
+        "initial_modal_coefficients": [
+          320,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_craig_bampton_m16.npz",
+      "bytes": 3147692,
+      "sha256": "e8817c183ce46d7e79a7322131c4ed63c6b4c09c4495946d03f666f8963b0558",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_craig_bampton_m32.npz",
+      "bytes": 4208886,
+      "sha256": "11f57a6bc9ea8658a695f5c0cc7d72f92661851386e5e80e7b567f6070ee4f5b",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          128
+        ],
+        "reduced_eigenvectors": [
+          128,
+          128
+        ],
+        "reduced_eigenvalues": [
+          128
+        ],
+        "initial_modal_coefficients": [
+          128,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_craig_bampton_m64.npz",
+      "bytes": 6378421,
+      "sha256": "f754fe3b4df67a70a67623f92ba34121f8882ec7891c2e71942970504c8d2c35",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          192
+        ],
+        "reduced_eigenvectors": [
+          192,
+          192
+        ],
+        "reduced_eigenvalues": [
+          192
+        ],
+        "initial_modal_coefficients": [
+          192,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_full.npz",
+      "bytes": 60357119,
+      "sha256": "eb124b17d232477a0ac3f5b41a1abb01828002620676cc625de726692fff7ff7",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "mass_weighted_pressure": [
+          641,
+          4096,
+          3
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "mass": [
+          4096
+        ],
+        "rho": [
+          64,
+          64
+        ],
+        "bulk_modulus": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_rational_krylov_m128.npz",
+      "bytes": 10891362,
+      "sha256": "65597637f5182684e8d1508bf1603829a9a6bcc5b8f21a0e7a1a7e992f40fa23",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          320
+        ],
+        "reduced_eigenvectors": [
+          320,
+          320
+        ],
+        "reduced_eigenvalues": [
+          320
+        ],
+        "initial_modal_coefficients": [
+          320,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_rational_krylov_m16.npz",
+      "bytes": 3157063,
+      "sha256": "9bef103b586b2e869948a0aa014991afdde273b008d86c0717b37e2fc3d1f587",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_rational_krylov_m32.npz",
+      "bytes": 4216365,
+      "sha256": "f0dcf9fa940580d238a1b708b89694664517d43a841ccb88fee7310a5d55b67f",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          128
+        ],
+        "reduced_eigenvectors": [
+          128,
+          128
+        ],
+        "reduced_eigenvalues": [
+          128
+        ],
+        "initial_modal_coefficients": [
+          128,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "rotated_stripes_n64_rational_krylov_m64.npz",
+      "bytes": 6380678,
+      "sha256": "4bb6e77220b6ab65aa1971aede7f100a225482f20cb4a4c9020733717ffb1044",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          192
+        ],
+        "reduced_eigenvectors": [
+          192,
+          192
+        ],
+        "reduced_eigenvalues": [
+          192
+        ],
+        "initial_modal_coefficients": [
+          192,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_craig_bampton_m128.npz",
+      "bytes": 2343906,
+      "sha256": "12c97671432f0a9c4d41d3b33e4bf6240d459629f1dcfb3215e8e705f16e56bb",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          288
+        ],
+        "reduced_eigenvectors": [
+          288,
+          288
+        ],
+        "reduced_eigenvalues": [
+          288
+        ],
+        "initial_modal_coefficients": [
+          288,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_craig_bampton_m16.npz",
+      "bytes": 525980,
+      "sha256": "aa15c579346d2e39eb0a02a735635f7b37341ad2ef321cba31f33076ec5606ba",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          64
+        ],
+        "reduced_eigenvectors": [
+          64,
+          64
+        ],
+        "reduced_eigenvalues": [
+          64
+        ],
+        "initial_modal_coefficients": [
+          64,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_craig_bampton_m32.npz",
+      "bytes": 745340,
+      "sha256": "6b3b4b27108c9a729781623c65360c3523e7575760bd1ad7e4fd7c045cdb20c0",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_craig_bampton_m64.npz",
+      "bytes": 1227546,
+      "sha256": "e117e1ba5084ed7b729512d43243ec376752ca5532708417c5d45f0c172c7d24",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          160
+        ],
+        "reduced_eigenvectors": [
+          160,
+          160
+        ],
+        "reduced_eigenvalues": [
+          160
+        ],
+        "initial_modal_coefficients": [
+          160,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_full.npz",
+      "bytes": 15105727,
+      "sha256": "3463d083908a23f411ac861d20435ce48e0e14c8f2026e81bd7e3e86fdd08bcc",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "mass_weighted_pressure": [
+          641,
+          1024,
+          3
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "mass": [
+          1024
+        ],
+        "rho": [
+          32,
+          32
+        ],
+        "bulk_modulus": [
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_rational_krylov_m128.npz",
+      "bytes": 2942548,
+      "sha256": "4a7f1d38e6a73fabd79e4510ba36c18bf4b958fc1f9461d864dab4043b266219",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          288
+        ],
+        "reduced_eigenvectors": [
+          288,
+          288
+        ],
+        "reduced_eigenvalues": [
+          288
+        ],
+        "initial_modal_coefficients": [
+          288,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_rational_krylov_m16.npz",
+      "bytes": 591350,
+      "sha256": "02afd51dac6b231435983b4f437e276d3347f39817590f0ddc9e60d02bab99cf",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          64
+        ],
+        "reduced_eigenvectors": [
+          64,
+          64
+        ],
+        "reduced_eigenvalues": [
+          64
+        ],
+        "initial_modal_coefficients": [
+          64,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_rational_krylov_m32.npz",
+      "bytes": 882343,
+      "sha256": "1cf654e72bff01e42b5b76b6e32297de778a21d981a26b2a39afc9e57454a85e",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n32_rational_krylov_m64.npz",
+      "bytes": 1508281,
+      "sha256": "6fa039defb1fd06491ee31d87c2c0ea6de80d55bf12db401d371ef1ef1b8ed56",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          1024,
+          160
+        ],
+        "reduced_eigenvectors": [
+          160,
+          160
+        ],
+        "reduced_eigenvalues": [
+          160
+        ],
+        "initial_modal_coefficients": [
+          160,
+          3
+        ],
+        "mass": [
+          1024
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_craig_bampton_m128.npz",
+      "bytes": 8836788,
+      "sha256": "d6afa157ab1a338f78b5ec097d06e7c6c179d37c3da3fe22fe434718454286f3",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          320
+        ],
+        "reduced_eigenvectors": [
+          320,
+          320
+        ],
+        "reduced_eigenvalues": [
+          320
+        ],
+        "initial_modal_coefficients": [
+          320,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_craig_bampton_m16.npz",
+      "bytes": 2914006,
+      "sha256": "1ce6d8016b7a23dbaae27daf537bcc81d41bc4755250367d9f00d1b27fb35739",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_craig_bampton_m32.npz",
+      "bytes": 3666932,
+      "sha256": "ad9a8a0c385ecf4b364eaa3ba39e21dafa00a40552c15ef8bfc99b23b327916f",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          128
+        ],
+        "reduced_eigenvectors": [
+          128,
+          128
+        ],
+        "reduced_eigenvalues": [
+          128
+        ],
+        "initial_modal_coefficients": [
+          128,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_craig_bampton_m64.npz",
+      "bytes": 5383790,
+      "sha256": "126a52f8ff2eea832ad893539794c9c403ac605095b81654805e88c9d7ab50da",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          192
+        ],
+        "reduced_eigenvectors": [
+          192,
+          192
+        ],
+        "reduced_eigenvalues": [
+          192
+        ],
+        "initial_modal_coefficients": [
+          192,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_full.npz",
+      "bytes": 60224363,
+      "sha256": "be888465d295499b891d1061c3d755e9ddc95cb819386e732b28ffdb486fdebb",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "mass_weighted_pressure": [
+          641,
+          4096,
+          3
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "mass": [
+          4096
+        ],
+        "rho": [
+          64,
+          64
+        ],
+        "bulk_modulus": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_rational_krylov_m128.npz",
+      "bytes": 10858006,
+      "sha256": "417687e534e69abf6d6758e172ab9d9c57564bedc88680ffebc0a3bb14534ac0",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          320
+        ],
+        "reduced_eigenvectors": [
+          320,
+          320
+        ],
+        "reduced_eigenvalues": [
+          320
+        ],
+        "initial_modal_coefficients": [
+          320,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_rational_krylov_m16.npz",
+      "bytes": 3123093,
+      "sha256": "4bdf922b46bf46c24ae97097b65e6c19f9e360f224ae4da2c4f9a15b81759ece",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          96
+        ],
+        "reduced_eigenvectors": [
+          96,
+          96
+        ],
+        "reduced_eigenvalues": [
+          96
+        ],
+        "initial_modal_coefficients": [
+          96,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_rational_krylov_m32.npz",
+      "bytes": 4182743,
+      "sha256": "7c739f042e8d5305ffb204dbf55d5638f4ab5bc96b3c82d6e36b62bf76736a91",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          128
+        ],
+        "reduced_eigenvectors": [
+          128,
+          128
+        ],
+        "reduced_eigenvalues": [
+          128
+        ],
+        "initial_modal_coefficients": [
+          128,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    },
+    {
+      "file": "smooth_checker_n64_rational_krylov_m64.npz",
+      "bytes": 6348108,
+      "sha256": "f6195ea6946a634c5de0dc0081a9b1a34abb07e316a3b1d7029c5dfe61bef4f0",
+      "arrays": {
+        "time": [
+          641
+        ],
+        "receiver_pressure": [
+          641,
+          4,
+          3
+        ],
+        "orthonormal_basis": [
+          4096,
+          192
+        ],
+        "reduced_eigenvectors": [
+          192,
+          192
+        ],
+        "reduced_eigenvalues": [
+          192
+        ],
+        "initial_modal_coefficients": [
+          192,
+          3
+        ],
+        "mass": [
+          4096
+        ]
+      }
+    }
+  ]
+}

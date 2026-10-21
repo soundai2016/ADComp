@@ -1,0 +1,12 @@
+[stdout] {
+[stdout]   "status": "pass",
+[stdout]   "settings": {
+[stdout]     "smooth": 78,
+[stdout]     "interface": 21
+[stdout]   },
+[stdout]   "repetitions_per_setting": 3,
+[stdout]   "configuration_and_all_recorded_code_hashes_match": true,
+[stdout]   "maximum_receiver_reconstruction_difference": 1.8695613400768774e-16,
+[stdout]   "maximum_recorded_median_total_difference": 0.0,
+[stdout]   "timed_setting_intervals_do_not_overlap": true
+[stdout] }

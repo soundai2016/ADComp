@@ -1,0 +1,31 @@
+[stdout] {
+[stdout]   "scope": "Independent checks from receiver traces and modal factors; no CB basis rebuild and no rerun of large-grid pressure histories.",
+[stdout]   "expected_model_count": 14,
+[stdout]   "model_count": 14,
+[stdout]   "summary_csv_rows": 28,
+[stdout]   "summary_json_rows": 28,
+[stdout]   "modal_model_count": 5,
+[stdout]   "matched_triples": {
+[stdout]     "craig_bampton_m128": 35,
+[stdout]     "craig_bampton_m32": 25,
+[stdout]     "craig_bampton_m64": 32,
+[stdout]     "rational_krylov_m128": 36,
+[stdout]     "rational_krylov_m32": 32
+[stdout]   },
+[stdout]   "receiver_window_rows": 480,
+[stdout]   "expected_receiver_window_rows": 480,
+[stdout]   "source_hashes_checked": 8,
+[stdout]   "artifact_hashes_checked": 45,
+[stdout]   "hash_mismatches": [],
+[stdout]   "receiver_total_statistic_max_absolute_defect": 0.0,
+[stdout]   "receiver_same_grid_statistic_max_absolute_defect": 0.0,
+[stdout]   "receiver_per_source_statistic_max_absolute_defect": 0.0,
+[stdout]   "window_error_cosine_max_absolute_defect": 0.0,
+[stdout]   "modal_budget_max_relative_defect": 9.268485500049619e-17,
+[stdout]   "frequency_terms_reconstructed_max_normalized_defect": 3.398204241727135e-16,
+[stdout]   "counterfactual_reconstructed_max_normalized_defect": 3.557281557227375e-16,
+[stdout]   "modal_statistics_max_absolute_defect": 1.6653345369377348e-16,
+[stdout]   "component_gram_max_absolute_defect": 2.7755575615628914e-17,
+[stdout]   "receiver_window_statistics_max_absolute_defect": 0.0,
+[stdout]   "passed": true
+[stdout] }

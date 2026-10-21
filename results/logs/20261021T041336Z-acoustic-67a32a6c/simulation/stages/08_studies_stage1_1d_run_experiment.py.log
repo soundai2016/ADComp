@@ -1,0 +1,45 @@
+[stdout] 1/28 random_00
+[stdout] 2/28 random_01
+[stdout] 3/28 random_02
+[stdout] 4/28 random_03
+[stdout] 5/28 random_04
+[stdout] 6/28 random_05
+[stdout] 7/28 random_06
+[stdout] 8/28 random_07
+[stdout] 9/28 random_08
+[stdout] 10/28 random_09
+[stdout] 11/28 random_10
+[stdout] 12/28 random_11
+[stdout] 13/28 random_12
+[stdout] 14/28 random_13
+[stdout] 15/28 random_14
+[stdout] 16/28 random_15
+[stdout] 17/28 random_16
+[stdout] 18/28 random_17
+[stdout] 19/28 random_18
+[stdout] 20/28 random_19
+[stdout] 21/28 random_20
+[stdout] 22/28 random_21
+[stdout] 23/28 random_22
+[stdout] 24/28 random_23
+[stdout] 25/28 homogeneous
+[stdout] 26/28 alternating_impedance_4
+[stdout] 27/28 grouped_impedance_4
+[stdout] 28/28 smooth_log_sinusoid_8layers
+[stdout] {
+[stdout]   "elapsed_seconds": 2.693194053019397,
+[stdout]   "checks": {
+[stdout]     "max_unitarity": 4.6035206913235335e-12,
+[stdout]     "max_reciprocity": 3.080326048972191e-12,
+[stdout]     "minimum_RHP_impedance_eigenvalue": 0.003290752510449836,
+[stdout]     "minimum_tail_eigenvalue": 0.007854729888989326,
+[stdout]     "minimum_signed_endpoint_residue": -5.031262610705008,
+[stdout]     "minimum_signed_retained16_endpoint_residue": 1.3766359423482568e-09,
+[stdout]     "exact_scattering_composition_max_error": 1.894711961311747e-15,
+[stdout]     "state_frequency_max_error": 1.4217791915866692e-15,
+[stdout]     "maximum_generator_real_part": -1.1445771746637838,
+[stdout]     "max_preinput_output": 0.0,
+[stdout]     "max_energy_increment_after_source": -9.291231975466637e-19,
+[stdout]     "final_stored_energy": 9.916552042822806e-15
+[stdout]   }
+[stdout] }

@@ -1,0 +1,74 @@
+{
+  "material": "aligned_unequal_speed_interface",
+  "interface_x": 0.5,
+  "density": [
+    1.0,
+    5.333333333333333
+  ],
+  "bulk_modulus": [
+    1.0,
+    12.0
+  ],
+  "grids": [
+    64,
+    128
+  ],
+  "modes_per_patch": [
+    32,
+    64,
+    128
+  ],
+  "source_centres": [
+    [
+      0.16,
+      0.27
+    ],
+    [
+      0.39,
+      0.83
+    ],
+    [
+      0.84,
+      0.61
+    ]
+  ],
+  "receiver_centres": [
+    [
+      0.12,
+      0.76
+    ],
+    [
+      0.35,
+      0.41
+    ],
+    [
+      0.65,
+      0.18
+    ],
+    [
+      0.88,
+      0.87
+    ]
+  ],
+  "sigma": 0.07,
+  "max_x_mode": 20,
+  "max_y_mode": 16,
+  "initial_energy": 1.0,
+  "quadrature_order": 192,
+  "root_scan_step": 0.02,
+  "time_end": 8.0,
+  "samples": 641,
+  "window_ends": [
+    0.5,
+    2.0,
+    8.0
+  ],
+  "threads": 2,
+  "mac_threshold": 0.9,
+  "relative_frequency_gap": 0.005,
+  "initial_condition": "The beta-weighted Gaussian projection onto the first 21 longitudinal modes for each transverse index 0 through 16 defines a finite continuous initial pressure. Remove only the global constant mode and normalize each source to unit acoustic energy. Initial velocity is zero; every propagation grid receives exact cell averages of the same continuous field.",
+  "receiver_definition": "Normalized continuous Gaussian pressure averages, with exact integrated cell weights for finite-volume reconstruction.",
+  "sampling": "Equally weighted samples at t=j/80, j=0,...,640; each cumulative interval includes both endpoints.",
+  "layout_rationale": "Two sources on the left and one on the right, with two receivers on each side, give six same-side and six opposite-side channels. All positions differ from the original layout and no source and receiver are collocated. Reflected cavity arrivals remain part of every trace.",
+  "selection_rule": "Layouts, grids, ranks, windows, bandwidth and matching thresholds are fixed within the computational study. Report every prescribed model and channel."
+}

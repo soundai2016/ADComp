@@ -1,0 +1,13 @@
+family,grid,method,queries,five_actual,five_bound,ten_actual,ten_bound
+Smooth media,32,craig_bampton,9,1,0,4,0
+Smooth media,32,rational_krylov,9,3,0,5,0
+Smooth media,64,craig_bampton,9,0,0,4,0
+Smooth media,64,rational_krylov,9,4,0,6,0
+Impedance step,32,craig_bampton,3,1,0,2,0
+Impedance step,32,rational_krylov,3,3,0,3,2
+Impedance step,64,craig_bampton,3,1,0,1,0
+Impedance step,64,rational_krylov,3,3,0,3,1
+Impedance step,96,craig_bampton,3,1,0,1,0
+Impedance step,96,rational_krylov,3,3,0,3,1
+Impedance step,128,craig_bampton,3,1,0,1,0
+Impedance step,128,rational_krylov,3,3,0,3,2

@@ -1,0 +1,74 @@
+{
+  "material": "aligned_unequal_speed_interface",
+  "interface_x": 0.5,
+  "density": [
+    1.0,
+    5.333333333333333
+  ],
+  "bulk_modulus": [
+    1.0,
+    12.0
+  ],
+  "grids": [
+    32,
+    64,
+    128
+  ],
+  "modes_per_patch": [
+    32,
+    64,
+    128
+  ],
+  "rational_krylov_modes_per_patch": [
+    32,
+    128
+  ],
+  "source_centres": [
+    [
+      0.19,
+      0.76
+    ],
+    [
+      0.54,
+      0.47
+    ],
+    [
+      0.81,
+      0.22
+    ]
+  ],
+  "receiver_centres": [
+    [
+      0.22,
+      0.21
+    ],
+    [
+      0.79,
+      0.77
+    ],
+    [
+      0.28,
+      0.69
+    ],
+    [
+      0.68,
+      0.33
+    ]
+  ],
+  "sigma": 0.07,
+  "max_x_mode": 20,
+  "max_y_mode": 16,
+  "initial_energy": 1.0,
+  "quadrature_order": 192,
+  "root_scan_step": 0.02,
+  "time_end": 8.0,
+  "samples": 641,
+  "threads": 2,
+  "modal_grid": 32,
+  "mac_threshold": 0.9,
+  "relative_frequency_gap": 0.005,
+  "error_sampling": "641 equally weighted times including t=0 and all three sources.",
+  "initial_condition": "For each transverse index 0<=l<=16, retain the first 21 continuous Sturm-Liouville modes m=0,...,20. Project the Gaussian pressure in the beta inner product, remove only the global constant mode, and normalize to unit initial acoustic energy. The resulting finite expansion defines the initial pressure independently of the propagation grid; initial velocity is zero.",
+  "field_reference": "Continuous beta-weighted L2 error of piecewise-constant pressure reconstruction, including the exact subcell projection term.",
+  "timing_scope": "This study measures mechanism and accuracy; comparative costs are computed separately by the timing experiments."
+}

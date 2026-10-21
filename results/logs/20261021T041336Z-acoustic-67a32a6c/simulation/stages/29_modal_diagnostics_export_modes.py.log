@@ -1,0 +1,47 @@
+[stdout] [
+[stdout]   {
+[stdout]     "material": "rotated_stripes",
+[stdout]     "criterion_value": 0.04382028100481718,
+[stdout]     "coarse_mode": 30,
+[stdout]     "fine_mode": 30,
+[stdout]     "rom_mode": 30,
+[stdout]     "fine_frequency": 2.4442594538152655,
+[stdout]     "coarse_frequency": 2.411063464263361,
+[stdout]     "rom_frequency": 2.416018006719474,
+[stdout]     "mac_coarse_fine": 0.9962016380673955,
+[stdout]     "mac_rom_coarse": 0.9927120245662135,
+[stdout]     "fine_residue_norm": 1.407640441346364,
+[stdout]     "fine_sign_to_coarse": -1.0,
+[stdout]     "rom_sign_to_coarse": -1.0
+[stdout]   },
+[stdout]   {
+[stdout]     "material": "double_inclusion",
+[stdout]     "criterion_value": 0.08940957877936892,
+[stdout]     "coarse_mode": 26,
+[stdout]     "fine_mode": 26,
+[stdout]     "rom_mode": 26,
+[stdout]     "fine_frequency": 2.4725570140685273,
+[stdout]     "coarse_frequency": 2.4468101229536936,
+[stdout]     "rom_frequency": 2.4562000427805537,
+[stdout]     "mac_coarse_fine": 0.993850424171557,
+[stdout]     "mac_rom_coarse": 0.9776184925127175,
+[stdout]     "fine_residue_norm": 1.51545238776114,
+[stdout]     "fine_sign_to_coarse": -1.0,
+[stdout]     "rom_sign_to_coarse": -1.0
+[stdout]   },
+[stdout]   {
+[stdout]     "material": "smooth_checker",
+[stdout]     "criterion_value": 0.0353271848546699,
+[stdout]     "coarse_mode": 17,
+[stdout]     "fine_mode": 17,
+[stdout]     "rom_mode": 17,
+[stdout]     "fine_frequency": 1.8109650477130244,
+[stdout]     "coarse_frequency": 1.7960421779509328,
+[stdout]     "rom_frequency": 1.8008978388819574,
+[stdout]     "mac_coarse_fine": 0.9997533083251987,
+[stdout]     "mac_rom_coarse": 0.9986487684787799,
+[stdout]     "fine_residue_norm": 1.157926011517326,
+[stdout]     "fine_sign_to_coarse": -1.0,
+[stdout]     "rom_sign_to_coarse": -1.0
+[stdout]   }
+[stdout] ]

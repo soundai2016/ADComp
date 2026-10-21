@@ -1,0 +1,45 @@
+{
+  "materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "grids": [
+    32,
+    64
+  ],
+  "methods": [
+    "craig_bampton",
+    "rational_krylov"
+  ],
+  "modes_per_patch": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "times": [
+    2.0,
+    8.0
+  ],
+  "source_indices": [
+    0,
+    1,
+    2
+  ],
+  "acceptance_thresholds": [
+    0.05,
+    0.1
+  ],
+  "threads": 2,
+  "cpu_affinity": [
+    4,
+    5
+  ],
+  "scope": "Endpoint error in the complete mass-normalized pressure and face-velocity state, relative to the identical semidiscrete full system.",
+  "reduced_models": "Unmodified Ritz spaces, frequencies and initial coefficients from accuracy_cost/results. No basis or cutoff is retuned.",
+  "bound": "||B-Wa|| + sqrt(T * a^T[(F^T F) elementwise G_T]a), F=C C^T W-W diag(lambda), G_T=integral_0^T g(t)g(t)^T dt, g_j=sin(sqrt(lambda_j)t)/sqrt(lambda_j), with g_j=t at zero.",
+  "reference": "Sparse first-order exponential at T=2 and 8; both pressure and velocity retained.",
+  "floating_point": "Analytic Gram integration in float64. Negative Gram eigenvalues are raised to zero; a recorded positive diagonal guard and relative 1e-11 final guard are applied. These are checked floating-point evaluations, not interval-certified bounds.",
+  "selection": "The smallest tested dimension satisfying each bound threshold is selected separately for each material, grid, method, source and final time. Full-reference errors are used only to audit the selection."
+}

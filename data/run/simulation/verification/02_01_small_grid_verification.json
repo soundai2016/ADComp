@@ -1,0 +1,35 @@
+{
+  "full_field_relative_difference_from_dense_modes": 7.936414541816925e-14,
+  "full_receiver_relative_difference_from_dense_modes": 6.695186040815653e-14,
+  "full_structure": {
+    "energy_relative_drift": 3.552713678800501e-15,
+    "generator_skew_defect": 0.0
+  },
+  "methods": {
+    "craig_bampton": {
+      "stored_representation_field_difference": 2.7257532908541585e-16,
+      "stored_representation_receiver_difference": 3.7524217234477713e-16,
+      "structure": {
+        "orthonormality_frobenius": 1.8113156668186533e-15,
+        "projected_stiffness_min_eigenvalue_before_roundoff_clip": 3.6276021027697955e-14,
+        "constant_mode_projection_error": 3.9350319887992495e-16,
+        "projected_stiffness_symmetry_relative": 1.4230453173911507e-16,
+        "initial_pressure_projection_error": 0.7379349546581463
+      }
+    },
+    "rational_krylov": {
+      "stored_representation_field_difference": 2.283095761049037e-16,
+      "stored_representation_receiver_difference": 4.037739546039154e-16,
+      "structure": {
+        "orthonormality_frobenius": 2.094112174946107e-15,
+        "projected_stiffness_min_eigenvalue_before_roundoff_clip": 2.7577461461512756e-15,
+        "constant_mode_projection_error": 3.655947731306811e-16,
+        "projected_stiffness_symmetry_relative": 2.277791305284726e-16,
+        "initial_pressure_projection_error": 4.387795366882627e-16,
+        "iterations": 4,
+        "distinct_shift_factorizations": 4
+      }
+    }
+  },
+  "status": "pass"
+}

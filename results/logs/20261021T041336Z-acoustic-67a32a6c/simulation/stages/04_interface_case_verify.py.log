@@ -1,0 +1,30 @@
+[stdout] {
+[stdout]   "impedance_ratio": 8.0,
+[stdout]   "normal_incidence_pressure_reflection": 0.7777777777777778,
+[stdout]   "x_weighted_orthogonality_max": 2.196740492631448e-14,
+[stdout]   "y_orthogonality_max": 2.208177942271148e-14,
+[stdout]   "projection_quadrature_relative_change": 7.886238425529917e-14,
+[stdout]   "receiver_quadrature_relative_change": 5.618986307997316e-14,
+[stdout]   "initial_acoustic_energy": [
+[stdout]     1.0000000000000002,
+[stdout]     0.9999999999999997,
+[stdout]     1.0000000000000016
+[stdout]   ],
+[stdout]   "zero_mode_coefficients": [
+[stdout]     0.0,
+[stdout]     0.0,
+[stdout]     0.0
+[stdout]   ],
+[stdout]   "analytic_pressure_jump_max": 1.7638627791541416e-14,
+[stdout]   "analytic_normal_flux_jump_max": 1.6322887107606092e-13,
+[stdout]   "rigid_boundary_normal_derivative_max": 0.0,
+[stdout]   "separated_stiffness_relative_error": 1.0737086420201378e-15,
+[stdout]   "separated_vs_sparse_pressure_relative_error": 3.8207866768029274e-14,
+[stdout]   "separated_vs_sparse_receiver_relative_error": 5.008799078703612e-14,
+[stdout]   "sparse_energy_relative_drift": 9.547918011776346e-15,
+[stdout]   "generator_skew_defect": 0.0,
+[stdout]   "cell_projection_parseval_relative_error": 3.5467201856020454e-16,
+[stdout]   "continuous_pressure_error_identity_relative_error": 1.8240148605316438e-14,
+[stdout]   "separated_x_spectrum_relative_max_error": 5.551115123125783e-16,
+[stdout]   "passed": true
+[stdout] }

@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-21T06:20:50.045520+00:00",
+  "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:20:25) [GCC 14.3.0]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-5.19.0-051900-generic-x86_64-with-glibc2.35",
+  "input_sha256": {
+    "source_receiver_validation/config.json": "a36c05879722b970fb8389233046cac7bed2d809b9cc60c7ea4976d42c44424e",
+    "source_receiver_validation/layout_config.json": "5321598c0caae75ca495bf755d3b1809e34a1d879a8c51d0b2276d0253008d02",
+    "source_receiver_validation/results/continuous_catalogue.npz": "4e839eec52994dd233e77afbfeac74aa8923b29b4cd4c14c25d5ccaacbc45b12",
+    "source_receiver_validation/results/factorial_reference.npz": "df8b2f6b33832685f44be5998662b43e7b4c8f69a2ca1fa25f4f9da67943310f",
+    "source_receiver_validation/results/n128_cb_m32.npz": "c9b9aa2ab54be0599b757f8c94916db0a596afe210ec1bbbda8a5c1d09d3c72e",
+    "source_receiver_validation/results/n128_full.npz": "8f6f6613ca336df0a687d9211aac6b77589143c44b21e179ef7c76531671d518",
+    "source_receiver_validation/results/n64_cb_m32.npz": "4d8b007d44d0905fb132e8a462d5a778b60f0f0e91c9dedb935a22b396755e29",
+    "source_receiver_validation/results/n64_full.npz": "5629f190fcdb2b88db808d7a300ddffbb6700c4b88f6e89bc6a3fe8c341f0bfc"
+  },
+  "analysis_sha256": "392303d0d64ed1741d525c13d8f7b733e2e93845dd8a8bc22bd5e1049966a093",
+  "config_sha256": "aea4dde5c52c458c62fb91d93170b65294b22e656615479aef6cd43759fe5619"
+}

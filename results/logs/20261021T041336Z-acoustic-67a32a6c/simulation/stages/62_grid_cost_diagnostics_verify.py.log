@@ -1,0 +1,11 @@
+[stdout] {
+[stdout]   "status": "pass",
+[stdout]   "settings": 81,
+[stdout]   "timed_repetitions": 243,
+[stdout]   "all_configuration_and_runtime_hashes_match": true,
+[stdout]   "all_raw_hashes_match": true,
+[stdout]   "maximum_receiver_reconstruction_difference": 1.76581262472287e-16,
+[stdout]   "maximum_repeated_receiver_difference": 0.0,
+[stdout]   "maximum_recorded_cost_difference": 0.0,
+[stdout]   "timing_intervals_do_not_overlap": true
+[stdout] }

@@ -1,0 +1,9 @@
+[stdout] Recomputing global full/continuous assignment for n=64
+[stdout]   m=32: 30 default triples; all modal port factors retained
+[stdout]   m=64: 43 default triples; all modal port factors retained
+[stdout]   m=128: 49 default triples; all modal port factors retained
+[stdout] Recomputing global full/continuous assignment for n=128
+[stdout]   m=32: 28 default triples; all modal port factors retained
+[stdout]   m=64: 44 default triples; all modal port factors retained
+[stdout]   m=128: 50 default triples; all modal port factors retained
+[stdout] Saved 595831 bytes of modal inputs; assignment and response checks passed.

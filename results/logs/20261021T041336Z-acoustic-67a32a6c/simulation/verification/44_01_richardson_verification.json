@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "candidate_errors_recomputed": 324,
+  "least_cost_selections_recomputed": 48,
+  "input_hashes_recomputed": 172,
+  "maximum_saved_numeric_difference": 0.0,
+  "maximum_previous_error_replay_difference": 5.551115123125783e-17,
+  "maximum_alternative_formula_difference": 1.212461307282305e-16,
+  "leading_h_squared_cancellation_defect": 1.6940658945086007e-21,
+  "no_timing_repeated": true
+}

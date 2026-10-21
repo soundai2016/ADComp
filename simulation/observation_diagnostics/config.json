@@ -1,0 +1,45 @@
+{
+  "materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "models": [
+    [
+      "craig_bampton",
+      32
+    ],
+    [
+      "craig_bampton",
+      128
+    ],
+    [
+      "rational_krylov",
+      128
+    ]
+  ],
+  "reference_grids": [
+    512,
+    384
+  ],
+  "cumulative_end_times": [
+    2.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "successive_edges": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "squared_relative_change_zero_tolerance": 1e-10,
+  "norm": "Equal weights on the stored output samples; t=0 is included in windows beginning at zero. Later disjoint windows exclude their left endpoint.",
+  "interventions": {
+    "remove_ritz": "Replace the accepted reduced frequencies by their full same-grid frequencies, retaining all residues and unmatched contributions.",
+    "fine_frequency": "Replace the accepted reduced frequencies by their matched 128-grid frequencies, retaining all residues and unmatched contributions."
+  },
+  "scope": "Descriptive reanalysis of fixed trajectories; channels are observations of the same wave field. No model or modal assignment is fitted in this analysis."
+}

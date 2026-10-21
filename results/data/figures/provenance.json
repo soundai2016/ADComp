@@ -1,0 +1,169 @@
+{
+  "inputs": {
+    "acoustic_core.py": {
+      "sha256": "f7d6365682131c1de9b89c3f548ec77945b590c37632810f0bc8bc22efe7d454",
+      "bytes": 2370
+    },
+    "source_receiver_validation/config.json": {
+      "sha256": "a36c05879722b970fb8389233046cac7bed2d809b9cc60c7ea4976d42c44424e",
+      "bytes": 1974
+    },
+    "interface_case/config.json": {
+      "sha256": "793d201259ac742a6acf92c0088c65eeeba2a3f08339858edf2dc7795f1f7f8b",
+      "bytes": 1685
+    },
+    "unequal_speed_interface/config.json": {
+      "sha256": "0ad770a71f1b04bf823f6d98e48e0458974b1c81fb43f49a6b863f12173be883",
+      "bytes": 1660
+    },
+    "interface_case/results/summary.csv": {
+      "sha256": "aeab6601ac8096738be7fced6dd9b0bd02748198fa2d65992fbcfd4d7d68c2e5",
+      "bytes": 8348
+    },
+    "unequal_speed_interface/results/summary.csv": {
+      "sha256": "9bf7a1fba6cf59612fae9ed00ac52ad4e16b02ab490647494a90fad62baa296f",
+      "bytes": 3987
+    },
+    "total_error_cost/results/interface_errors.csv": {
+      "sha256": "3dea1cd9a2c0c0c6735d577dc4fbfbd91dbbf7dcf3935314e2fde77ed75d44b3",
+      "bytes": 16484
+    },
+    "frequency_diagnostics/results/baseline_waveforms.csv": {
+      "sha256": "f1ac61e97586bb9f6191b1ec438276a968cf4411c883c4d95c42ae0719adbbb4",
+      "bytes": 327033
+    },
+    "frequency_diagnostics/results/baseline_budgets.csv": {
+      "sha256": "8df0bc1d793d4462659e948c7566497002131efc5fb1a2ea3f9814133bd88421",
+      "bytes": 2484
+    },
+    "frequency_diagnostics/results/threshold_contrasts.csv": {
+      "sha256": "c27097ad8f782c83125bd2f2dfdf67aee329b18ad76ef75c652b97c542ce0149",
+      "bytes": 9867
+    },
+    "propagation/results/grid_comparisons.csv": {
+      "sha256": "e48ae1831d01887f9c8a5da8024d555a2f698ef98776b97ecb9ab4a12eed8614",
+      "bytes": 24834
+    },
+    "propagation/results/asymptotic_comparison.csv": {
+      "sha256": "71c5a65cbfc37de4ae4690bdb8fed6a8a667ac130558c4899c9ec5d08cb7a607",
+      "bytes": 5639
+    },
+    "modal_diagnostics/results/summary.csv": {
+      "sha256": "61d533a3bede201bf125b0b96fa0d142b3238678d06f2485e042d221ef08a988",
+      "bytes": 7093
+    },
+    "modal_diagnostics/results/reference_evaluation.csv": {
+      "sha256": "8e6eacda10ad9b64fbc47249e19f0e6c726807687e29ffa812bc660436a42802",
+      "bytes": 1457
+    },
+    "grid_cost_diagnostics/results/receiver_errors.csv": {
+      "sha256": "761724ba5f7a4ebc39c315339b21d6f7f4c62441718cb5383754d00a38731fa2",
+      "bytes": 24240
+    },
+    "modal_diagnostics/results/illustrated_mode_selection.json": {
+      "sha256": "833c214cfd1fae9c02758dbe41abac86788339c9b84a4cc5014d685c2d76d20b",
+      "bytes": 1988
+    },
+    "modal_diagnostics/results/illustrated_pressure_modes.npz": {
+      "sha256": "cc9d6be3b7df7735bd69c2185f0b46d509b85da5d2189d1e1cd68b735e088f10",
+      "bytes": 396902
+    },
+    "propagation/results/rotated_stripes_n512.npz": {
+      "sha256": "b06c950e8cc7a986af354fa402870a83325f1e4ca9e59c7392e25f6f0a3fb1b9",
+      "bytes": 33116342
+    },
+    "propagation/results/rotated_stripes_n384.npz": {
+      "sha256": "d2f86dea2f9805450afce33cfbbf770c1f9efc19ef297e47bc6783838132de79",
+      "bytes": 18511183
+    },
+    "propagation/results/double_inclusion_n512.npz": {
+      "sha256": "ad39bed8996aff69a67a5391695d7260a7d19bb39825266215f919064a02bd4c",
+      "bytes": 33259379
+    },
+    "propagation/results/double_inclusion_n384.npz": {
+      "sha256": "6db535c0db834a59860ea1694e13dbe047ed4701e70306f8f8e48fa46e90111e",
+      "bytes": 18766598
+    },
+    "propagation/results/smooth_checker_n512.npz": {
+      "sha256": "15ecf8192ba663ab590acae05b86c28cf86d64f0db2c1c9b84ce1f4be69a1eb9",
+      "bytes": 31368272
+    },
+    "propagation/results/smooth_checker_n384.npz": {
+      "sha256": "db39b1f5d77b61031b63b719b929a5232cfb5e97ac998afd0c2aad7caa8d989b",
+      "bytes": 17684788
+    },
+    "propagation/results/reduction_comparison_summary.json": {
+      "sha256": "de7a925aa434668eaf7e5ac86f330a2f580fb944e0a27f2626358a4e7f48ad79",
+      "bytes": 3292
+    },
+    "observation_diagnostics/results/channel_errors.csv": {
+      "sha256": "92dd0f08dbff5a706652e2a9f28795f630625f397e2e477acb3e4d6f337cfcce",
+      "bytes": 630534
+    },
+    "modal_robustness/results/rotated_stripes_sensitivity.csv": {
+      "sha256": "6634420f8853a861d69cb7277752640ceb372081b9b4f11c460896038b51c299",
+      "bytes": 43002
+    },
+    "modal_robustness/results/rotated_stripes_finite_time.csv": {
+      "sha256": "5057faa19d6f3530e74045eb16598622588262e2eee0344ec88014b674d65174",
+      "bytes": 359168
+    },
+    "modal_robustness/results/double_inclusion_sensitivity.csv": {
+      "sha256": "b124a28ee6d26f2aac8ac48706f4627d670a4e90084c5ed3917474822cb6d1b1",
+      "bytes": 42886
+    },
+    "modal_robustness/results/double_inclusion_finite_time.csv": {
+      "sha256": "7d373782b4641cf80c495afdc81f837bd655cff1467a1cb6fbfe9824765cdb7d",
+      "bytes": 358118
+    },
+    "modal_robustness/results/smooth_checker_sensitivity.csv": {
+      "sha256": "1779feaa209038a2f479cdee01b5b09fab5c9f70a8f061c5c1329513f35c8b71",
+      "bytes": 43262
+    },
+    "modal_robustness/results/smooth_checker_finite_time.csv": {
+      "sha256": "e8d7e118159b301d775ca40b60db2a8f025aeba022a501e5e1887fbbd532bb3a",
+      "bytes": 360678
+    },
+    "studies/stage1_1d/refinement_summary.json": {
+      "sha256": "62e25ce2d8079308d33aa2b1ba6aaa1d1953715ed86bcb153d454edef66cf08a",
+      "bytes": 1556
+    },
+    "main_residual/results/combined_bounds.csv": {
+      "sha256": "c68945a023cbbd172892819633d7cf11f5e2756c07dc33f0a77451754bb3d570",
+      "bytes": 116333
+    },
+    "main_residual/results/combined_selection.csv": {
+      "sha256": "88c1a5bb2693740f0ba710956ce6518de8857b5aed44b52461bff7730b0ee141",
+      "bytes": 16381
+    },
+    "studies/stage2_2d/energy_certificate_results.csv": {
+      "sha256": "108691e121bdfc046ce92e7fc49051e37acb0292d539daa4a5c4b656f03d57d4",
+      "bytes": 298608
+    },
+    "analysis/threshold_counts.csv": {
+      "sha256": "5e77cc590effaf3f0263ae830620155fbebecff40ad0375488554efbb0f54dc9",
+      "bytes": 6221
+    },
+    "analysis/robustness_counts.csv": {
+      "sha256": "95a3b5e10dfc9693613c6e5f366fc3afc0626cc3cde1b0f3737a550233571d81",
+      "bytes": 1273
+    }
+  },
+  "transformations": [
+    "Analytic material fields at 128 x 128 cell centers.",
+    "Two-layer material parameters copied from the interface simulation configurations.",
+    "Physical pressure modes selected by the stated modal rule.",
+    "Hann-window spectra with one-sided Parseval weights, normalized by fine-reference spectral power.",
+    "CSV rows selected for the plotted models without smoothing."
+  ],
+  "outputs": {
+    "plot_tables.json": {
+      "sha256": "9d05476534beba2347f85be84f91a685b50719c420372d09ba513ae40ea330be",
+      "bytes": 1513750
+    },
+    "plot_arrays.npz": {
+      "sha256": "b51d00689b2dddd30fc34983e2754ec560a552d90b7417104ebb76a6c14db644",
+      "bytes": 1034298
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[stdout] {
+[stdout]   "channel_rows": 1728,
+[stdout]   "group_rows": 1152,
+[stdout]   "max_normalized_squared_error_identity_residual": 1.9106282979289012e-16,
+[stdout]   "max_relative_remove_ritz_trajectory_identity": 4.228053635631845e-17,
+[stdout]   "focal_reference_sign_changes": {
+[stdout]     "remove_ritz": 0,
+[stdout]     "fine_frequency": 0
+[stdout]   },
+[stdout]   "focal_max_absolute_reference_change_difference": {
+[stdout]     "remove_ritz": 0.0004725990156401183,
+[stdout]     "fine_frequency": 0.0024485312976447737
+[stdout]   },
+[stdout]   "config_sha256": "998c8e016a4cbe187cea1488376227493c23c6115cefb09b5c7325608cb8ebe0",
+[stdout]   "analysis_code_sha256": "06ec1f77b2c5d4c6784760c8ddafc525e79af0355bd88350abacc64d25d85db0"
+[stdout] }

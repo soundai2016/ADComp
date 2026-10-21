@@ -1,0 +1,15 @@
+[stdout] {
+[stdout]   "status": "pass",
+[stdout]   "setting_count": 54,
+[stdout]   "timing_repetition_count": 162,
+[stdout]   "raw_npz_count": 54,
+[stdout]   "config_sha256": "a44df54373a754f8b41147b37b13d57c41cdf62a1bafedb71f97dda01686addb",
+[stdout]   "computational_code_hashes_match": {
+[stdout]     "accuracy_cost/run.py": true,
+[stdout]     "acoustic_core.py": true
+[stdout]   },
+[stdout]   "actual_cpu_affinity": [
+[stdout]     0,
+[stdout]     1
+[stdout]   ]
+[stdout] }

@@ -1,0 +1,55 @@
+[stdout] smooth_mild 16
+[stdout] smooth_mild 32
+[stdout] smooth_contrast 16
+[stdout] smooth_contrast 32
+[stdout] smooth_inclusion 16
+[stdout] smooth_inclusion 32
+[stdout] {
+[stdout]   "status": "exploratory development diagnostic",
+[stdout]   "mathematical_scope": "same discrete whitened first-order system; no continuum certificate",
+[stdout]   "rows": 1080,
+[stdout]   "model_combinations": 90,
+[stdout]   "all_computed_bounds_hold": true,
+[stdout]   "minimum_guarded_bound_minus_error": 1.0087023750159093e-11,
+[stdout]   "max_quadrature_relative_gram_error": 9.95127155166495e-14,
+[stdout]   "max_quadrature_relative_integrated_defect_error": 3.547667724318704e-14,
+[stdout]   "wall_seconds": 1.8220082499319687,
+[stdout]   "adaptive_counts": [
+[stdout]     {
+[stdout]       "method": "analytic_cosine",
+[stdout]       "threshold": 0.1,
+[stdout]       "accepted": 0,
+[stdout]       "total": 18
+[stdout]     },
+[stdout]     {
+[stdout]       "method": "analytic_cosine",
+[stdout]       "threshold": 0.2,
+[stdout]       "accepted": 0,
+[stdout]       "total": 18
+[stdout]     },
+[stdout]     {
+[stdout]       "method": "oracle_response_pod",
+[stdout]       "threshold": 0.1,
+[stdout]       "accepted": 0,
+[stdout]       "total": 18
+[stdout]     },
+[stdout]     {
+[stdout]       "method": "oracle_response_pod",
+[stdout]       "threshold": 0.2,
+[stdout]       "accepted": 0,
+[stdout]       "total": 18
+[stdout]     },
+[stdout]     {
+[stdout]       "method": "oracle_low_eigenmodes",
+[stdout]       "threshold": 0.1,
+[stdout]       "accepted": 18,
+[stdout]       "total": 18
+[stdout]     },
+[stdout]     {
+[stdout]       "method": "oracle_low_eigenmodes",
+[stdout]       "threshold": 0.2,
+[stdout]       "accepted": 18,
+[stdout]       "total": 18
+[stdout]     }
+[stdout]   ]
+[stdout] }

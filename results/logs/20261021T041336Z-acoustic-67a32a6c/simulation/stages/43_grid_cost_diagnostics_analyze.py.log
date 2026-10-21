@@ -1,0 +1,417 @@
+[stdout] {
+[stdout]   "complete": true,
+[stdout]   "settings": 81,
+[stdout]   "repetitions": 3,
+[stdout]   "reference_grid": 512,
+[stdout]   "alternative_reference_grid": 384,
+[stdout]   "reference_sha256": {
+[stdout]     "propagation/results/rotated_stripes_n512.npz": "b06c950e8cc7a986af354fa402870a83325f1e4ca9e59c7392e25f6f0a3fb1b9",
+[stdout]     "propagation/results/rotated_stripes_n384.npz": "d2f86dea2f9805450afce33cfbbf770c1f9efc19ef297e47bc6783838132de79",
+[stdout]     "propagation/results/double_inclusion_n512.npz": "ad39bed8996aff69a67a5391695d7260a7d19bb39825266215f919064a02bd4c",
+[stdout]     "propagation/results/double_inclusion_n384.npz": "6db535c0db834a59860ea1694e13dbe047ed4701e70306f8f8e48fa46e90111e",
+[stdout]     "propagation/results/smooth_checker_n512.npz": "15ecf8192ba663ab590acae05b86c28cf86d64f0db2c1c9b84ce1f4be69a1eb9",
+[stdout]     "propagation/results/smooth_checker_n384.npz": "db39b1f5d77b61031b63b719b929a5232cfb5e97ac998afd0c2aad7caa8d989b"
+[stdout]   },
+[stdout]   "receiver_tolerances": [
+[stdout]     0.05,
+[stdout]     0.1
+[stdout]   ],
+[stdout]   "selections": [
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "tolerance": 0.05,
+[stdout]       "primary_full": {
+[stdout]         "grid": 120,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 14400,
+[stdout]         "total_receiver_error": 0.04849272525405069,
+[stdout]         "alternative_reference_total_receiver_error": 0.04640018902672863,
+[stdout]         "total_seconds": 1.9302556287730113,
+[stdout]         "minimum_total_seconds": 1.9300993296783417,
+[stdout]         "maximum_total_seconds": 1.9368964863242581
+[stdout]       },
+[stdout]       "primary_reduced": {
+[stdout]         "grid": 104,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 360,
+[stdout]         "total_receiver_error": 0.049793169434747556,
+[stdout]         "alternative_reference_total_receiver_error": 0.04779783460646671,
+[stdout]         "total_seconds": 1.12558871996589,
+[stdout]         "minimum_total_seconds": 1.1198890109080821,
+[stdout]         "maximum_total_seconds": 1.2650582221103832
+[stdout]       },
+[stdout]       "alternative_full": {
+[stdout]         "grid": 120,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 14400,
+[stdout]         "total_receiver_error": 0.04849272525405069,
+[stdout]         "alternative_reference_total_receiver_error": 0.04640018902672863,
+[stdout]         "total_seconds": 1.9302556287730113,
+[stdout]         "minimum_total_seconds": 1.9300993296783417,
+[stdout]         "maximum_total_seconds": 1.9368964863242581
+[stdout]       },
+[stdout]       "alternative_reduced": {
+[stdout]         "grid": 104,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 360,
+[stdout]         "total_receiver_error": 0.049793169434747556,
+[stdout]         "alternative_reference_total_receiver_error": 0.04779783460646671,
+[stdout]         "total_seconds": 1.12558871996589,
+[stdout]         "minimum_total_seconds": 1.1198890109080821,
+[stdout]         "maximum_total_seconds": 1.2650582221103832
+[stdout]       },
+[stdout]       "median_full_over_reduced": 1.7148853702367468,
+[stdout]       "fastest_full_over_slowest_reduced": 1.5257000001616765,
+[stdout]       "slowest_full_over_fastest_reduced": 1.729543256035427,
+[stdout]       "alternative_median_full_over_reduced": 1.7148853702367468,
+[stdout]       "alternative_fastest_full_over_slowest_reduced": 1.5257000001616765,
+[stdout]       "selection_unchanged_by_reference": true,
+[stdout]       "candidates_changing_threshold_classification": 0
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "tolerance": 0.1,
+[stdout]       "primary_full": {
+[stdout]         "grid": 88,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 7744,
+[stdout]         "total_receiver_error": 0.08760774560781913,
+[stdout]         "alternative_reference_total_receiver_error": 0.0857782642167346,
+[stdout]         "total_seconds": 0.7956798783270642,
+[stdout]         "minimum_total_seconds": 0.7716062570689246,
+[stdout]         "maximum_total_seconds": 0.8010998016688973
+[stdout]       },
+[stdout]       "primary_reduced": {
+[stdout]         "grid": 80,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 336,
+[stdout]         "total_receiver_error": 0.09252236921691166,
+[stdout]         "alternative_reference_total_receiver_error": 0.09071006052106384,
+[stdout]         "total_seconds": 0.7023964681429788,
+[stdout]         "minimum_total_seconds": 0.7006285161478445,
+[stdout]         "maximum_total_seconds": 0.7194012280087918
+[stdout]       },
+[stdout]       "alternative_full": {
+[stdout]         "grid": 88,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 7744,
+[stdout]         "total_receiver_error": 0.08760774560781913,
+[stdout]         "alternative_reference_total_receiver_error": 0.0857782642167346,
+[stdout]         "total_seconds": 0.7956798783270642,
+[stdout]         "minimum_total_seconds": 0.7716062570689246,
+[stdout]         "maximum_total_seconds": 0.8010998016688973
+[stdout]       },
+[stdout]       "alternative_reduced": {
+[stdout]         "grid": 80,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 336,
+[stdout]         "total_receiver_error": 0.09252236921691166,
+[stdout]         "alternative_reference_total_receiver_error": 0.09071006052106384,
+[stdout]         "total_seconds": 0.7023964681429788,
+[stdout]         "minimum_total_seconds": 0.7006285161478445,
+[stdout]         "maximum_total_seconds": 0.7194012280087918
+[stdout]       },
+[stdout]       "median_full_over_reduced": 1.1328073451603642,
+[stdout]       "fastest_full_over_slowest_reduced": 1.072567333815414,
+[stdout]       "slowest_full_over_fastest_reduced": 1.1434016503830848,
+[stdout]       "alternative_median_full_over_reduced": 1.1328073451603642,
+[stdout]       "alternative_fastest_full_over_slowest_reduced": 1.072567333815414,
+[stdout]       "selection_unchanged_by_reference": true,
+[stdout]       "candidates_changing_threshold_classification": 0
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "tolerance": 0.05,
+[stdout]       "primary_full": {
+[stdout]         "grid": 120,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 14400,
+[stdout]         "total_receiver_error": 0.04402235767786904,
+[stdout]         "alternative_reference_total_receiver_error": 0.04203699720553341,
+[stdout]         "total_seconds": 2.0722145381150767,
+[stdout]         "minimum_total_seconds": 2.0699737104587257,
+[stdout]         "maximum_total_seconds": 2.0806824521860108
+[stdout]       },
+[stdout]       "primary_reduced": {
+[stdout]         "grid": 104,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 360,
+[stdout]         "total_receiver_error": 0.045067458619403145,
+[stdout]         "alternative_reference_total_receiver_error": 0.04321028352815282,
+[stdout]         "total_seconds": 1.1314729260047898,
+[stdout]         "minimum_total_seconds": 1.1175795688759536,
+[stdout]         "maximum_total_seconds": 1.2212594230659306
+[stdout]       },
+[stdout]       "alternative_full": {
+[stdout]         "grid": 112,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 12544,
+[stdout]         "total_receiver_error": 0.05082775722942012,
+[stdout]         "alternative_reference_total_receiver_error": 0.04885392054920291,
+[stdout]         "total_seconds": 1.6783892516978085,
+[stdout]         "minimum_total_seconds": 1.6507112354738638,
+[stdout]         "maximum_total_seconds": 1.678438832052052
+[stdout]       },
+[stdout]       "alternative_reduced": {
+[stdout]         "grid": 104,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 360,
+[stdout]         "total_receiver_error": 0.045067458619403145,
+[stdout]         "alternative_reference_total_receiver_error": 0.04321028352815282,
+[stdout]         "total_seconds": 1.1314729260047898,
+[stdout]         "minimum_total_seconds": 1.1175795688759536,
+[stdout]         "maximum_total_seconds": 1.2212594230659306
+[stdout]       },
+[stdout]       "median_full_over_reduced": 1.8314309520706151,
+[stdout]       "fastest_full_over_slowest_reduced": 1.6949500420329422,
+[stdout]       "slowest_full_over_fastest_reduced": 1.8617756713991587,
+[stdout]       "alternative_median_full_over_reduced": 1.483366692320399,
+[stdout]       "alternative_fastest_full_over_slowest_reduced": 1.3516466725225413,
+[stdout]       "selection_unchanged_by_reference": false,
+[stdout]       "candidates_changing_threshold_classification": 2
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "tolerance": 0.1,
+[stdout]       "primary_full": {
+[stdout]         "grid": 88,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 7744,
+[stdout]         "total_receiver_error": 0.08298484657306401,
+[stdout]         "alternative_reference_total_receiver_error": 0.08108087193957071,
+[stdout]         "total_seconds": 0.8180948082590476,
+[stdout]         "minimum_total_seconds": 0.8155857988167554,
+[stdout]         "maximum_total_seconds": 0.8223608058178797
+[stdout]       },
+[stdout]       "primary_reduced": {
+[stdout]         "grid": 80,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 336,
+[stdout]         "total_receiver_error": 0.08675132827613251,
+[stdout]         "alternative_reference_total_receiver_error": 0.0848865985048564,
+[stdout]         "total_seconds": 0.7524421558482572,
+[stdout]         "minimum_total_seconds": 0.7120578510221094,
+[stdout]         "maximum_total_seconds": 0.7735427898587659
+[stdout]       },
+[stdout]       "alternative_full": {
+[stdout]         "grid": 80,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 6400,
+[stdout]         "total_receiver_error": 0.10042986191119632,
+[stdout]         "alternative_reference_total_receiver_error": 0.09857224880807107,
+[stdout]         "total_seconds": 0.7142250053584576,
+[stdout]         "minimum_total_seconds": 0.6521384250372648,
+[stdout]         "maximum_total_seconds": 0.7145846132189035
+[stdout]       },
+[stdout]       "alternative_reduced": {
+[stdout]         "grid": 80,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 336,
+[stdout]         "total_receiver_error": 0.08675132827613251,
+[stdout]         "alternative_reference_total_receiver_error": 0.0848865985048564,
+[stdout]         "total_seconds": 0.7524421558482572,
+[stdout]         "minimum_total_seconds": 0.7120578510221094,
+[stdout]         "maximum_total_seconds": 0.7735427898587659
+[stdout]       },
+[stdout]       "median_full_over_reduced": 1.0872527567740773,
+[stdout]       "fastest_full_over_slowest_reduced": 1.0543512388831984,
+[stdout]       "slowest_full_over_fastest_reduced": 1.154907293891133,
+[stdout]       "alternative_median_full_over_reduced": 0.9492091847954531,
+[stdout]       "alternative_fastest_full_over_slowest_reduced": 0.8430541058450468,
+[stdout]       "selection_unchanged_by_reference": false,
+[stdout]       "candidates_changing_threshold_classification": 2
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "tolerance": 0.05,
+[stdout]       "primary_full": {
+[stdout]         "grid": 96,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 9216,
+[stdout]         "total_receiver_error": 0.044935848571036587,
+[stdout]         "alternative_reference_total_receiver_error": 0.04370730851521943,
+[stdout]         "total_seconds": 1.31568027602043,
+[stdout]         "minimum_total_seconds": 1.2713403315283358,
+[stdout]         "maximum_total_seconds": 1.3510831507155672
+[stdout]       },
+[stdout]       "primary_reduced": {
+[stdout]         "grid": 88,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 344,
+[stdout]         "total_receiver_error": 0.04788663683818921,
+[stdout]         "alternative_reference_total_receiver_error": 0.046665434301769025,
+[stdout]         "total_seconds": 0.8684151978231966,
+[stdout]         "minimum_total_seconds": 0.8349544079974294,
+[stdout]         "maximum_total_seconds": 0.9077030292246491
+[stdout]       },
+[stdout]       "alternative_full": {
+[stdout]         "grid": 96,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 9216,
+[stdout]         "total_receiver_error": 0.044935848571036587,
+[stdout]         "alternative_reference_total_receiver_error": 0.04370730851521943,
+[stdout]         "total_seconds": 1.31568027602043,
+[stdout]         "minimum_total_seconds": 1.2713403315283358,
+[stdout]         "maximum_total_seconds": 1.3510831507155672
+[stdout]       },
+[stdout]       "alternative_reduced": {
+[stdout]         "grid": 88,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 344,
+[stdout]         "total_receiver_error": 0.04788663683818921,
+[stdout]         "alternative_reference_total_receiver_error": 0.046665434301769025,
+[stdout]         "total_seconds": 0.8684151978231966,
+[stdout]         "minimum_total_seconds": 0.8349544079974294,
+[stdout]         "maximum_total_seconds": 0.9077030292246491
+[stdout]       },
+[stdout]       "median_full_over_reduced": 1.5150359866091305,
+[stdout]       "fastest_full_over_slowest_reduced": 1.400612634965317,
+[stdout]       "slowest_full_over_fastest_reduced": 1.6181520065940258,
+[stdout]       "alternative_median_full_over_reduced": 1.5150359866091305,
+[stdout]       "alternative_fastest_full_over_slowest_reduced": 1.400612634965317,
+[stdout]       "selection_unchanged_by_reference": true,
+[stdout]       "candidates_changing_threshold_classification": 0
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "tolerance": 0.1,
+[stdout]       "primary_full": {
+[stdout]         "grid": 64,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 4096,
+[stdout]         "total_receiver_error": 0.09783911681566364,
+[stdout]         "alternative_reference_total_receiver_error": 0.09673383336975258,
+[stdout]         "total_seconds": 0.3723336663097143,
+[stdout]         "minimum_total_seconds": 0.36644445650745183,
+[stdout]         "maximum_total_seconds": 0.38290938921272755
+[stdout]       },
+[stdout]       "primary_reduced": {
+[stdout]         "grid": 64,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 320,
+[stdout]         "total_receiver_error": 0.09443277997273378,
+[stdout]         "alternative_reference_total_receiver_error": 0.09331944567215684,
+[stdout]         "total_seconds": 0.5482013708679006,
+[stdout]         "minimum_total_seconds": 0.5411332519724965,
+[stdout]         "maximum_total_seconds": 0.5758952688192949
+[stdout]       },
+[stdout]       "alternative_full": {
+[stdout]         "grid": 64,
+[stdout]         "method": "full_stormer_verlet",
+[stdout]         "modes_per_patch": null,
+[stdout]         "requested_cfl": 0.25,
+[stdout]         "dimension": 4096,
+[stdout]         "total_receiver_error": 0.09783911681566364,
+[stdout]         "alternative_reference_total_receiver_error": 0.09673383336975258,
+[stdout]         "total_seconds": 0.3723336663097143,
+[stdout]         "minimum_total_seconds": 0.36644445650745183,
+[stdout]         "maximum_total_seconds": 0.38290938921272755
+[stdout]       },
+[stdout]       "alternative_reduced": {
+[stdout]         "grid": 64,
+[stdout]         "method": "craig_bampton",
+[stdout]         "modes_per_patch": 128,
+[stdout]         "requested_cfl": null,
+[stdout]         "dimension": 320,
+[stdout]         "total_receiver_error": 0.09443277997273378,
+[stdout]         "alternative_reference_total_receiver_error": 0.09331944567215684,
+[stdout]         "total_seconds": 0.5482013708679006,
+[stdout]         "minimum_total_seconds": 0.5411332519724965,
+[stdout]         "maximum_total_seconds": 0.5758952688192949
+[stdout]       },
+[stdout]       "median_full_over_reduced": 0.6791914177818339,
+[stdout]       "fastest_full_over_slowest_reduced": 0.6363039884990533,
+[stdout]       "slowest_full_over_fastest_reduced": 0.7076064681240273,
+[stdout]       "alternative_median_full_over_reduced": 0.6791914177818339,
+[stdout]       "alternative_fastest_full_over_slowest_reduced": 0.6363039884990533,
+[stdout]       "selection_unchanged_by_reference": true,
+[stdout]       "candidates_changing_threshold_classification": 0
+[stdout]     }
+[stdout]   ],
+[stdout]   "envelope_extrema": {
+[stdout]     "rotated_stripes": {
+[stdout]       "maximum_median_full_over_reduced": 1.7148853702367468,
+[stdout]       "maximum_fastest_full_over_slowest_reduced": 1.5257000001616765,
+[stdout]       "maximum_alternative_median_full_over_reduced": 1.7148853702367468,
+[stdout]       "minimum_median_full_over_reduced": 0.9002278984657086
+[stdout]     },
+[stdout]     "double_inclusion": {
+[stdout]       "maximum_median_full_over_reduced": 1.8314309520706151,
+[stdout]       "maximum_fastest_full_over_slowest_reduced": 1.6949500420329422,
+[stdout]       "maximum_alternative_median_full_over_reduced": 1.6103584341240866,
+[stdout]       "minimum_median_full_over_reduced": 0.9284353351970507
+[stdout]     },
+[stdout]     "smooth_checker": {
+[stdout]       "maximum_median_full_over_reduced": 1.5150359866091305,
+[stdout]       "maximum_fastest_full_over_slowest_reduced": 1.400612634965317,
+[stdout]       "maximum_alternative_median_full_over_reduced": 1.5150359866091305,
+[stdout]       "minimum_median_full_over_reduced": 0.6791914177818339
+[stdout]     }
+[stdout]   },
+[stdout]   "sparse_subset_envelope_extrema": {
+[stdout]     "rotated_stripes": {
+[stdout]       "maximum_median_full_over_reduced": 2.3604456000431373,
+[stdout]       "maximum_fastest_full_over_slowest_reduced": 2.1200130826181187,
+[stdout]       "maximum_alternative_median_full_over_reduced": 2.3604456000431373,
+[stdout]       "minimum_median_full_over_reduced": 1.0345245488145776
+[stdout]     },
+[stdout]     "double_inclusion": {
+[stdout]       "maximum_median_full_over_reduced": 2.338860054807768,
+[stdout]       "maximum_fastest_full_over_slowest_reduced": 2.2218201597472964,
+[stdout]       "maximum_alternative_median_full_over_reduced": 2.338860054807768,
+[stdout]       "minimum_median_full_over_reduced": 1.0524636164935846
+[stdout]     },
+[stdout]     "smooth_checker": {
+[stdout]       "maximum_median_full_over_reduced": 2.3999945019062494,
+[stdout]       "maximum_fastest_full_over_slowest_reduced": 2.207589470451542,
+[stdout]       "maximum_alternative_median_full_over_reduced": 2.3999945019062494,
+[stdout]       "minimum_median_full_over_reduced": 0.6791914177818339
+[stdout]     }
+[stdout]   },
+[stdout]   "candidate_family": "Fixed Craig-Bampton m128, Stormer-Verlet CFL0.25/0.125, n=64:8:128.",
+[stdout]   "cost": "Setup-inclusive three-source receiver production. Each median uses three complete stage sums."
+[stdout] }

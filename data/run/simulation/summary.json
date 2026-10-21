@@ -1,0 +1,2660 @@
+{
+  "command": [
+    "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+    "/data/sourcecode/simulation/run.py",
+    "--workdir",
+    "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874"
+  ],
+  "configuration_fingerprint": "6360d92549e1ff17c29b02b3ce3f0d4142dde18785d6ee0c671d58fa7e15875f",
+  "elapsed_seconds": 7671.323207292939,
+  "environment_fingerprint": "c735e35dd4b8f59e82ed83f7a54a07f766efce6b187cd3366ee1f5e724d81d1c",
+  "finished_at_utc": "2026-10-20T11:18:03.174+00:00",
+  "metrics": [],
+  "mode": "simulation_full",
+  "parent_run_id": "20261020T091005Z-acoustic-32d32874",
+  "run_id": "20261020T091011Z-simulation-45c84b69",
+  "schema_version": 1,
+  "source_fingerprint": "00d200d3ed374b115c3e4916954126aba0bf4692d71528e26fbeeaaeae5f6965",
+  "stages": [
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/run_propagation.py",
+        "--verify"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.5561285039875656,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:17.961+00:00",
+      "log": "stages/01_propagation_run_propagation.py.log",
+      "name": "propagation/run_propagation.py",
+      "pid": 2585228,
+      "stage_id": 1,
+      "started_at_utc": "2026-10-20T09:10:17.326+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04253302200231701,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/small_grid_verification.json",
+          "sha256": "7d46191bb33a30ba80336c980435cc3eb66dbf9f155e6c3a9a0af80c9d0888c7",
+          "snapshot": "verification/01_01_small_grid_verification.json",
+          "stage": "propagation/run_propagation.py",
+          "stage_id": 1,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost",
+      "elapsed_seconds": 0.588227796019055,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:18.694+00:00",
+      "log": "stages/02_accuracy_cost_verify.py.log",
+      "name": "accuracy_cost/verify.py",
+      "pid": 2585240,
+      "stage_id": 2,
+      "started_at_utc": "2026-10-20T09:10:18.028+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.043695623986423016,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/results/small_grid_verification.json",
+          "sha256": "8bd0eae5df8080ada7fe2677529847a7e46de95f4ce003de1d35971063cb8d5d",
+          "snapshot": "verification/02_01_small_grid_verification.json",
+          "stage": "accuracy_cost/verify.py",
+          "stage_id": 2,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual",
+      "elapsed_seconds": 0.46461526793427765,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:19.320+00:00",
+      "log": "stages/03_main_residual_verify.py.log",
+      "name": "main_residual/verify.py",
+      "pid": 2585246,
+      "stage_id": 3,
+      "started_at_utc": "2026-10-20T09:10:18.771+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04227321001235396,
+      "verification_reports": [
+        {
+          "checks": {
+            "below": {
+              "analytic_vs_gauss_legendre_gram_relative_difference": 1e-10,
+              "analytic_vs_original_gram_relative_difference": 1e-13,
+              "full_state_sparse_vs_modal_relative_difference": 1e-10,
+              "modal_defect_identity_relative_difference": 1e-10
+            },
+            "equals": {
+              "all_small_system_bounds_hold": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual/results/verification.json",
+          "sha256": "3a114aab48828e00955358e775814dae3e08b8b03ffe393abf6744ac625d5d3b",
+          "snapshot": "verification/03_01_verification.json",
+          "stage": "main_residual/verify.py",
+          "stage_id": 3,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case",
+      "elapsed_seconds": 0.7423588009551167,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:20.229+00:00",
+      "log": "stages/04_interface_case_verify.py.log",
+      "name": "interface_case/verify.py",
+      "pid": 2585251,
+      "stage_id": 4,
+      "started_at_utc": "2026-10-20T09:10:19.404+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.03989652800373733,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case/results/verification.json",
+          "sha256": "f41a8684972fd1a6e08c092aaf30081ca9bc383173ed5c7cb9de01a86a513ff2",
+          "snapshot": "verification/04_01_verification.json",
+          "stage": "interface_case/verify.py",
+          "stage_id": 4,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 0.4961318039568141,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:20.888+00:00",
+      "log": "stages/05_total_error_cost_verify.py.log",
+      "name": "total_error_cost/verify.py",
+      "pid": 2585260,
+      "stage_id": 5,
+      "started_at_utc": "2026-10-20T09:10:20.314+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.0362899350002408,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/results/verification.json",
+          "sha256": "9d9f564a46e2716613e9df3824a2765331ace4a699d46f44f22175336bf308b7",
+          "snapshot": "verification/05_01_verification.json",
+          "stage": "total_error_cost/verify.py",
+          "stage_id": 5,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/verify_interface.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 0.475806683069095,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:21.539+00:00",
+      "log": "stages/06_total_error_cost_verify_interface.py.log",
+      "name": "total_error_cost/verify_interface.py",
+      "pid": 2585264,
+      "stage_id": 6,
+      "started_at_utc": "2026-10-20T09:10:20.973+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04762724996544421,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/results/interface_verification.json",
+          "sha256": "f483d502358d19692743bcc5aa77df87077aaaf0ca1d2d17b0ee923dcfb84907",
+          "snapshot": "verification/06_01_interface_verification.json",
+          "stage": "total_error_cost/verify_interface.py",
+          "stage_id": 6,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface",
+      "elapsed_seconds": 1.8303524579387158,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:23.514+00:00",
+      "log": "stages/07_unequal_speed_interface_verify.py.log",
+      "name": "unequal_speed_interface/verify.py",
+      "pid": 2585268,
+      "stage_id": 7,
+      "started_at_utc": "2026-10-20T09:10:21.607+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04292066697962582,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/results/verification.json",
+          "sha256": "9f9995fae516e00e0810ed1cfff75a44f6170208dc31b6b4bf846661bfe006ec",
+          "snapshot": "verification/07_01_verification.json",
+          "stage": "unequal_speed_interface/verify.py",
+          "stage_id": 7,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage1_1d/run_experiment.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage1_1d",
+      "elapsed_seconds": 3.001125217997469,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:26.617+00:00",
+      "log": "stages/08_studies_stage1_1d_run_experiment.py.log",
+      "name": "studies/stage1_1d/run_experiment.py",
+      "pid": 2585273,
+      "stage_id": 8,
+      "started_at_utc": "2026-10-20T09:10:23.582+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage1_1d/refinement_diagnostic.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage1_1d",
+      "elapsed_seconds": 1.380425219074823,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:28.105+00:00",
+      "log": "stages/09_studies_stage1_1d_refinement_diagnostic.py.log",
+      "name": "studies/stage1_1d/refinement_diagnostic.py",
+      "pid": 2585290,
+      "stage_id": 9,
+      "started_at_utc": "2026-10-20T09:10:26.690+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage1_1d/direct_baseline_check.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage1_1d",
+      "elapsed_seconds": 1.3663422170793638,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:29.582+00:00",
+      "log": "stages/10_studies_stage1_1d_direct_baseline_check.py.log",
+      "name": "studies/stage1_1d/direct_baseline_check.py",
+      "pid": 2585295,
+      "stage_id": 10,
+      "started_at_utc": "2026-10-20T09:10:28.181+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage2_2d/run_2d.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage2_2d",
+      "elapsed_seconds": 25.46508241200354,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:55.156+00:00",
+      "log": "stages/11_studies_stage2_2d_run_2d.py.log",
+      "name": "studies/stage2_2d/run_2d.py",
+      "pid": 2585300,
+      "stage_id": 11,
+      "started_at_utc": "2026-10-20T09:10:29.649+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage2_2d/capacity_and_sampling.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage2_2d",
+      "elapsed_seconds": 3.72260581003502,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:10:58.998+00:00",
+      "log": "stages/12_studies_stage2_2d_capacity_and_sampling.py.log",
+      "name": "studies/stage2_2d/capacity_and_sampling.py",
+      "pid": 2585454,
+      "stage_id": 12,
+      "started_at_utc": "2026-10-20T09:10:55.232+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage2_2d/energy_defect_certificate.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/stage2_2d",
+      "elapsed_seconds": 2.089720798889175,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:11:01.222+00:00",
+      "log": "stages/13_studies_stage2_2d_energy_defect_certificate.py.log",
+      "name": "studies/stage2_2d/energy_defect_certificate.py",
+      "pid": 2585459,
+      "stage_id": 13,
+      "started_at_utc": "2026-10-20T09:10:59.090+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/patch_2d/run_patch.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/patch_2d",
+      "elapsed_seconds": 13.763863940956071,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:11:15.121+00:00",
+      "log": "stages/14_studies_patch_2d_run_patch.py.log",
+      "name": "studies/patch_2d/run_patch.py",
+      "pid": 2585472,
+      "stage_id": 14,
+      "started_at_utc": "2026-10-20T09:11:01.315+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/patch_2d/capacity_followup.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/patch_2d",
+      "elapsed_seconds": 2.9428267859620973,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:11:18.171+00:00",
+      "log": "stages/15_studies_patch_2d_capacity_followup.py.log",
+      "name": "studies/patch_2d/capacity_followup.py",
+      "pid": 2585501,
+      "stage_id": 15,
+      "started_at_utc": "2026-10-20T09:11:15.194+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/patch_2d/audit_patch.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/patch_2d",
+      "elapsed_seconds": 0.28818902105558664,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:11:18.591+00:00",
+      "log": "stages/16_studies_patch_2d_audit_patch.py.log",
+      "name": "studies/patch_2d/audit_patch.py",
+      "pid": 2585510,
+      "stage_id": 16,
+      "started_at_utc": "2026-10-20T09:11:18.260+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/assemble_reduced_responses.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.2651267779292539,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:11:19.044+00:00",
+      "log": "stages/17_propagation_assemble_reduced_responses.py.log",
+      "name": "propagation/assemble_reduced_responses.py",
+      "pid": 2585515,
+      "stage_id": 17,
+      "started_at_utc": "2026-10-20T09:11:18.686+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05058467003982514,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/capacity_trace_linkage.json",
+          "sha256": "7f84171f2fc4526019905d4120bbf95552c8a43437a1b635598b730029df22d1",
+          "snapshot": "verification/17_01_capacity_trace_linkage.json",
+          "stage": "propagation/assemble_reduced_responses.py",
+          "stage_id": 17,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/dispersion/run_dispersion.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/dispersion",
+      "elapsed_seconds": 0.9117846329463646,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T09:11:20.083+00:00",
+      "log": "stages/18_dispersion_run_dispersion.py.log",
+      "name": "dispersion/run_dispersion.py",
+      "pid": 2585519,
+      "stage_id": 18,
+      "started_at_utc": "2026-10-20T09:11:19.128+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/run_propagation.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 4913.6194156249985,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:33:13.849+00:00",
+      "log": "stages/19_propagation_run_propagation.py.log",
+      "name": "propagation/run_propagation.py",
+      "pid": 2585524,
+      "stage_id": 19,
+      "started_at_utc": "2026-10-20T09:11:20.178+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/reference_checks.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 90.03664377192035,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:34:44.369+00:00",
+      "log": "stages/20_propagation_reference_checks.py.log",
+      "name": "propagation/reference_checks.py",
+      "pid": 2598934,
+      "stage_id": 20,
+      "started_at_utc": "2026-10-20T10:33:14.239+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05044392391573638,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/reference_checks.json",
+          "sha256": "271d4f5308492cf03346ff351f21f9bb71721c8df13a0ace35beebb143f42917",
+          "snapshot": "verification/20_01_reference_checks.json",
+          "stage": "propagation/reference_checks.py",
+          "stage_id": 20,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/chebyshev_reference.py",
+        "--grids",
+        "384",
+        "--materials",
+        "rotated_stripes",
+        "--check-suffix"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 73.38135988696013,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:35:57.878+00:00",
+      "log": "stages/21_propagation_chebyshev_reference.py.log",
+      "name": "propagation/chebyshev_reference.py",
+      "pid": 2599085,
+      "stage_id": 21,
+      "started_at_utc": "2026-10-20T10:34:44.454+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/analyze_propagation.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.3251669780584052,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:35:58.348+00:00",
+      "log": "stages/22_propagation_analyze_propagation.py.log",
+      "name": "propagation/analyze_propagation.py",
+      "pid": 2599223,
+      "stage_id": 22,
+      "started_at_utc": "2026-10-20T10:35:57.972+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/analyze_asymptotic.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.8604269300121814,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:35:59.350+00:00",
+      "log": "stages/23_propagation_analyze_asymptotic.py.log",
+      "name": "propagation/analyze_asymptotic.py",
+      "pid": 2599227,
+      "stage_id": 23,
+      "started_at_utc": "2026-10-20T10:35:58.439+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/analyze_reduction.py",
+        "--comparison-grid",
+        "512"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.2575861240038648,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:35:59.739+00:00",
+      "log": "stages/24_propagation_analyze_reduction.py.log",
+      "name": "propagation/analyze_reduction.py",
+      "pid": 2599232,
+      "stage_id": 24,
+      "started_at_utc": "2026-10-20T10:35:59.431+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost",
+      "elapsed_seconds": 184.9683964580763,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:39:04.842+00:00",
+      "log": "stages/25_accuracy_cost_run.py.log",
+      "name": "accuracy_cost/run.py",
+      "pid": 2599236,
+      "stage_id": 25,
+      "started_at_utc": "2026-10-20T10:35:59.831+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost",
+      "elapsed_seconds": 0.33287285501137376,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:39:05.317+00:00",
+      "log": "stages/26_accuracy_cost_analyze.py.log",
+      "name": "accuracy_cost/analyze.py",
+      "pid": 2599557,
+      "stage_id": 26,
+      "started_at_utc": "2026-10-20T10:39:04.934+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics",
+      "elapsed_seconds": 21.385088865063153,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:39:26.845+00:00",
+      "log": "stages/27_modal_diagnostics_run.py.log",
+      "name": "modal_diagnostics/run.py",
+      "pid": 2599561,
+      "stage_id": 27,
+      "started_at_utc": "2026-10-20T10:39:05.409+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics/evaluate_reference.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics",
+      "elapsed_seconds": 0.4943897599587217,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:39:27.490+00:00",
+      "log": "stages/28_modal_diagnostics_evaluate_reference.py.log",
+      "name": "modal_diagnostics/evaluate_reference.py",
+      "pid": 2599603,
+      "stage_id": 28,
+      "started_at_utc": "2026-10-20T10:39:26.945+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics/export_modes.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics",
+      "elapsed_seconds": 1.0971329719759524,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:39:28.735+00:00",
+      "log": "stages/29_modal_diagnostics_export_modes.py.log",
+      "name": "modal_diagnostics/export_modes.py",
+      "pid": 2599613,
+      "stage_id": 29,
+      "started_at_utc": "2026-10-20T10:39:27.587+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case",
+      "elapsed_seconds": 51.87574999802746,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:40:20.739+00:00",
+      "log": "stages/30_interface_case_run.py.log",
+      "name": "interface_case/run.py",
+      "pid": 2599617,
+      "stage_id": 30,
+      "started_at_utc": "2026-10-20T10:39:28.812+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case",
+      "elapsed_seconds": 0.9904515850357711,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:40:21.855+00:00",
+      "log": "stages/31_interface_case_analyze.py.log",
+      "name": "interface_case/analyze.py",
+      "pid": 2599711,
+      "stage_id": 31,
+      "started_at_utc": "2026-10-20T10:40:20.823+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual",
+      "elapsed_seconds": 28.3216254489962,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:40:50.313+00:00",
+      "log": "stages/32_main_residual_run.py.log",
+      "name": "main_residual/run.py",
+      "pid": 2599716,
+      "stage_id": 32,
+      "started_at_utc": "2026-10-20T10:40:21.948+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual/run_interface.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual",
+      "elapsed_seconds": 40.21571262204088,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:41:30.658+00:00",
+      "log": "stages/33_main_residual_run_interface.py.log",
+      "name": "main_residual/run_interface.py",
+      "pid": 2599769,
+      "stage_id": 33,
+      "started_at_utc": "2026-10-20T10:40:50.399+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual",
+      "elapsed_seconds": 0.45243300194852054,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T10:41:31.257+00:00",
+      "log": "stages/34_main_residual_analyze.py.log",
+      "name": "main_residual/analyze.py",
+      "pid": 2599846,
+      "stage_id": 34,
+      "started_at_utc": "2026-10-20T10:41:30.754+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 1505.4678877770202,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:06:36.865+00:00",
+      "log": "stages/35_total_error_cost_run.py.log",
+      "name": "total_error_cost/run.py",
+      "pid": 2599851,
+      "stage_id": 35,
+      "started_at_utc": "2026-10-20T10:41:31.346+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/run_interface.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 134.86054417002015,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:08:51.870+00:00",
+      "log": "stages/36_total_error_cost_run_interface.py.log",
+      "name": "total_error_cost/run_interface.py",
+      "pid": 2603934,
+      "stage_id": 36,
+      "started_at_utc": "2026-10-20T11:06:36.959+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 1.0383604830130935,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:08:53.040+00:00",
+      "log": "stages/37_total_error_cost_analyze.py.log",
+      "name": "total_error_cost/analyze.py",
+      "pid": 2604161,
+      "stage_id": 37,
+      "started_at_utc": "2026-10-20T11:08:51.960+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/analyze_interface.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 0.2197342780418694,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:08:53.389+00:00",
+      "log": "stages/38_total_error_cost_analyze_interface.py.log",
+      "name": "total_error_cost/analyze_interface.py",
+      "pid": 2604164,
+      "stage_id": 38,
+      "started_at_utc": "2026-10-20T11:08:53.127+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/observation_diagnostics/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/observation_diagnostics",
+      "elapsed_seconds": 0.728447466972284,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:08:54.248+00:00",
+      "log": "stages/39_observation_diagnostics_analyze.py.log",
+      "name": "observation_diagnostics/analyze.py",
+      "pid": 2604167,
+      "stage_id": 39,
+      "started_at_utc": "2026-10-20T11:08:53.477+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/observation_diagnostics/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/observation_diagnostics",
+      "elapsed_seconds": 0.9161229080054909,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:08:55.369+00:00",
+      "log": "stages/40_observation_diagnostics_verify.py.log",
+      "name": "observation_diagnostics/verify.py",
+      "pid": 2604170,
+      "stage_id": 40,
+      "started_at_utc": "2026-10-20T11:08:54.344+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.056737603968940675,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/observation_diagnostics/results/verification.json",
+          "sha256": "08f4639cdfe683b7b981841f7df18633da18cab3c8c9ed263368df1d52e6da7f",
+          "snapshot": "verification/40_01_verification.json",
+          "stage": "observation_diagnostics/verify.py",
+          "stage_id": 40,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics",
+      "elapsed_seconds": 0.31174225208815187,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:08:55.861+00:00",
+      "log": "stages/41_grid_cost_diagnostics_verify.py.log",
+      "name": "grid_cost_diagnostics/verify.py",
+      "pid": 2604174,
+      "stage_id": 41,
+      "started_at_utc": "2026-10-20T11:08:55.453+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04533122305292636,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/preflight.json",
+          "sha256": "11c27173ed51c8f01127b29dc0b501a406c5787013d58547557cd5fa2c579310",
+          "snapshot": "verification/41_01_preflight.json",
+          "stage": "grid_cost_diagnostics/verify.py",
+          "stage_id": 41,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics",
+      "elapsed_seconds": 406.16791643598117,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:15:42.173+00:00",
+      "log": "stages/42_grid_cost_diagnostics_run.py.log",
+      "name": "grid_cost_diagnostics/run.py",
+      "pid": 2604180,
+      "stage_id": 42,
+      "started_at_utc": "2026-10-20T11:08:55.954+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics",
+      "elapsed_seconds": 1.2585528440540656,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:15:43.583+00:00",
+      "log": "stages/43_grid_cost_diagnostics_analyze.py.log",
+      "name": "grid_cost_diagnostics/analyze.py",
+      "pid": 2605588,
+      "stage_id": 43,
+      "started_at_utc": "2026-10-20T11:15:42.266+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/reference_sensitivity.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics",
+      "elapsed_seconds": 0.6405734770232812,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:15:44.415+00:00",
+      "log": "stages/44_grid_cost_diagnostics_reference_sensitivity.py.log",
+      "name": "grid_cost_diagnostics/reference_sensitivity.py",
+      "pid": 2605591,
+      "stage_id": 44,
+      "started_at_utc": "2026-10-20T11:15:43.667+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04953272396232933,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/richardson_verification.json",
+          "sha256": "41bba889310e4581060b6b37a66d62f8ef4cd4a8bba6313015b972374eddbee8",
+          "snapshot": "verification/44_01_richardson_verification.json",
+          "stage": "grid_cost_diagnostics/reference_sensitivity.py",
+          "stage_id": 44,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_robustness/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_robustness",
+      "elapsed_seconds": 58.69586292107124,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:16:43.247+00:00",
+      "log": "stages/45_modal_robustness_run.py.log",
+      "name": "modal_robustness/run.py",
+      "pid": 2605594,
+      "stage_id": 45,
+      "started_at_utc": "2026-10-20T11:15:44.500+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_robustness/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_robustness",
+      "elapsed_seconds": 0.8623254740377888,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:16:44.315+00:00",
+      "log": "stages/46_modal_robustness_verify.py.log",
+      "name": "modal_robustness/verify.py",
+      "pid": 2605699,
+      "stage_id": 46,
+      "started_at_utc": "2026-10-20T11:16:43.341+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05346595193259418,
+      "verification_reports": [
+        {
+          "checks": {
+            "all_true": [
+              "verification"
+            ]
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_robustness/results/summary.json",
+          "sha256": "17a540f961d388e7fab3282e1c5598b4e56f4da2b4220823c86eb5144d89042b",
+          "snapshot": "verification/46_01_summary.json",
+          "stage": "modal_robustness/verify.py",
+          "stage_id": 46,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface",
+      "elapsed_seconds": 16.67233529605437,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:01.148+00:00",
+      "log": "stages/47_unequal_speed_interface_run.py.log",
+      "name": "unequal_speed_interface/run.py",
+      "pid": 2605703,
+      "stage_id": 47,
+      "started_at_utc": "2026-10-20T11:16:44.408+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/modal.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface",
+      "elapsed_seconds": 2.585789047065191,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:03.877+00:00",
+      "log": "stages/48_unequal_speed_interface_modal.py.log",
+      "name": "unequal_speed_interface/modal.py",
+      "pid": 2605742,
+      "stage_id": 48,
+      "started_at_utc": "2026-10-20T11:17:01.240+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface",
+      "elapsed_seconds": 0.3867009589448571,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:04.403+00:00",
+      "log": "stages/49_unequal_speed_interface_analyze.py.log",
+      "name": "unequal_speed_interface/analyze.py",
+      "pid": 2605756,
+      "stage_id": 49,
+      "started_at_utc": "2026-10-20T11:17:03.967+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation",
+      "elapsed_seconds": 20.947804110008292,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:25.507+00:00",
+      "log": "stages/50_source_receiver_validation_run.py.log",
+      "name": "source_receiver_validation/run.py",
+      "pid": 2605761,
+      "stage_id": 50,
+      "started_at_utc": "2026-10-20T11:17:04.500+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation/analyze.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation",
+      "elapsed_seconds": 2.752251815982163,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:28.408+00:00",
+      "log": "stages/51_source_receiver_validation_analyze.py.log",
+      "name": "source_receiver_validation/analyze.py",
+      "pid": 2605804,
+      "stage_id": 51,
+      "started_at_utc": "2026-10-20T11:17:25.605+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall"
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation",
+      "elapsed_seconds": 14.696269957930781,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:43.310+00:00",
+      "log": "stages/52_source_receiver_validation_verify.py.log",
+      "name": "source_receiver_validation/verify.py",
+      "pid": 2605809,
+      "stage_id": 52,
+      "started_at_utc": "2026-10-20T11:17:28.498+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.0561786110047251,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation/results/verification.json",
+          "sha256": "4278d5e977736005be06e03aafd4f8447b98f4b46ecf521671541c55e29cb7ad",
+          "snapshot": "verification/52_01_verification.json",
+          "stage": "source_receiver_validation/verify.py",
+          "stage_id": 52,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics/run.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics",
+      "elapsed_seconds": 1.443020040052943,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:44.994+00:00",
+      "log": "stages/53_frequency_diagnostics_run.py.log",
+      "name": "frequency_diagnostics/run.py",
+      "pid": 2605845,
+      "stage_id": 53,
+      "started_at_utc": "2026-10-20T11:17:43.419+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.06374129396863282,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics/results/verification.json",
+          "sha256": "d85a1841ee78f9dec89c3191b47e0a6a9b1ac2505669be4e5c56cad06a2ea2ef",
+          "snapshot": "verification/53_01_verification.json",
+          "stage": "frequency_diagnostics/run.py",
+          "stage_id": 53,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics/richardson.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics",
+      "elapsed_seconds": 2.5002129949862137,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:47.702+00:00",
+      "log": "stages/54_frequency_diagnostics_richardson.py.log",
+      "name": "frequency_diagnostics/richardson.py",
+      "pid": 2605856,
+      "stage_id": 54,
+      "started_at_utc": "2026-10-20T11:17:45.103+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04748684598598629,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics/results/richardson_verification.json",
+          "sha256": "1d3c95a712ca5799fabacd28418dd3e0516557d1258cc3212fe4909770e3e8e6",
+          "snapshot": "verification/54_01_richardson_verification.json",
+          "stage": "frequency_diagnostics/richardson.py",
+          "stage_id": 54,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/run_propagation.py",
+        "--verify"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.37538296496495605,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:48.319+00:00",
+      "log": "stages/55_propagation_run_propagation.py.log",
+      "name": "propagation/run_propagation.py",
+      "pid": 2605860,
+      "stage_id": 55,
+      "started_at_utc": "2026-10-20T11:17:47.812+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.06496810202952474,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/small_grid_verification.json",
+          "sha256": "be0a715cc5d52746237e79423771fe3ed21568f7032b95fb178841c2c5cfea73",
+          "snapshot": "verification/55_01_small_grid_verification.json",
+          "stage": "propagation/run_propagation.py",
+          "stage_id": 55,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/assemble_reduced_responses.py",
+        "--verify"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 0.19277262105606496,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:48.754+00:00",
+      "log": "stages/56_propagation_assemble_reduced_responses.py.log",
+      "name": "propagation/assemble_reduced_responses.py",
+      "pid": 2605865,
+      "stage_id": 56,
+      "started_at_utc": "2026-10-20T11:17:48.429+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.0642955219373107,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/capacity_trace_linkage.json",
+          "sha256": "de126051bab000f644e2feec47e07e6c50d42fc34cdb19e01636d27a4e18246f",
+          "snapshot": "verification/56_01_capacity_trace_linkage.json",
+          "stage": "propagation/assemble_reduced_responses.py",
+          "stage_id": 56,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/verify_outputs.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies",
+      "elapsed_seconds": 0.15745453094132245,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:49.146+00:00",
+      "log": "stages/57_studies_verify_outputs.py.log",
+      "name": "studies/verify_outputs.py",
+      "pid": 2605869,
+      "stage_id": 57,
+      "started_at_utc": "2026-10-20T11:17:48.863+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.0582702070241794,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/checks/verification_recomputed.json",
+          "sha256": "4251bf7170b8eebbf8b4652973647abaaea7fde007f5ef40befad0975f8d4ae0",
+          "snapshot": "verification/57_01_verification_recomputed.json",
+          "stage": "studies/verify_outputs.py",
+          "stage_id": 57,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/verify_reference.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation",
+      "elapsed_seconds": 3.9048963349778205,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:17:53.271+00:00",
+      "log": "stages/58_propagation_verify_reference.py.log",
+      "name": "propagation/verify_reference.py",
+      "pid": 2605873,
+      "stage_id": 58,
+      "started_at_utc": "2026-10-20T11:17:49.256+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.04235346592031419,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "numerical_checks_pass": true,
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/reference_verification.json",
+          "sha256": "fcc7af86d9d6422c75afc5f041ee2a6a444ae90d2fa30c9d21003cb1cd3a19e7",
+          "snapshot": "verification/58_01_reference_verification.json",
+          "stage": "propagation/verify_reference.py",
+          "stage_id": 58,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/verify_outputs.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost",
+      "elapsed_seconds": 6.651229050010443,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:18:00.112+00:00",
+      "log": "stages/59_accuracy_cost_verify_outputs.py.log",
+      "name": "accuracy_cost/verify_outputs.py",
+      "pid": 2605890,
+      "stage_id": 59,
+      "started_at_utc": "2026-10-20T11:17:53.356+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.053434302913956344,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/results/data_integrity.json",
+          "sha256": "c8414306c23d2701d98701d2f280b9255388a9122a932eb01c8bf8ccb099cc65",
+          "snapshot": "verification/59_01_data_integrity.json",
+          "stage": "accuracy_cost/verify_outputs.py",
+          "stage_id": 59,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics/verify.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics",
+      "elapsed_seconds": 0.16736693598795682,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:18:00.487+00:00",
+      "log": "stages/60_modal_diagnostics_verify.py.log",
+      "name": "modal_diagnostics/verify.py",
+      "pid": 2605906,
+      "stage_id": 60,
+      "started_at_utc": "2026-10-20T11:18:00.205+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05677616398315877,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics/results/verification.json",
+          "sha256": "2ec6caaa02939a1a3153a0afed1b27146383ecfa8bff55e8b45a18b41d29649e",
+          "snapshot": "verification/60_01_verification.json",
+          "stage": "modal_diagnostics/verify.py",
+          "stage_id": 60,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/verify_outputs.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost",
+      "elapsed_seconds": 0.5308666289784014,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:18:01.221+00:00",
+      "log": "stages/61_total_error_cost_verify_outputs.py.log",
+      "name": "total_error_cost/verify_outputs.py",
+      "pid": 2605910,
+      "stage_id": 61,
+      "started_at_utc": "2026-10-20T11:18:00.581+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05902276106644422,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/results/output_verification.json",
+          "sha256": "28c263504c39719e3e5bc1ec9101c63800afd7649b6893a098978e1cb0ccb208",
+          "snapshot": "verification/61_01_output_verification.json",
+          "stage": "total_error_cost/verify_outputs.py",
+          "stage_id": 61,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/verify.py",
+        "--results"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics",
+      "elapsed_seconds": 0.5398535869317129,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:18:01.980+00:00",
+      "log": "stages/62_grid_cost_diagnostics_verify.py.log",
+      "name": "grid_cost_diagnostics/verify.py",
+      "pid": 2605913,
+      "stage_id": 62,
+      "started_at_utc": "2026-10-20T11:18:01.323+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05910733703058213,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/output_verification.json",
+          "sha256": "50de019b880d18125d7142a2725bd1c3b3b3137adf66bc564f55c4dabb7f2c41",
+          "snapshot": "verification/62_01_output_verification.json",
+          "stage": "grid_cost_diagnostics/verify.py",
+          "stage_id": 62,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/reference_sensitivity.py",
+        "--verify"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics",
+      "elapsed_seconds": 0.41590598493348807,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:18:02.623+00:00",
+      "log": "stages/63_grid_cost_diagnostics_reference_sensitivity.py.log",
+      "name": "grid_cost_diagnostics/reference_sensitivity.py",
+      "pid": 2605918,
+      "stage_id": 63,
+      "started_at_utc": "2026-10-20T11:18:02.082+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.06643801997415721,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "status": "pass"
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/richardson_verification.json",
+          "sha256": "41bba889310e4581060b6b37a66d62f8ef4cd4a8bba6313015b972374eddbee8",
+          "snapshot": "verification/63_01_richardson_verification.json",
+          "stage": "grid_cost_diagnostics/reference_sensitivity.py",
+          "stage_id": 63,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": [
+        "/home/chenxiaoliang/anaconda3/envs/acous/bin/python",
+        "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/verify_outputs.py"
+      ],
+      "cwd": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface",
+      "elapsed_seconds": 0.2347829359350726,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-20T11:18:03.074+00:00",
+      "log": "stages/64_unequal_speed_interface_verify_outputs.py.log",
+      "name": "unequal_speed_interface/verify_outputs.py",
+      "pid": 2605921,
+      "stage_id": 64,
+      "started_at_utc": "2026-10-20T11:18:02.724+00:00",
+      "status": "completed",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "timing_includes": [
+        "process_startup",
+        "computation",
+        "output_capture",
+        "logging"
+      ],
+      "timing_scope": "subprocess_wall",
+      "verification_elapsed_seconds": 0.05506811698433012,
+      "verification_reports": [
+        {
+          "checks": {
+            "equals": {
+              "passed": true
+            }
+          },
+          "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/results/output_verification.json",
+          "sha256": "8c1f9fa7128ded60f5b0f661b1d8f90f3e51d2d8dddf07c3138a5a504f31e96c",
+          "snapshot": "verification/64_01_output_verification.json",
+          "stage": "unequal_speed_interface/verify_outputs.py",
+          "stage_id": 64,
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "started_at_utc": "2026-10-20T09:10:11.851+00:00",
+  "status": "completed",
+  "verification_reports": [
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/small_grid_verification.json",
+      "sha256": "7d46191bb33a30ba80336c980435cc3eb66dbf9f155e6c3a9a0af80c9d0888c7",
+      "snapshot": "verification/01_01_small_grid_verification.json",
+      "stage": "propagation/run_propagation.py",
+      "stage_id": 1,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/results/small_grid_verification.json",
+      "sha256": "8bd0eae5df8080ada7fe2677529847a7e46de95f4ce003de1d35971063cb8d5d",
+      "snapshot": "verification/02_01_small_grid_verification.json",
+      "stage": "accuracy_cost/verify.py",
+      "stage_id": 2,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "below": {
+          "analytic_vs_gauss_legendre_gram_relative_difference": 1e-10,
+          "analytic_vs_original_gram_relative_difference": 1e-13,
+          "full_state_sparse_vs_modal_relative_difference": 1e-10,
+          "modal_defect_identity_relative_difference": 1e-10
+        },
+        "equals": {
+          "all_small_system_bounds_hold": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/main_residual/results/verification.json",
+      "sha256": "3a114aab48828e00955358e775814dae3e08b8b03ffe393abf6744ac625d5d3b",
+      "snapshot": "verification/03_01_verification.json",
+      "stage": "main_residual/verify.py",
+      "stage_id": 3,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/interface_case/results/verification.json",
+      "sha256": "f41a8684972fd1a6e08c092aaf30081ca9bc383173ed5c7cb9de01a86a513ff2",
+      "snapshot": "verification/04_01_verification.json",
+      "stage": "interface_case/verify.py",
+      "stage_id": 4,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/results/verification.json",
+      "sha256": "9d9f564a46e2716613e9df3824a2765331ace4a699d46f44f22175336bf308b7",
+      "snapshot": "verification/05_01_verification.json",
+      "stage": "total_error_cost/verify.py",
+      "stage_id": 5,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/results/interface_verification.json",
+      "sha256": "f483d502358d19692743bcc5aa77df87077aaaf0ca1d2d17b0ee923dcfb84907",
+      "snapshot": "verification/06_01_interface_verification.json",
+      "stage": "total_error_cost/verify_interface.py",
+      "stage_id": 6,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/results/verification.json",
+      "sha256": "9f9995fae516e00e0810ed1cfff75a44f6170208dc31b6b4bf846661bfe006ec",
+      "snapshot": "verification/07_01_verification.json",
+      "stage": "unequal_speed_interface/verify.py",
+      "stage_id": 7,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/capacity_trace_linkage.json",
+      "sha256": "7f84171f2fc4526019905d4120bbf95552c8a43437a1b635598b730029df22d1",
+      "snapshot": "verification/17_01_capacity_trace_linkage.json",
+      "stage": "propagation/assemble_reduced_responses.py",
+      "stage_id": 17,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/reference_checks.json",
+      "sha256": "271d4f5308492cf03346ff351f21f9bb71721c8df13a0ace35beebb143f42917",
+      "snapshot": "verification/20_01_reference_checks.json",
+      "stage": "propagation/reference_checks.py",
+      "stage_id": 20,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/observation_diagnostics/results/verification.json",
+      "sha256": "08f4639cdfe683b7b981841f7df18633da18cab3c8c9ed263368df1d52e6da7f",
+      "snapshot": "verification/40_01_verification.json",
+      "stage": "observation_diagnostics/verify.py",
+      "stage_id": 40,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/preflight.json",
+      "sha256": "11c27173ed51c8f01127b29dc0b501a406c5787013d58547557cd5fa2c579310",
+      "snapshot": "verification/41_01_preflight.json",
+      "stage": "grid_cost_diagnostics/verify.py",
+      "stage_id": 41,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/richardson_verification.json",
+      "sha256": "41bba889310e4581060b6b37a66d62f8ef4cd4a8bba6313015b972374eddbee8",
+      "snapshot": "verification/44_01_richardson_verification.json",
+      "stage": "grid_cost_diagnostics/reference_sensitivity.py",
+      "stage_id": 44,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "all_true": [
+          "verification"
+        ]
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_robustness/results/summary.json",
+      "sha256": "17a540f961d388e7fab3282e1c5598b4e56f4da2b4220823c86eb5144d89042b",
+      "snapshot": "verification/46_01_summary.json",
+      "stage": "modal_robustness/verify.py",
+      "stage_id": 46,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/source_receiver_validation/results/verification.json",
+      "sha256": "4278d5e977736005be06e03aafd4f8447b98f4b46ecf521671541c55e29cb7ad",
+      "snapshot": "verification/52_01_verification.json",
+      "stage": "source_receiver_validation/verify.py",
+      "stage_id": 52,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics/results/verification.json",
+      "sha256": "d85a1841ee78f9dec89c3191b47e0a6a9b1ac2505669be4e5c56cad06a2ea2ef",
+      "snapshot": "verification/53_01_verification.json",
+      "stage": "frequency_diagnostics/run.py",
+      "stage_id": 53,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/frequency_diagnostics/results/richardson_verification.json",
+      "sha256": "1d3c95a712ca5799fabacd28418dd3e0516557d1258cc3212fe4909770e3e8e6",
+      "snapshot": "verification/54_01_richardson_verification.json",
+      "stage": "frequency_diagnostics/richardson.py",
+      "stage_id": 54,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/small_grid_verification.json",
+      "sha256": "be0a715cc5d52746237e79423771fe3ed21568f7032b95fb178841c2c5cfea73",
+      "snapshot": "verification/55_01_small_grid_verification.json",
+      "stage": "propagation/run_propagation.py",
+      "stage_id": 55,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/capacity_trace_linkage.json",
+      "sha256": "de126051bab000f644e2feec47e07e6c50d42fc34cdb19e01636d27a4e18246f",
+      "snapshot": "verification/56_01_capacity_trace_linkage.json",
+      "stage": "propagation/assemble_reduced_responses.py",
+      "stage_id": 56,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/studies/checks/verification_recomputed.json",
+      "sha256": "4251bf7170b8eebbf8b4652973647abaaea7fde007f5ef40befad0975f8d4ae0",
+      "snapshot": "verification/57_01_verification_recomputed.json",
+      "stage": "studies/verify_outputs.py",
+      "stage_id": 57,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "numerical_checks_pass": true,
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/propagation/results/reference_verification.json",
+      "sha256": "fcc7af86d9d6422c75afc5f041ee2a6a444ae90d2fa30c9d21003cb1cd3a19e7",
+      "snapshot": "verification/58_01_reference_verification.json",
+      "stage": "propagation/verify_reference.py",
+      "stage_id": 58,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/accuracy_cost/results/data_integrity.json",
+      "sha256": "c8414306c23d2701d98701d2f280b9255388a9122a932eb01c8bf8ccb099cc65",
+      "snapshot": "verification/59_01_data_integrity.json",
+      "stage": "accuracy_cost/verify_outputs.py",
+      "stage_id": 59,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/modal_diagnostics/results/verification.json",
+      "sha256": "2ec6caaa02939a1a3153a0afed1b27146383ecfa8bff55e8b45a18b41d29649e",
+      "snapshot": "verification/60_01_verification.json",
+      "stage": "modal_diagnostics/verify.py",
+      "stage_id": 60,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/total_error_cost/results/output_verification.json",
+      "sha256": "28c263504c39719e3e5bc1ec9101c63800afd7649b6893a098978e1cb0ccb208",
+      "snapshot": "verification/61_01_output_verification.json",
+      "stage": "total_error_cost/verify_outputs.py",
+      "stage_id": 61,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/output_verification.json",
+      "sha256": "50de019b880d18125d7142a2725bd1c3b3b3137adf66bc564f55c4dabb7f2c41",
+      "snapshot": "verification/62_01_output_verification.json",
+      "stage": "grid_cost_diagnostics/verify.py",
+      "stage_id": 62,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "status": "pass"
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/grid_cost_diagnostics/results/richardson_verification.json",
+      "sha256": "41bba889310e4581060b6b37a66d62f8ef4cd4a8bba6313015b972374eddbee8",
+      "snapshot": "verification/63_01_richardson_verification.json",
+      "stage": "grid_cost_diagnostics/reference_sensitivity.py",
+      "stage_id": 63,
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "equals": {
+          "passed": true
+        }
+      },
+      "report": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874/unequal_speed_interface/results/output_verification.json",
+      "sha256": "8c1f9fa7128ded60f5b0f661b1d8f90f3e51d2d8dddf07c3138a5a504f31e96c",
+      "snapshot": "verification/64_01_output_verification.json",
+      "stage": "unequal_speed_interface/verify_outputs.py",
+      "stage_id": 64,
+      "status": "passed"
+    }
+  ]
+}

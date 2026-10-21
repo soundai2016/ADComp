@@ -1,0 +1,74 @@
+[stdout] {
+[stdout]   "method": "Nonuniform three-grid waveform comparison",
+[stdout]   "grids": [
+[stdout]     256,
+[stdout]     384,
+[stdout]     512
+[stdout]   ],
+[stdout]   "second_order_difference_ratio": 2.8571428571428577,
+[stdout]   "assumption_for_extrapolation": "For fixed sources, receiver averages and time window, Y_h=Y+Ch^2+o(h^2), with an h-independent leading waveform C.",
+[stdout]   "interpretation": "The observed order, difference-vector alignment and leading-coefficient agreement diagnose this assumption. The extrapolation is conditional and supplies no rigorous error bound.",
+[stdout]   "frequency_analysis": "Hann-windowed recorded waveforms; fixed bands 0-2, 2-4, 4-8 and 8-40 cycles per nondimensional time; not an independent high-frequency-source experiment.",
+[stdout]   "time_window_for_summary": "0<t<=8",
+[stdout]   "aggregate_records": [
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "time_end": 8.0,
+[stdout]       "source": "all",
+[stdout]       "coarse_grid": 256,
+[stdout]       "middle_grid": 384,
+[stdout]       "fine_grid": 512,
+[stdout]       "difference_coarse_middle_over_fine_norm": 0.006559937876450176,
+[stdout]       "difference_middle_fine_over_fine_norm": 0.0022969538416295916,
+[stdout]       "difference_norm_ratio": 2.855929343271512,
+[stdout]       "second_order_ratio": 2.8571428571428577,
+[stdout]       "observed_order_from_norm_ratio": 1.9988198013643388,
+[stdout]       "difference_direction_cosine": 0.995810849088966,
+[stdout]       "second_order_coefficient_relative_difference": 0.09151460923043951,
+[stdout]       "conditional_second_order_finest_remainder_over_finest_norm": 0.0029532263678094754,
+[stdout]       "conditional_extrapolate_pair_difference_over_finest_norm": 0.0004804681902562033
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "time_end": 8.0,
+[stdout]       "source": "all",
+[stdout]       "coarse_grid": 256,
+[stdout]       "middle_grid": 384,
+[stdout]       "fine_grid": 512,
+[stdout]       "difference_coarse_middle_over_fine_norm": 0.005788661526458863,
+[stdout]       "difference_middle_fine_over_fine_norm": 0.002024987306832054,
+[stdout]       "difference_norm_ratio": 2.8586162031379865,
+[stdout]       "second_order_ratio": 2.8571428571428577,
+[stdout]       "observed_order_from_norm_ratio": 2.001432190224167,
+[stdout]       "difference_direction_cosine": 0.99938036220841,
+[stdout]       "second_order_coefficient_relative_difference": 0.03521619738788906,
+[stdout]       "conditional_second_order_finest_remainder_over_finest_norm": 0.0026035551087840694,
+[stdout]       "conditional_extrapolate_pair_difference_over_finest_norm": 0.00016299966332655554
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "time_end": 8.0,
+[stdout]       "source": "all",
+[stdout]       "coarse_grid": 256,
+[stdout]       "middle_grid": 384,
+[stdout]       "fine_grid": 512,
+[stdout]       "difference_coarse_middle_over_fine_norm": 0.003761806344562889,
+[stdout]       "difference_middle_fine_over_fine_norm": 0.001316221022676707,
+[stdout]       "difference_norm_ratio": 2.858035451304953,
+[stdout]       "second_order_ratio": 2.8571428571428577,
+[stdout]       "observed_order_from_norm_ratio": 2.0008677534085777,
+[stdout]       "difference_direction_cosine": 0.9977569445130959,
+[stdout]       "second_order_coefficient_relative_difference": 0.06698962657981371,
+[stdout]       "conditional_second_order_finest_remainder_over_finest_norm": 0.0016922841720129094,
+[stdout]       "conditional_extrapolate_pair_difference_over_finest_norm": 0.00020153863955568746
+[stdout]     }
+[stdout]   ],
+[stdout]   "reference_sha256": {
+[stdout]     "rotated_stripes_n384.npz": "d2f86dea2f9805450afce33cfbbf770c1f9efc19ef297e47bc6783838132de79",
+[stdout]     "rotated_stripes_n512.npz": "b06c950e8cc7a986af354fa402870a83325f1e4ca9e59c7392e25f6f0a3fb1b9",
+[stdout]     "double_inclusion_n384.npz": "6db535c0db834a59860ea1694e13dbe047ed4701e70306f8f8e48fa46e90111e",
+[stdout]     "double_inclusion_n512.npz": "ad39bed8996aff69a67a5391695d7260a7d19bb39825266215f919064a02bd4c",
+[stdout]     "smooth_checker_n384.npz": "db39b1f5d77b61031b63b719b929a5232cfb5e97ac998afd0c2aad7caa8d989b",
+[stdout]     "smooth_checker_n512.npz": "15ecf8192ba663ab590acae05b86c28cf86d64f0db2c1c9b84ce1f4be69a1eb9"
+[stdout]   }
+[stdout] }

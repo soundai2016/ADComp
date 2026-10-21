@@ -1,0 +1,122 @@
+[stdout] {
+[stdout]   "evaluation_reference_grid": 512,
+[stdout]   "matching_reference_grid": 128,
+[stdout]   "evaluation_config_sha256": "22f941df72adc6f0bee44cc06e66a853107e4ff64f520cb42e7715c1c3ae0143",
+[stdout]   "matching_config_sha256": "cc593e33d823aeea18e782bce49c4a5e5f80843912aba5f52a98a4dbffef19dd",
+[stdout]   "code_sha256": "30dbe939b5b812cdb48947e5d04d193327a3876e9b2ea816946c16aac77f87f9",
+[stdout]   "reference_provenance": {
+[stdout]     "rotated_stripes": {
+[stdout]       "file": "propagation/results/rotated_stripes_n512.npz",
+[stdout]       "sha256": "b06c950e8cc7a986af354fa402870a83325f1e4ca9e59c7392e25f6f0a3fb1b9"
+[stdout]     },
+[stdout]     "double_inclusion": {
+[stdout]       "file": "propagation/results/double_inclusion_n512.npz",
+[stdout]       "sha256": "ad39bed8996aff69a67a5391695d7260a7d19bb39825266215f919064a02bd4c"
+[stdout]     },
+[stdout]     "smooth_checker": {
+[stdout]       "file": "propagation/results/smooth_checker_n512.npz",
+[stdout]       "sha256": "15ecf8192ba663ab590acae05b86c28cf86d64f0db2c1c9b84ce1f4be69a1eb9"
+[stdout]     }
+[stdout]   },
+[stdout]   "results": [
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "craig_bampton",
+[stdout]       "m": 32,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.36627985077247427,
+[stdout]       "error_without_ritz_shift_vs_512": 0.4125671212520606,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.20455570050714253,
+[stdout]       "reference_256_to_512_difference": 0.008834685479935468,
+[stdout]       "reference_128_to_512_difference": 0.04303394082386547
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "craig_bampton",
+[stdout]       "m": 128,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.43310878470314973,
+[stdout]       "error_without_ritz_shift_vs_512": 0.4371425784515873,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.20426389456558025,
+[stdout]       "reference_256_to_512_difference": 0.008834685479935468,
+[stdout]       "reference_128_to_512_difference": 0.04303394082386547
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "rational_krylov",
+[stdout]       "m": 128,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.43732042589306885,
+[stdout]       "error_without_ritz_shift_vs_512": 0.4373204194339472,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.20394886511877938,
+[stdout]       "reference_256_to_512_difference": 0.008834685479935468,
+[stdout]       "reference_128_to_512_difference": 0.04303394082386547
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "craig_bampton",
+[stdout]       "m": 32,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.40329519439084505,
+[stdout]       "error_without_ritz_shift_vs_512": 0.47303426029269013,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.25822171723766774,
+[stdout]       "reference_256_to_512_difference": 0.0077995337374295575,
+[stdout]       "reference_128_to_512_difference": 0.03889825936833396
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "craig_bampton",
+[stdout]       "m": 128,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.48618146982840743,
+[stdout]       "error_without_ritz_shift_vs_512": 0.4905724729640028,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.22215780261513335,
+[stdout]       "reference_256_to_512_difference": 0.0077995337374295575,
+[stdout]       "reference_128_to_512_difference": 0.03889825936833396
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "rational_krylov",
+[stdout]       "m": 128,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.4910135840069314,
+[stdout]       "error_without_ritz_shift_vs_512": 0.49101358400717454,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.22276483094125632,
+[stdout]       "reference_256_to_512_difference": 0.0077995337374295575,
+[stdout]       "reference_128_to_512_difference": 0.03889825936833396
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "craig_bampton",
+[stdout]       "m": 32,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.2957695239896473,
+[stdout]       "error_without_ritz_shift_vs_512": 0.30168515931368606,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.20752741440298555,
+[stdout]       "reference_256_to_512_difference": 0.005071040521750918,
+[stdout]       "reference_128_to_512_difference": 0.025111019975537496
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "craig_bampton",
+[stdout]       "m": 128,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.31809239469361084,
+[stdout]       "error_without_ritz_shift_vs_512": 0.3185315209001659,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.21049306287968228,
+[stdout]       "reference_256_to_512_difference": 0.005071040521750918,
+[stdout]       "reference_128_to_512_difference": 0.025111019975537496
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "rational_krylov",
+[stdout]       "m": 128,
+[stdout]       "evaluation_reference_grid": 512,
+[stdout]       "total_error_vs_512": 0.31903594979905553,
+[stdout]       "error_without_ritz_shift_vs_512": 0.31903594979973254,
+[stdout]       "error_with_fine_frequencies_vs_512": 0.21081567210653915,
+[stdout]       "reference_256_to_512_difference": 0.005071040521750918,
+[stdout]       "reference_128_to_512_difference": 0.025111019975537496
+[stdout]     }
+[stdout]   ]
+[stdout] }

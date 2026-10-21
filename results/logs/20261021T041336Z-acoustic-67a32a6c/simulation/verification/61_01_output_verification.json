@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "settings": {
+    "smooth": 78,
+    "interface": 21
+  },
+  "repetitions_per_setting": 3,
+  "configuration_and_all_recorded_code_hashes_match": true,
+  "maximum_receiver_reconstruction_difference": 1.8695613400768774e-16,
+  "maximum_recorded_median_total_difference": 0.0,
+  "timed_setting_intervals_do_not_overlap": true
+}

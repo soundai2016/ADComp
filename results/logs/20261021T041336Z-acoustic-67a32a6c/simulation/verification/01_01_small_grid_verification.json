@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "grid": 8,
+  "modal_relative_difference": 7.689900469039898e-14,
+  "generator_skew_defect": 0.0,
+  "energy_relative_drift": 6.217248937900877e-15,
+  "chunk_duration": 0.5
+}

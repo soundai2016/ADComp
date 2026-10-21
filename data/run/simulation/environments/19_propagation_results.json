@@ -1,0 +1,8 @@
+{
+  "python": "3.12.15",
+  "platform": "Linux-5.19.0-051900-generic-x86_64-with-glibc2.35",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "threads": 2,
+  "precision": "float64"
+}

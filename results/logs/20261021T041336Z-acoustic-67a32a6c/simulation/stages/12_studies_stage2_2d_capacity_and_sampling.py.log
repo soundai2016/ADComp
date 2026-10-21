@@ -1,0 +1,125 @@
+[stdout] smooth_mild
+[stdout] smooth_contrast
+[stdout] smooth_inclusion
+[stdout] [
+[stdout]   {
+[stdout]     "method": "analytic_cosine",
+[stdout]     "order": 8,
+[stdout]     "mean_receiver_error": 0.8128999804227486,
+[stdout]     "max_receiver_error": 0.9669670772750527,
+[stdout]     "mean_pressure_field_error": 0.9003413921856577,
+[stdout]     "mean_transfer_error": 0.7608684180953968
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "analytic_cosine",
+[stdout]     "order": 16,
+[stdout]     "mean_receiver_error": 0.8091649487725329,
+[stdout]     "max_receiver_error": 1.0710149250230039,
+[stdout]     "mean_pressure_field_error": 0.8950551279751714,
+[stdout]     "mean_transfer_error": 0.7039950231351395
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "analytic_cosine",
+[stdout]     "order": 32,
+[stdout]     "mean_receiver_error": 0.6334072855033982,
+[stdout]     "max_receiver_error": 0.9065234455719552,
+[stdout]     "mean_pressure_field_error": 0.7683503238887345,
+[stdout]     "mean_transfer_error": 0.5149958958874714
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "analytic_cosine",
+[stdout]     "order": 64,
+[stdout]     "mean_receiver_error": 0.3706632992459494,
+[stdout]     "max_receiver_error": 0.5998040673373023,
+[stdout]     "mean_pressure_field_error": 0.5742966232079484,
+[stdout]     "mean_transfer_error": 0.3156200614786859
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "analytic_cosine",
+[stdout]     "order": 128,
+[stdout]     "mean_receiver_error": 0.14924996569097373,
+[stdout]     "max_receiver_error": 0.2293092947348084,
+[stdout]     "mean_pressure_field_error": 0.3377166443169526,
+[stdout]     "mean_transfer_error": 0.12105646164921058
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_response_pod",
+[stdout]     "order": 8,
+[stdout]     "mean_receiver_error": 0.8808938416879121,
+[stdout]     "max_receiver_error": 0.948129761315029,
+[stdout]     "mean_pressure_field_error": 0.9378756766969504,
+[stdout]     "mean_transfer_error": 0.8640273527547041
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_response_pod",
+[stdout]     "order": 16,
+[stdout]     "mean_receiver_error": 0.7242592162784521,
+[stdout]     "max_receiver_error": 0.8025474908000296,
+[stdout]     "mean_pressure_field_error": 0.8334900685992185,
+[stdout]     "mean_transfer_error": 0.71592805097312
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_response_pod",
+[stdout]     "order": 32,
+[stdout]     "mean_receiver_error": 0.6738073585810515,
+[stdout]     "max_receiver_error": 0.7124044573511222,
+[stdout]     "mean_pressure_field_error": 0.7621184429343696,
+[stdout]     "mean_transfer_error": 0.6493751166132791
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_response_pod",
+[stdout]     "order": 64,
+[stdout]     "mean_receiver_error": 0.5396049866457264,
+[stdout]     "max_receiver_error": 0.7177765095275921,
+[stdout]     "mean_pressure_field_error": 0.6030073159538754,
+[stdout]     "mean_transfer_error": 0.4998319532975306
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_response_pod",
+[stdout]     "order": 128,
+[stdout]     "mean_receiver_error": 0.3158641963135799,
+[stdout]     "max_receiver_error": 0.344607492139382,
+[stdout]     "mean_pressure_field_error": 0.5016501449596055,
+[stdout]     "mean_transfer_error": 0.2620334428034123
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_low_eigenmodes",
+[stdout]     "order": 8,
+[stdout]     "mean_receiver_error": 0.648777834101315,
+[stdout]     "max_receiver_error": 0.7549770161392876,
+[stdout]     "mean_pressure_field_error": 0.7571016689798199,
+[stdout]     "mean_transfer_error": 0.658551113360545
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_low_eigenmodes",
+[stdout]     "order": 16,
+[stdout]     "mean_receiver_error": 0.40559757953913605,
+[stdout]     "max_receiver_error": 0.4611542222856742,
+[stdout]     "mean_pressure_field_error": 0.5795009653904014,
+[stdout]     "mean_transfer_error": 0.41728841057167076
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_low_eigenmodes",
+[stdout]     "order": 32,
+[stdout]     "mean_receiver_error": 0.1570701790013279,
+[stdout]     "max_receiver_error": 0.18810523823417197,
+[stdout]     "mean_pressure_field_error": 0.32134332711362795,
+[stdout]     "mean_transfer_error": 0.15557507889904162
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_low_eigenmodes",
+[stdout]     "order": 64,
+[stdout]     "mean_receiver_error": 0.012645179267470311,
+[stdout]     "max_receiver_error": 0.020333839931660685,
+[stdout]     "mean_pressure_field_error": 0.09473601171411926,
+[stdout]     "mean_transfer_error": 0.012358334860109862
+[stdout]   },
+[stdout]   {
+[stdout]     "method": "oracle_low_eigenmodes",
+[stdout]     "order": 128,
+[stdout]     "mean_receiver_error": 0.0013882823146867563,
+[stdout]     "max_receiver_error": 0.003397447631499426,
+[stdout]     "mean_pressure_field_error": 0.030778344347323437,
+[stdout]     "mean_transfer_error": 0.0002108304168481327
+[stdout]   }
+[stdout] ]

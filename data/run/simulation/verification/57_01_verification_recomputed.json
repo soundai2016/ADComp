@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "mode": "fresh-computation",
+  "capacity_metrics_checked": 81,
+  "maximum_metric_difference": 0.0,
+  "residual_rows_checked": 1080,
+  "minimum_residual_margin": 1.0087042312534322e-11
+}

@@ -1,0 +1,82 @@
+[stdout] MATERIAL rotated_stripes
+[stdout]  full 4 setup 0.001 online 0.0003
+[stdout]  full 5 setup 0.001 online 0.0004
+[stdout]  full 6 setup 0.001 online 0.0006
+[stdout]  full 7 setup 0.001 online 0.0009
+[stdout]  full 8 setup 0.001 online 0.0012
+[stdout]  full 9 setup 0.001 online 0.0013
+[stdout]  full 10 setup 0.002 online 0.0016
+[stdout]  n 16 r 0 DOF 16 receiver 1.04983 retained 0.15788
+[stdout]  n 16 r 4 DOF 24 receiver 0.96204 retained 0.45262
+[stdout]  n 16 r 8 DOF 32 receiver 0.68015 retained 0.5236
+[stdout]  n 16 r 16 DOF 48 receiver 0.38111 retained 0.71105
+[stdout]  n 16 r 32 DOF 80 receiver 0.17091 retained 0.82796
+[stdout]  full 16 setup 0.008 online 0.0029
+[stdout]  n 24 r 0 DOF 24 receiver 1.05817 retained 0.17663
+[stdout]  n 24 r 4 DOF 32 receiver 0.9753 retained 0.47417
+[stdout]  n 24 r 8 DOF 40 receiver 0.70162 retained 0.54416
+[stdout]  n 24 r 16 DOF 56 receiver 0.40459 retained 0.73558
+[stdout]  n 24 r 32 DOF 88 receiver 0.15478 retained 0.84923
+[stdout]  full 24 setup 0.035 online 0.0062
+[stdout]  n 32 r 0 DOF 32 receiver 1.06026 retained 0.18581
+[stdout]  n 32 r 4 DOF 40 receiver 0.97964 retained 0.48488
+[stdout]  n 32 r 8 DOF 48 receiver 0.69696 retained 0.55457
+[stdout]  n 32 r 16 DOF 64 receiver 0.41282 retained 0.74509
+[stdout]  n 32 r 32 DOF 96 receiver 0.16379 retained 0.85708
+[stdout]  full 32 setup 0.158 online 0.0111
+[stdout]  full 48 setup 1.253 online 0.0274
+[stdout]  full 64 setup 6.706 online 0.0626
+[stdout] MATERIAL double_inclusion
+[stdout]  full 4 setup 0.003 online 0.0003
+[stdout]  full 5 setup 0.001 online 0.0004
+[stdout]  full 6 setup 0.001 online 0.0006
+[stdout]  full 7 setup 0.001 online 0.0007
+[stdout]  full 8 setup 0.001 online 0.0009
+[stdout]  full 9 setup 0.002 online 0.0011
+[stdout]  full 10 setup 0.002 online 0.0013
+[stdout]  n 16 r 0 DOF 16 receiver 1.05141 retained 0.16562
+[stdout]  n 16 r 4 DOF 24 receiver 0.8292 retained 0.37603
+[stdout]  n 16 r 8 DOF 32 receiver 0.71748 retained 0.52543
+[stdout]  n 16 r 16 DOF 48 receiver 0.54806 retained 0.80645
+[stdout]  n 16 r 32 DOF 80 receiver 0.20973 retained 0.95651
+[stdout]  full 16 setup 0.008 online 0.0029
+[stdout]  n 24 r 0 DOF 24 receiver 1.05961 retained 0.18518
+[stdout]  n 24 r 4 DOF 32 receiver 0.83293 retained 0.40189
+[stdout]  n 24 r 8 DOF 40 receiver 0.72983 retained 0.54321
+[stdout]  n 24 r 16 DOF 56 receiver 0.60099 retained 0.83795
+[stdout]  n 24 r 32 DOF 88 receiver 0.27426 retained 0.96065
+[stdout]  full 24 setup 0.03 online 0.006
+[stdout]  n 32 r 0 DOF 32 receiver 1.05524 retained 0.19517
+[stdout]  n 32 r 4 DOF 40 receiver 0.82278 retained 0.41528
+[stdout]  n 32 r 8 DOF 48 receiver 0.74487 retained 0.55248
+[stdout]  n 32 r 16 DOF 64 receiver 0.61346 retained 0.84142
+[stdout]  n 32 r 32 DOF 96 receiver 0.26696 retained 0.96272
+[stdout]  full 32 setup 0.13 online 0.0114
+[stdout]  full 48 setup 1.052 online 0.0289
+[stdout] MATERIAL smooth_checker
+[stdout]  full 4 setup 0.002 online 0.0003
+[stdout]  full 5 setup 0.001 online 0.0004
+[stdout]  full 6 setup 0.001 online 0.0006
+[stdout]  full 7 setup 0.001 online 0.0008
+[stdout]  full 8 setup 0.001 online 0.001
+[stdout]  full 9 setup 0.002 online 0.0012
+[stdout]  full 10 setup 0.002 online 0.0014
+[stdout]  n 16 r 0 DOF 16 receiver 1.05444 retained 0.17601
+[stdout]  n 16 r 4 DOF 24 receiver 0.65902 retained 0.50774
+[stdout]  n 16 r 8 DOF 32 receiver 0.45789 retained 0.70591
+[stdout]  n 16 r 16 DOF 48 receiver 0.17232 retained 0.86557
+[stdout]  n 16 r 32 DOF 80 receiver 0.05312 retained 0.94596
+[stdout]  full 16 setup 0.008 online 0.0029
+[stdout]  n 24 r 0 DOF 24 receiver 1.05963 retained 0.19569
+[stdout]  n 24 r 4 DOF 32 receiver 0.68852 retained 0.51944
+[stdout]  n 24 r 8 DOF 40 receiver 0.50401 retained 0.71275
+[stdout]  n 24 r 16 DOF 56 receiver 0.2192 retained 0.87454
+[stdout]  n 24 r 32 DOF 88 receiver 0.07462 retained 0.9474
+[stdout]  full 24 setup 0.03 online 0.0063
+[stdout]  n 32 r 0 DOF 32 receiver 1.05449 retained 0.2062
+[stdout]  n 32 r 4 DOF 40 receiver 0.69146 retained 0.52631
+[stdout]  n 32 r 8 DOF 48 receiver 0.51161 retained 0.71708
+[stdout]  n 32 r 16 DOF 64 receiver 0.24161 retained 0.87824
+[stdout]  n 32 r 32 DOF 96 receiver 0.08177 retained 0.94926
+[stdout]  full 32 setup 0.13 online 0.0114
+[stdout]  full 48 setup 1.041 online 0.0289

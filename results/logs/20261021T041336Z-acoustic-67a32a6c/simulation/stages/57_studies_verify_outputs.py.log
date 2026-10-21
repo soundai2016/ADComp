@@ -1,0 +1,8 @@
+[stdout] {
+[stdout]   "passed": true,
+[stdout]   "mode": "fresh-computation",
+[stdout]   "capacity_metrics_checked": 81,
+[stdout]   "maximum_metric_difference": 0.0,
+[stdout]   "residual_rows_checked": 1080,
+[stdout]   "minimum_residual_margin": 1.0087042312534322e-11
+[stdout] }

@@ -1,0 +1,9 @@
+[stdout] {
+[stdout]   "passed": true,
+[stdout]   "channel_rows": 1728,
+[stdout]   "group_rows": 1152,
+[stdout]   "input_files_checked": 15,
+[stdout]   "max_additive_contribution_residual": 1.5337261806444446e-16,
+[stdout]   "max_disjoint_window_partition_residual": 7.771561172376096e-16,
+[stdout]   "previous_aggregate_comparisons_checked": 27
+[stdout] }

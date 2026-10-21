@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "all_expected_rows": true,
+    "maximum_saved_budget_replay_absolute_difference": 1.5543122344752192e-15,
+    "maximum_saved_margin_scaled_difference": 3.367201647146952e-11,
+    "maximum_reference_identity_defect": 2.766070792553643e-16,
+    "maximum_model_modal_replay_relative_difference": 3.884864019479431e-15,
+    "maximum_equivalent_richardson_formula_absolute_difference": 1.3322676295501878e-15,
+    "all_reference_changes_within_cauchy_bound": true
+  },
+  "maximum_saved_margin_absolute_difference": 1.5543264453299344e-09,
+  "margin_replay_metric": "abs(new-old)/max(1,abs(old)); dimensionless margins are unbounded ratios",
+  "no_success_condition_on_scientific_signs": true,
+  "no_propagation_or_timing_repeated": true
+}

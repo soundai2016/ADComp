@@ -1,0 +1,70 @@
+{
+  "materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "coarse_grid": 32,
+  "fine_grids": [
+    128,
+    192
+  ],
+  "fine_modes": 256,
+  "evaluation_reference_grid": 512,
+  "primary_model": [
+    "craig_bampton",
+    32
+  ],
+  "control_models": [
+    [
+      "craig_bampton",
+      128
+    ],
+    [
+      "rational_krylov",
+      128
+    ]
+  ],
+  "mac_thresholds": [
+    0.85,
+    0.9,
+    0.95
+  ],
+  "relative_frequency_gaps": [
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "baseline_mac": 0.9,
+  "baseline_gap": 0.005,
+  "eigen_tolerance": 1e-10,
+  "cluster_gap": 0.005,
+  "threads": 2,
+  "cpu_affinity": [
+    2,
+    3
+  ],
+  "cumulative_end_times": [
+    2.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "successive_edges": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "linearization_short_end_times": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "change_zero_tolerance": 1e-10,
+  "description": "Prespecified sensitivity analysis. The original reduced models, physical ports, and propagation trajectories are retained. All attribution paths and exact/linear error budgets use the same 512-square propagation reference. No thresholds or coefficients are fitted to favorable outcomes.",
+  "time_norm": "Equal weights on stored samples. Zero is included. Later disjoint windows exclude their left endpoint. Absolute time since source initialization is used in every derivative.",
+  "path_semantics": "rom fixes H_r; fine fixes H_f; symmetric fixes (H_r+H_f)/2. Each path is an exact algebraic partition with a compensating coupling term. The alternative interventions are reference-dependent diagnostics, not modified reduced solvers or unique physical percentages.",
+  "prediction_scope": "Gram analyses are reference-assisted local approximations evaluated without fitted parameters. Full q uses the reference response. Exact identities are verification and attribution, not independent forecasts. No reference-free or unseen-source prediction is claimed."
+}

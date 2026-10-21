@@ -1,0 +1,106 @@
+{
+  "smooth_materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "reference_grid": 512,
+  "alternative_reference_grid": 384,
+  "rescoring_full_grids": [
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    256,
+    384
+  ],
+  "error_windows": [
+    2.0,
+    8.0
+  ],
+  "timing_time_end": 8.0,
+  "samples": 641,
+  "smooth_full_grids": [
+    32,
+    64,
+    96,
+    128
+  ],
+  "smooth_reduced_modes": {
+    "32": [
+      128
+    ],
+    "64": [
+      128
+    ],
+    "96": [
+      128,
+      256
+    ],
+    "128": [
+      128,
+      256
+    ]
+  },
+  "explicit_full_grids": [
+    64,
+    96,
+    128
+  ],
+  "explicit_cfl_values": [
+    0.25,
+    0.125
+  ],
+  "explicit_rule": "St\u00f6rmer\u2013Verlet for mass-weighted pressure u''=-A u with zero initial derivative. Set dt=output_interval/ceil(output_interval*c_max/(CFL*h)); every output coincides with a time step. The sparse five-point A is applied to all three source columns.",
+  "smooth_receiver_tolerances": [
+    0.05,
+    0.1
+  ],
+  "interface_full_grids": [
+    32,
+    64,
+    96,
+    128,
+    256
+  ],
+  "interface_reduced_grids": [
+    32,
+    64,
+    96,
+    128
+  ],
+  "interface_modes_per_patch": [
+    128,
+    256
+  ],
+  "interface_receiver_tolerances": [
+    0.01,
+    0.05
+  ],
+  "interface_field_tolerance": 0.05,
+  "chunk_duration": 0.5,
+  "field_chunk_samples": 16,
+  "threads": 2,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "repetitions": 3,
+  "norm": "Equal-weight Frobenius norm over all output times, receivers, and source columns; include t=0. Also retain each source error.",
+  "timing_policy": "Three sequential independent constructions per candidate after a shared small-case warm-up. Report the median of complete per-repetition totals, not the sum of stage medians. Include setup, basis, projection, propagation, and the requested output. Exclude diagnostic errors, reference evaluation, file I/O, and source generation quadrature defining the interface problem.",
+  "smooth_output": "Receiver output only. Reconstructing full fields is not required or charged.",
+  "interface_output": "Report receiver-only and receiver-plus-physical-pressure-field costs separately; joint receiver and field tolerances use the latter.",
+  "selection": "Candidates and tolerances are fixed. Choose the least expensive tested candidate meeting the error threshold against the stated reference. Report unattained tolerances. The smooth-grid comparison is a finite-reference error.",
+  "rational_krylov": "Use exactly the 12 cyclic shifts, damping 0.2, last-three-vector sequence, double reorthogonalization, and source conditioning from accuracy_cost/config.json. Build each requested rank independently.",
+  "dimension": "r=n+2*m for both reduced methods; all n^2 pressure degrees of freedom for full methods.",
+  "chebyshev_full_grids": [
+    32,
+    64,
+    96,
+    128
+  ],
+  "chebyshev_tail_tolerance": 1e-17,
+  "chebyshev_rule": "Even Chebyshev\u2013Bessel polynomial for cos(t sqrt(A)); Gershgorin spectral bound and analytic uniform tail bound, shared verified implementation in propagation/chebyshev_reference.py. Include assembly and all output production."
+}

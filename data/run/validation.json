@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "measurement_run_id": "20261020T091005Z-acoustic-32d32874",
+  "measurement_mode": "full",
+  "measurement_status": "completed",
+  "finished_at_utc": "2026-10-20T11:18:20.004+00:00",
+  "elapsed_seconds": 7693.984332451946,
+  "local_validation_scope": "Saved report contents, snapshot hashes, numerical configurations and source-manifest hashes were checked locally against the delivered code.",
+  "server_validation_scope": "The saved verification reports record checks performed on the server against the raw model outputs. Raw models are not included in this package.",
+  "stages": {
+    "root": 7,
+    "simulation": 64,
+    "all_processes_completed": true
+  },
+  "source_provenance": {
+    "root_files_checked": 98,
+    "simulation_files_checked": 85,
+    "copied_runlog_source": "runlog.py",
+    "all_source_hashes_match": true,
+    "all_manifest_source_fingerprints_match": true,
+    "numerical_configs_match_previous_measurement": true
+  },
+  "verification_reports": {
+    "root": 3,
+    "simulation": 26,
+    "all_recorded_statuses_passed": true,
+    "all_snapshot_hashes_match": true,
+    "all_recorded_criteria_rechecked_locally": true
+  },
+  "additional_snapshots": {
+    "kernel_environments": 9,
+    "numerical_summaries": 1,
+    "all_event_recorded_hashes_match": true
+  },
+  "execution_log_check": {
+    "records": 11559,
+    "warning_error_or_exception_records": 0,
+    "log_files": 73
+  },
+  "model_directory": "/data/sourcecode/models",
+  "workdir": "/data/sourcecode/models/20261020T091005Z-acoustic-32d32874",
+  "raw_models_included": false,
+  "compact_replay_performed_in_this_audit": true,
+  "compact_replay": {
+    "analysis_csvs_byte_identical": 8,
+    "figure_pdfs_byte_identical": 9,
+    "table_exports_byte_identical": 13,
+    "manuscript_displayed_rows_verified": 90,
+    "cost_selections_verified": 9,
+    "status": "passed"
+  },
+  "compact_input_sha256": {
+    "analysis/accuracy.csv": "ee14fde6348d5fb98792584f2519c8caa82fca6f1cd477ab47df2447b918e4d6",
+    "analysis/compact_inputs.npz": "9cd995452bd9b133d60a0fa94be8a2f3f102f089cc222b0c22a4b4c195d159cd",
+    "analysis/provenance.json": "69c4c9b4ed21d374ce68afb6e7a59ca3e25fee72481ef6b1761e76aa8e7565c2",
+    "figures/plot_arrays.npz": "b51d00689b2dddd30fc34983e2754ec560a552d90b7417104ebb76a6c14db644",
+    "figures/plot_tables.json": "70e908b79a710a11258da2ea8a2b3f380fcab1e76ad24347b641548be9449e6c",
+    "figures/provenance.json": "e5b011b6c56e46445332e6ae68372782757759a32e1a334bce9873c457d110df"
+  }
+}

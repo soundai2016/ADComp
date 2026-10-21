@@ -1,0 +1,6 @@
+[stdout] {
+[stdout]   "passed": true,
+[stdout]   "mode": "assemble",
+[stdout]   "arrays": 28,
+[stdout]   "maximum_absolute_difference": null
+[stdout] }

@@ -1,0 +1,7 @@
+[stdout] {
+[stdout]   "models_checked": 9,
+[stdout]   "maximum_fine_decomposition_relative_defect": 2.4437572709235067e-16,
+[stdout]   "maximum_same_grid_decomposition_relative_defect": 4.7970776723995544e-14,
+[stdout]   "maximum_recorded_error_difference": 0.0,
+[stdout]   "passed": true
+[stdout] }

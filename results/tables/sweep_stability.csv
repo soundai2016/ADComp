@@ -1,0 +1,5 @@
+time_end,source_channel,channel_comparisons,receiver_channel,source_aggregate,aggregate_comparisons,receiver_aggregate
+0.5,15,144,28,2,12,2
+2.0,27,144,23,0,12,0
+8.0,4,144,8,0,12,0
+all,46,432,59,2,36,2

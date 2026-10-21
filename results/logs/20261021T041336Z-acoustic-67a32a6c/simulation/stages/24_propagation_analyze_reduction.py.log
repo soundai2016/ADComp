@@ -1,0 +1,74 @@
+[stdout] [
+[stdout]   {
+[stdout]     "modes_per_patch": 0,
+[stdout]     "pressure_dof": 32,
+[stdout]     "same_grid_reduction_difference": 1.056666028776431,
+[stdout]     "difference_from_fine_comparator": 1.058054605062532,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.19256623391486338,
+[stdout]     "cross_term_normalized": -0.17537060272169872
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 4,
+[stdout]     "pressure_dof": 40,
+[stdout]     "same_grid_reduction_difference": 0.8312960507170691,
+[stdout]     "difference_from_fine_comparator": 0.8431952349180104,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.21937234306013922,
+[stdout]     "cross_term_normalized": -0.15797571788249898
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 8,
+[stdout]     "pressure_dof": 48,
+[stdout]     "same_grid_reduction_difference": 0.6511497947880445,
+[stdout]     "difference_from_fine_comparator": 0.6350393715238185,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.3682502144303812,
+[stdout]     "cross_term_normalized": -0.1930539638329396
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 16,
+[stdout]     "pressure_dof": 64,
+[stdout]     "same_grid_reduction_difference": 0.4226279194163842,
+[stdout]     "difference_from_fine_comparator": 0.38906366102124973,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.5804450462403565,
+[stdout]     "cross_term_normalized": -0.21840357066854119
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 32,
+[stdout]     "pressure_dof": 96,
+[stdout]     "same_grid_reduction_difference": 0.17083855779951154,
+[stdout]     "difference_from_fine_comparator": 0.3556208549172091,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.5202949654745684,
+[stdout]     "cross_term_normalized": -0.08516098644889086
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 64,
+[stdout]     "pressure_dof": 160,
+[stdout]     "same_grid_reduction_difference": 0.055579531551974586,
+[stdout]     "difference_from_fine_comparator": 0.40157227031651416,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.310760493513396,
+[stdout]     "cross_term_normalized": -0.01683100233862622
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 96,
+[stdout]     "pressure_dof": 224,
+[stdout]     "same_grid_reduction_difference": 0.024985176341322426,
+[stdout]     "difference_from_fine_comparator": 0.4102742221736591,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.26424813790249096,
+[stdout]     "cross_term_normalized": -0.006338470459064514
+[stdout]   },
+[stdout]   {
+[stdout]     "modes_per_patch": 128,
+[stdout]     "pressure_dof": 288,
+[stdout]     "same_grid_reduction_difference": 0.0137834626081776,
+[stdout]     "difference_from_fine_comparator": 0.4130815518068049,
+[stdout]     "full32_difference_from_fine_comparator": 0.4164254521924278,
+[stdout]     "reduction_grid_error_cosine": -0.2579483073112913,
+[stdout]     "cross_term_normalized": -0.00325367270531819
+[stdout]   }
+[stdout] ]

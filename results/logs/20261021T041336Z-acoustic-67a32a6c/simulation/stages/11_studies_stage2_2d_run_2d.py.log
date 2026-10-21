@@ -1,0 +1,36 @@
+[stdout] MATERIAL smooth_mild
+[stdout]   n 3 setup 0.001 receiver 0.0003
+[stdout]   n 4 setup 0.001 receiver 0.0004
+[stdout]   n 6 setup 0.001 receiver 0.0006
+[stdout]   GRID 16 eigh 0.005706666968762875
+[stdout]   n 16 setup 0.008 receiver 0.0035
+[stdout]   GRID 24 eigh 0.028378486982546747
+[stdout]   n 24 setup 0.031 receiver 0.006
+[stdout]   GRID 32 eigh 0.1249856980284676
+[stdout]   n 32 setup 0.129 receiver 0.0113
+[stdout]   n 48 setup 1.178 receiver 0.0295
+[stdout]   n 64 setup 7.98 receiver 0.0733
+[stdout] MATERIAL smooth_contrast
+[stdout]   n 3 setup 0.005 receiver 0.0002
+[stdout]   n 4 setup 0.001 receiver 0.0003
+[stdout]   n 6 setup 0.001 receiver 0.0006
+[stdout]   GRID 16 eigh 0.008740538964048028
+[stdout]   n 16 setup 0.01 receiver 0.003
+[stdout]   GRID 24 eigh 0.030744040035642684
+[stdout]   n 24 setup 0.035 receiver 0.0063
+[stdout]   GRID 32 eigh 0.13078417698852718
+[stdout]   n 32 setup 0.135 receiver 0.0117
+[stdout]   n 48 setup 1.003 receiver 0.0293
+[stdout]   n 64 setup 6.116 receiver 0.0726
+[stdout] MATERIAL smooth_inclusion
+[stdout]   n 3 setup 0.003 receiver 0.0002
+[stdout]   n 4 setup 0.001 receiver 0.0003
+[stdout]   n 6 setup 0.001 receiver 0.0006
+[stdout]   GRID 16 eigh 0.008607520954683423
+[stdout]   n 16 setup 0.01 receiver 0.0029
+[stdout]   GRID 24 eigh 0.030750978970900178
+[stdout]   n 24 setup 0.034 receiver 0.0062
+[stdout]   GRID 32 eigh 0.13111761293839663
+[stdout]   n 32 setup 0.135 receiver 0.0115
+[stdout]   n 48 setup 1.023 receiver 0.0352
+[stdout]   n 64 setup 6.411 receiver 0.0641

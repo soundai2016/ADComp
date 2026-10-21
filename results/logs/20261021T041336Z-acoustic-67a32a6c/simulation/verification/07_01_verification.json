@@ -1,0 +1,104 @@
+{
+  "sound_speeds": [
+    1.0,
+    1.5
+  ],
+  "impedances": [
+    1.0,
+    8.0
+  ],
+  "pressure_jump_scaled_max": 1.3047132818577722e-12,
+  "normal_flux_jump_scaled_max": 9.768347007438449e-12,
+  "x_beta_gram_max_error": 1.907372138878141e-12,
+  "y_gram_max_error": 2.208177942271148e-14,
+  "initial_acoustic_energy": [
+    0.9999999999999994,
+    1.0,
+    1.0000000000000009
+  ],
+  "zero_mode_coefficients": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "source_quadrature_relative_change_192_384": 8.893710772771995e-14,
+  "receiver_quadrature_relative_change_192_384": 5.269164177108303e-14,
+  "root_scan_relative_change_002_001": 1.574500481237869e-15,
+  "receiver_root_scan_relative_change_002_001": 3.0392701537645236e-13,
+  "number_of_finite_initial_modes": 356,
+  "evanescent_segments_in_initial_modes": 84,
+  "time_propagation": "Exact modal cosine propagation; no time-stepping error.",
+  "equal_speed_spectrum_relative_max_error": 6.785183320455502e-15,
+  "independent_1d_root_checks": [
+    {
+      "ell": 0,
+      "cells": 512,
+      "frequency_relative_max_error": 0.0008648503583013407
+    },
+    {
+      "ell": 0,
+      "cells": 1024,
+      "frequency_relative_max_error": 0.0002162359082690869
+    },
+    {
+      "ell": 0,
+      "cells": 2048,
+      "frequency_relative_max_error": 5.406041782461651e-05
+    },
+    {
+      "ell": 4,
+      "cells": 512,
+      "frequency_relative_max_error": 0.000837063967165335
+    },
+    {
+      "ell": 4,
+      "cells": 1024,
+      "frequency_relative_max_error": 0.0002093274167447407
+    },
+    {
+      "ell": 4,
+      "cells": 2048,
+      "frequency_relative_max_error": 5.233566410672216e-05
+    },
+    {
+      "ell": 8,
+      "cells": 512,
+      "frequency_relative_max_error": 0.0006256889513582543
+    },
+    {
+      "ell": 8,
+      "cells": 1024,
+      "frequency_relative_max_error": 0.0001559147610141906
+    },
+    {
+      "ell": 8,
+      "cells": 2048,
+      "frequency_relative_max_error": 3.894673440042951e-05
+    },
+    {
+      "ell": 16,
+      "cells": 512,
+      "frequency_relative_max_error": 0.0006614095431139285
+    },
+    {
+      "ell": 16,
+      "cells": 1024,
+      "frequency_relative_max_error": 0.0001648510381295746
+    },
+    {
+      "ell": 16,
+      "cells": 2048,
+      "frequency_relative_max_error": 4.11805053292703e-05
+    }
+  ],
+  "independent_1d_finest_root_relative_max_error": 5.406041782461651e-05,
+  "separated_eigensystem_relative_residual": 6.495366575789996e-16,
+  "separated_eigensystem_orthogonality_error": 4.218847493575595e-15,
+  "separated_vs_sparse_pressure_relative_error": 4.092190442520776e-14,
+  "separated_vs_sparse_receiver_relative_error": 4.653017187114314e-14,
+  "energy_drift": 8.659739592076221e-15,
+  "generator_skew_defect": 0.0,
+  "continuous_field_identity_relative_error": 9.570109312955561e-14,
+  "norm_definition": "Continuous beta-weighted pressure norm, including orthogonal unresolved subcell contribution.",
+  "passed": true
+}

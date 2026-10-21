@@ -1,0 +1,12 @@
+{
+  "analytic_vs_original_gram_relative_difference": 0.0,
+  "analytic_vs_gauss_legendre_gram_relative_difference": 8.921957223691321e-15,
+  "full_state_sparse_vs_modal_relative_difference": 3.23635226683408e-14,
+  "modal_defect_identity_relative_difference": 1.9847909155271246e-15,
+  "all_small_system_bounds_hold": true,
+  "small_system_bound_over_actual": [
+    8.468931292872742,
+    7.419730823425567,
+    8.762950445335115
+  ]
+}

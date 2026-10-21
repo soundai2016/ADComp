@@ -1,0 +1,50 @@
+[stdout] {
+[stdout]   "low_band": {
+[stdout]     "full_FV": {
+[stdout]       "32": 0.037371900184415226,
+[stdout]       "64": 0.009150358675771353,
+[stdout]       "128": 0.002275528336811703,
+[stdout]       "256": 0.0005681279594865465,
+[stdout]       "512": 0.00014198485309779935
+[stdout]     },
+[stdout]     "fixed_modal16_tail": {
+[stdout]       "32": 0.03536423714880608,
+[stdout]       "64": 0.007850563466269351,
+[stdout]       "128": 0.0015521527495776161,
+[stdout]       "256": 0.001129578801399798,
+[stdout]       "512": 0.001353881293260888
+[stdout]     },
+[stdout]     "growing_modal_tail": {
+[stdout]       "32": 0.03536423714880608,
+[stdout]       "64": 0.007850563466269351,
+[stdout]       "128": 0.0021155881293623887,
+[stdout]       "256": 0.0005482724126561211,
+[stdout]       "512": 0.0001395062229049424
+[stdout]     }
+[stdout]   },
+[stdout]   "all_band": {
+[stdout]     "full_FV": {
+[stdout]       "32": 0.6608106951558744,
+[stdout]       "64": 0.2379814920765471,
+[stdout]       "128": 0.05866511640798626,
+[stdout]       "256": 0.014530611439084769,
+[stdout]       "512": 0.003623148106267761
+[stdout]     },
+[stdout]     "fixed_modal16_tail": {
+[stdout]       "32": 0.6460309834990915,
+[stdout]       "64": 0.18463352179787235,
+[stdout]       "128": 0.04465755711422391,
+[stdout]       "256": 0.05386824374927931,
+[stdout]       "512": 0.06050959585542404
+[stdout]     },
+[stdout]     "growing_modal_tail": {
+[stdout]       "32": 0.6460309834990915,
+[stdout]       "64": 0.18463352179787235,
+[stdout]       "128": 0.05355337475789608,
+[stdout]       "256": 0.013931649986264451,
+[stdout]       "512": 0.0035496324659557194
+[stdout]     }
+[stdout]   },
+[stdout]   "status": "Exploratory diagnostic on the same 28 development cases.",
+[stdout]   "conclusion": "A fixed finite modal order has a response-error floor. Grid refinement alone cannot force this closure error to zero. Growing mode count is one sufficient numerical route, without a claim of learned convergence."
+[stdout] }

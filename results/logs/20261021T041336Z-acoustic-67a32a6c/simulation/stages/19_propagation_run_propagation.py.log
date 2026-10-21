@@ -1,0 +1,54 @@
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 32}
+[stdout] {"material": "rotated_stripes", "grid": 32, "wall_seconds": 2.9941795200575143, "energy_relative_drift": 6.772360450213455e-15, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 32}
+[stdout] {"material": "double_inclusion", "grid": 32, "wall_seconds": 3.44532182905823, "energy_relative_drift": 6.5503158452884236e-15, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 32}
+[stdout] {"material": "smooth_checker", "grid": 32, "wall_seconds": 3.8184537339257076, "energy_relative_drift": 7.993605777301127e-15, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 48}
+[stdout] {"material": "rotated_stripes", "grid": 48, "wall_seconds": 6.165027737966739, "energy_relative_drift": 1.1879386363489175e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 48}
+[stdout] {"material": "double_inclusion", "grid": 48, "wall_seconds": 5.820055976975709, "energy_relative_drift": 9.769962616701378e-15, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 48}
+[stdout] {"material": "smooth_checker", "grid": 48, "wall_seconds": 7.027573524042964, "energy_relative_drift": 9.547918011776346e-15, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 64}
+[stdout] {"material": "rotated_stripes", "grid": 64, "wall_seconds": 12.446787525084801, "energy_relative_drift": 1.6431300764452317e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 64}
+[stdout] {"material": "double_inclusion", "grid": 64, "wall_seconds": 10.967231946997344, "energy_relative_drift": 1.4210854715202004e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 64}
+[stdout] {"material": "smooth_checker", "grid": 64, "wall_seconds": 12.80421394505538, "energy_relative_drift": 1.687538997430238e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 96}
+[stdout] {"material": "rotated_stripes", "grid": 96, "wall_seconds": 31.99431907001417, "energy_relative_drift": 2.653433028854124e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 96}
+[stdout] {"material": "double_inclusion", "grid": 96, "wall_seconds": 25.06329243001528, "energy_relative_drift": 2.0872192862952943e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 96}
+[stdout] {"material": "smooth_checker", "grid": 96, "wall_seconds": 35.98833423596807, "energy_relative_drift": 2.4646951146678475e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 128}
+[stdout] {"material": "rotated_stripes", "grid": 128, "wall_seconds": 68.07645216397941, "energy_relative_drift": 2.3314683517128287e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 128}
+[stdout] {"material": "double_inclusion", "grid": 128, "wall_seconds": 51.70418000605423, "energy_relative_drift": 2.398081733190338e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 128}
+[stdout] {"material": "smooth_checker", "grid": 128, "wall_seconds": 94.05651392100845, "energy_relative_drift": 2.375877272697835e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 192}
+[stdout] {"material": "rotated_stripes", "grid": 192, "wall_seconds": 223.58411654899828, "energy_relative_drift": 4.241051954068098e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 192}
+[stdout] {"material": "double_inclusion", "grid": 192, "wall_seconds": 177.2735691750422, "energy_relative_drift": 4.440892098500626e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 192}
+[stdout] {"material": "smooth_checker", "grid": 192, "wall_seconds": 258.60224985994864, "energy_relative_drift": 4.285460875053104e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 256}
+[stdout] {"material": "rotated_stripes", "grid": 256, "wall_seconds": 467.178605183959, "energy_relative_drift": 4.596323321948148e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 256}
+[stdout] {"material": "double_inclusion", "grid": 256, "wall_seconds": 357.7482030449901, "energy_relative_drift": 6.084022174945858e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 256}
+[stdout] {"material": "smooth_checker", "grid": 256, "wall_seconds": 623.7897321580676, "energy_relative_drift": 5.684341886080802e-14, "chunk_duration": 0.5, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 384}
+[stdout] {"material": "rotated_stripes", "grid": 384, "wall_seconds": 1583.188560238923, "energy_relative_drift": 1.0014211682118912e-13, "chunk_duration": 0.25, "propagator": "Sparse first-order exponential", "energy_check_count": 641}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 384}
+[stdout] {"material": "double_inclusion", "grid": 384, "wall_seconds": 76.55095589300618, "energy_relative_drift": 8.664180484174722e-13, "chunk_duration": 0.0, "propagator": "Chebyshev-Bessel full-order matrix function", "energy_check_count": 5}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 384}
+[stdout] {"material": "smooth_checker", "grid": 384, "wall_seconds": 90.45309788908344, "energy_relative_drift": 3.886890809212673e-12, "chunk_duration": 0.0, "propagator": "Chebyshev-Bessel full-order matrix function", "energy_check_count": 5}
+[stdout] {"state": "running", "material": "rotated_stripes", "grid": 512}
+[stdout] {"material": "rotated_stripes", "grid": 512, "wall_seconds": 171.47753726004157, "energy_relative_drift": 9.210410212290299e-13, "chunk_duration": 0.0, "propagator": "Chebyshev-Bessel full-order matrix function", "energy_check_count": 5}
+[stdout] {"state": "running", "material": "double_inclusion", "grid": 512}
+[stdout] {"material": "double_inclusion", "grid": 512, "wall_seconds": 251.64185410004575, "energy_relative_drift": 1.6999734953060397e-12, "chunk_duration": 0.0, "propagator": "Chebyshev-Bessel full-order matrix function", "energy_check_count": 5}
+[stdout] {"state": "running", "material": "smooth_checker", "grid": 512}
+[stdout] {"material": "smooth_checker", "grid": 512, "wall_seconds": 256.4129614790436, "energy_relative_drift": 3.1294966618133913e-12, "chunk_duration": 0.0, "propagator": "Chebyshev-Bessel full-order matrix function", "energy_check_count": 5}

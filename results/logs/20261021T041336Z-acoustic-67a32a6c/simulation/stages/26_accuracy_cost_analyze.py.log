@@ -1,0 +1,142 @@
+[stdout] {
+[stdout]   "settings": 54,
+[stdout]   "threshold_selections": [
+[stdout]     {
+[stdout]       "grid": 32,
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "craig_bampton",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 2.8550259538460523,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 32,
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "rational_krylov",
+[stdout]       "selected_dimension": 288,
+[stdout]       "both_total_seconds": 0.12464020086918026,
+[stdout]       "full_both_total_seconds": 2.8550259538460523,
+[stdout]       "both_total_speedup": 22.906140506325304,
+[stdout]       "receiver_relative_error": 0.0013881955208405723,
+[stdout]       "mass_weighted_pressure_relative_error": 0.022363868118305322
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 64,
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "craig_bampton",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 10.54978101188317,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 64,
+[stdout]       "material": "double_inclusion",
+[stdout]       "method": "rational_krylov",
+[stdout]       "selected_dimension": 320,
+[stdout]       "both_total_seconds": 0.5326710519148037,
+[stdout]       "full_both_total_seconds": 10.54978101188317,
+[stdout]       "both_total_speedup": 19.805433341946504,
+[stdout]       "receiver_relative_error": 0.0010762911358686842,
+[stdout]       "mass_weighted_pressure_relative_error": 0.018405505548852657
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 32,
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "craig_bampton",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 2.8442148548783734,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 32,
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "rational_krylov",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 2.8442148548783734,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 64,
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "craig_bampton",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 12.082348397001624,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 64,
+[stdout]       "material": "rotated_stripes",
+[stdout]       "method": "rational_krylov",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 12.082348397001624,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 32,
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "craig_bampton",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 3.146130182198249,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 32,
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "rational_krylov",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 3.146130182198249,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 64,
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "craig_bampton",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 12.424794509774074,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     },
+[stdout]     {
+[stdout]       "grid": 64,
+[stdout]       "material": "smooth_checker",
+[stdout]       "method": "rational_krylov",
+[stdout]       "selected_dimension": null,
+[stdout]       "both_total_seconds": null,
+[stdout]       "full_both_total_seconds": 12.424794509774074,
+[stdout]       "both_total_speedup": null,
+[stdout]       "receiver_relative_error": null,
+[stdout]       "mass_weighted_pressure_relative_error": null
+[stdout]     }
+[stdout]   ],
+[stdout]   "structure": {
+[stdout]     "max_full_energy_relative_drift": 1.687538997430238e-14,
+[stdout]     "max_reduced_orthonormality_frobenius": 1.5511011517924298e-14,
+[stdout]     "max_constant_mode_projection_error": 9.861777089687965e-16
+[stdout]   }
+[stdout] }

@@ -1,0 +1,215 @@
+[stdout] Replaying source_relocation and recomputing global assignments
+[stdout] source_relocation: 28 baseline triples, 19 intersection triples; waveforms written
+[stdout] Replaying receiver_relocation and recomputing global assignments
+[stdout] receiver_relocation: 30 baseline triples, 19 intersection triples; waveforms written
+[stdout] {
+[stdout]   "passed": true,
+[stdout]   "counts": {
+[stdout]     "budgets": 120,
+[stdout]     "comparisons": 60
+[stdout]   },
+[stdout]   "sensitivity": [
+[stdout]     {
+[stdout]       "case": "source_relocation",
+[stdout]       "paths": [
+[stdout]         {
+[stdout]           "residue_path": "rom",
+[stdout]           "threshold_comparisons": 9,
+[stdout]           "sign_reversals": 6,
+[stdout]           "matched_count_range": [
+[stdout]             19,
+[stdout]             38
+[stdout]           ],
+[stdout]           "before_change_percentage_points_range": [
+[stdout]             -5.140040265630998,
+[stdout]             -4.581791142684495
+[stdout]           ],
+[stdout]           "after_change_percentage_points_range": [
+[stdout]             -0.5434729928102427,
+[stdout]             2.8249849896886032
+[stdout]           ],
+[stdout]           "intersection": {
+[stdout]             "case_id": "source_relocation",
+[stdout]             "selection_id": "intersection",
+[stdout]             "selection": "intersection",
+[stdout]             "mac_threshold": "",
+[stdout]             "relative_gap": "",
+[stdout]             "residue_path": "rom",
+[stdout]             "theta": 0.0,
+[stdout]             "matched_count": 19,
+[stdout]             "before_change_percentage_points": -4.581791142684495,
+[stdout]             "after_change_percentage_points": 2.675760282945361,
+[stdout]             "before_delta_squared_error": -0.010088781428556827,
+[stdout]             "after_delta_squared_error": 0.010344780440994725,
+[stdout]             "sign_reversal": true
+[stdout]           }
+[stdout]         },
+[stdout]         {
+[stdout]           "residue_path": "continuous",
+[stdout]           "threshold_comparisons": 9,
+[stdout]           "sign_reversals": 6,
+[stdout]           "matched_count_range": [
+[stdout]             19,
+[stdout]             38
+[stdout]           ],
+[stdout]           "before_change_percentage_points_range": [
+[stdout]             -5.101365842696991,
+[stdout]             -4.6695285158192865
+[stdout]           ],
+[stdout]           "after_change_percentage_points_range": [
+[stdout]             -0.4350222089483047,
+[stdout]             3.10438926108986
+[stdout]           ],
+[stdout]           "intersection": {
+[stdout]             "case_id": "source_relocation",
+[stdout]             "selection_id": "intersection",
+[stdout]             "selection": "intersection",
+[stdout]             "mac_threshold": "",
+[stdout]             "relative_gap": "",
+[stdout]             "residue_path": "continuous",
+[stdout]             "theta": 1.0,
+[stdout]             "matched_count": 19,
+[stdout]             "before_change_percentage_points": -4.6695285158192865,
+[stdout]             "after_change_percentage_points": 2.881354172707981,
+[stdout]             "before_delta_squared_error": -0.010241003728815411,
+[stdout]             "after_delta_squared_error": 0.011198867673596222,
+[stdout]             "sign_reversal": true
+[stdout]           }
+[stdout]         },
+[stdout]         {
+[stdout]           "residue_path": "symmetric",
+[stdout]           "threshold_comparisons": 9,
+[stdout]           "sign_reversals": 6,
+[stdout]           "matched_count_range": [
+[stdout]             19,
+[stdout]             38
+[stdout]           ],
+[stdout]           "before_change_percentage_points_range": [
+[stdout]             -5.173653542833034,
+[stdout]             -4.674067603354251
+[stdout]           ],
+[stdout]           "after_change_percentage_points_range": [
+[stdout]             -0.5166027896187697,
+[stdout]             2.945431609590507
+[stdout]           ],
+[stdout]           "intersection": {
+[stdout]             "case_id": "source_relocation",
+[stdout]             "selection_id": "intersection",
+[stdout]             "selection": "intersection",
+[stdout]             "mac_threshold": "",
+[stdout]             "relative_gap": "",
+[stdout]             "residue_path": "symmetric",
+[stdout]             "theta": 0.5,
+[stdout]             "matched_count": 19,
+[stdout]             "before_change_percentage_points": -4.674067603354251,
+[stdout]             "after_change_percentage_points": 2.759454802351127,
+[stdout]             "before_delta_squared_error": -0.010248837054945854,
+[stdout]             "after_delta_squared_error": 0.010691447685346241,
+[stdout]             "sign_reversal": true
+[stdout]           }
+[stdout]         }
+[stdout]       ]
+[stdout]     },
+[stdout]     {
+[stdout]       "case": "receiver_relocation",
+[stdout]       "paths": [
+[stdout]         {
+[stdout]           "residue_path": "rom",
+[stdout]           "threshold_comparisons": 9,
+[stdout]           "sign_reversals": 9,
+[stdout]           "matched_count_range": [
+[stdout]             19,
+[stdout]             37
+[stdout]           ],
+[stdout]           "before_change_percentage_points_range": [
+[stdout]             -2.728919537213184,
+[stdout]             -0.5561742245783624
+[stdout]           ],
+[stdout]           "after_change_percentage_points_range": [
+[stdout]             0.01322025449100872,
+[stdout]             0.4276129955865904
+[stdout]           ],
+[stdout]           "intersection": {
+[stdout]             "case_id": "receiver_relocation",
+[stdout]             "selection_id": "intersection",
+[stdout]             "selection": "intersection",
+[stdout]             "mac_threshold": "",
+[stdout]             "relative_gap": "",
+[stdout]             "residue_path": "rom",
+[stdout]             "theta": 0.0,
+[stdout]             "matched_count": 19,
+[stdout]             "before_change_percentage_points": -0.5561742245783624,
+[stdout]             "after_change_percentage_points": 0.01322025449100872,
+[stdout]             "before_delta_squared_error": -0.0025849126931774425,
+[stdout]             "after_delta_squared_error": 3.5782146285372064e-05,
+[stdout]             "sign_reversal": true
+[stdout]           }
+[stdout]         },
+[stdout]         {
+[stdout]           "residue_path": "continuous",
+[stdout]           "threshold_comparisons": 9,
+[stdout]           "sign_reversals": 9,
+[stdout]           "matched_count_range": [
+[stdout]             19,
+[stdout]             37
+[stdout]           ],
+[stdout]           "before_change_percentage_points_range": [
+[stdout]             -2.736930746292135,
+[stdout]             -0.6290636514915404
+[stdout]           ],
+[stdout]           "after_change_percentage_points_range": [
+[stdout]             0.01750915699977318,
+[stdout]             0.3556427252205424
+[stdout]           ],
+[stdout]           "intersection": {
+[stdout]             "case_id": "receiver_relocation",
+[stdout]             "selection_id": "intersection",
+[stdout]             "selection": "intersection",
+[stdout]             "mac_threshold": "",
+[stdout]             "relative_gap": "",
+[stdout]             "residue_path": "continuous",
+[stdout]             "theta": 1.0,
+[stdout]             "matched_count": 19,
+[stdout]             "before_change_percentage_points": -0.6290636514915404,
+[stdout]             "after_change_percentage_points": 0.01750915699977318,
+[stdout]             "before_delta_squared_error": -0.0029190932819308795,
+[stdout]             "after_delta_squared_error": 4.739806598396773e-05,
+[stdout]             "sign_reversal": true
+[stdout]           }
+[stdout]         },
+[stdout]         {
+[stdout]           "residue_path": "symmetric",
+[stdout]           "threshold_comparisons": 9,
+[stdout]           "sign_reversals": 9,
+[stdout]           "matched_count_range": [
+[stdout]             19,
+[stdout]             37
+[stdout]           ],
+[stdout]           "before_change_percentage_points_range": [
+[stdout]             -2.739447858980193,
+[stdout]             -0.5973106963579555
+[stdout]           ],
+[stdout]           "after_change_percentage_points_range": [
+[stdout]             0.01532315756760938,
+[stdout]             0.3908112093973598
+[stdout]           ],
+[stdout]           "intersection": {
+[stdout]             "case_id": "receiver_relocation",
+[stdout]             "selection_id": "intersection",
+[stdout]             "selection": "intersection",
+[stdout]             "mac_threshold": "",
+[stdout]             "relative_gap": "",
+[stdout]             "residue_path": "symmetric",
+[stdout]             "theta": 0.5,
+[stdout]             "matched_count": 19,
+[stdout]             "before_change_percentage_points": -0.5973106963579555,
+[stdout]             "after_change_percentage_points": 0.01532315756760938,
+[stdout]             "before_delta_squared_error": -0.0027736441977478433,
+[stdout]             "after_delta_squared_error": 4.1477118749060365e-05,
+[stdout]             "sign_reversal": true
+[stdout]           }
+[stdout]         }
+[stdout]       ]
+[stdout]     }
+[stdout]   ]
+[stdout] }

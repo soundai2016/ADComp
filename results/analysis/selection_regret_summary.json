@@ -1,0 +1,82 @@
+{
+  "source_path": "accuracy.csv",
+  "source_sha256": "ee14fde6348d5fb98792584f2519c8caa82fca6f1cd477ab47df2447b918e4d6",
+  "source_rows": 1440,
+  "aggregate_cb_rows": 72,
+  "comparison_cases": 24,
+  "different_choice_cases": 4,
+  "same_grid_selected_m_counts": {
+    "32": 0,
+    "64": 0,
+    "128": 24
+  },
+  "continuous_selected_m_counts": {
+    "32": 0,
+    "64": 4,
+    "128": 20
+  },
+  "mean_selection_loss_pp_all_cases": 0.31426040686862344,
+  "mean_selection_loss_pp_different_choice_cases": 1.8855624412117407,
+  "maximum_selection_loss_case": {
+    "grid": 64,
+    "source_layout": 1,
+    "receiver_layout": 0,
+    "time_end": 8.0,
+    "same_grid_selected_m": 128,
+    "continuous_selected_m": 64,
+    "same_grid_selected_dimension": 320,
+    "continuous_selected_dimension": 192,
+    "same_grid_error_at_same_grid_choice_percent": 2.324162170765169,
+    "same_grid_error_at_continuous_choice_percent": 9.500737593418332,
+    "continuous_error_at_same_grid_choice_percent": 14.7018373875751,
+    "continuous_error_at_continuous_choice_percent": 12.357379253279229,
+    "selection_loss_percentage_points": 2.344458134295872,
+    "different_choice": 1,
+    "reference_squared_norm": 15527.261613517474,
+    "m32_same_grid_error_percent": 30.498594343243695,
+    "m32_continuous_error_percent": 29.534826196178386,
+    "m64_same_grid_error_percent": 9.500737593418332,
+    "m64_continuous_error_percent": 12.357379253279229,
+    "m128_same_grid_error_percent": 2.324162170765169,
+    "m128_continuous_error_percent": 14.7018373875751
+  },
+  "by_time": {
+    "0.5": {
+      "cases": 8,
+      "different_choice_cases": 0,
+      "mean_loss_pp": 0.0
+    },
+    "2.0": {
+      "cases": 8,
+      "different_choice_cases": 0,
+      "mean_loss_pp": 0.0
+    },
+    "8.0": {
+      "cases": 8,
+      "different_choice_cases": 4,
+      "mean_loss_pp": 0.9427812206058703
+    }
+  },
+  "by_grid": {
+    "64": {
+      "cases": 12,
+      "different_choice_cases": 4,
+      "mean_loss_pp": 0.6285208137372469
+    },
+    "128": {
+      "cases": 12,
+      "different_choice_cases": 0,
+      "mean_loss_pp": 0.0
+    }
+  },
+  "tie_cases": 0,
+  "definition": "100 * (total_receiver_error at same-grid minimum - total_receiver_error at continuous-reference minimum)",
+  "candidate_set": [
+    32,
+    64,
+    128
+  ],
+  "coverage": "2 grids x 4 source/receiver layouts x 3 cumulative windows; 12 channels jointly; finite 356-mode continuous initial field.",
+  "normalization": "same_grid_receiver_error uses norm(Y_h); total_receiver_error uses norm(Y_cont). Both denominators are constant over m within a case. Selection loss compares total_receiver_error values with the same continuous denominator.",
+  "scope": "Retrospective comparison of three candidates requiring a continuous reference."
+}

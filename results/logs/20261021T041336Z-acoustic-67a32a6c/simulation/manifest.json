@@ -1,0 +1,1520 @@
+{
+  "configuration": {
+    "models_dir": "/data/adcomp/models",
+    "steps": [
+      [
+        "propagation/run_propagation.py",
+        "--verify"
+      ],
+      [
+        "accuracy_cost/verify.py"
+      ],
+      [
+        "main_residual/verify.py"
+      ],
+      [
+        "interface_case/verify.py"
+      ],
+      [
+        "total_error_cost/verify.py"
+      ],
+      [
+        "total_error_cost/verify_interface.py"
+      ],
+      [
+        "unequal_speed_interface/verify.py"
+      ],
+      [
+        "studies/stage1_1d/run_experiment.py"
+      ],
+      [
+        "studies/stage1_1d/refinement_diagnostic.py"
+      ],
+      [
+        "studies/stage1_1d/direct_baseline_check.py"
+      ],
+      [
+        "studies/stage2_2d/run_2d.py"
+      ],
+      [
+        "studies/stage2_2d/capacity_and_sampling.py"
+      ],
+      [
+        "studies/stage2_2d/energy_defect_certificate.py"
+      ],
+      [
+        "studies/patch_2d/run_patch.py"
+      ],
+      [
+        "studies/patch_2d/capacity_followup.py"
+      ],
+      [
+        "studies/patch_2d/audit_patch.py"
+      ],
+      [
+        "propagation/assemble_reduced_responses.py"
+      ],
+      [
+        "dispersion/run_dispersion.py"
+      ],
+      [
+        "propagation/run_propagation.py"
+      ],
+      [
+        "propagation/reference_checks.py"
+      ],
+      [
+        "propagation/chebyshev_reference.py",
+        "--grids",
+        "384",
+        "--materials",
+        "rotated_stripes",
+        "--check-suffix"
+      ],
+      [
+        "propagation/analyze_propagation.py"
+      ],
+      [
+        "propagation/analyze_asymptotic.py"
+      ],
+      [
+        "propagation/analyze_reduction.py",
+        "--comparison-grid",
+        "512"
+      ],
+      [
+        "accuracy_cost/run.py"
+      ],
+      [
+        "accuracy_cost/analyze.py"
+      ],
+      [
+        "modal_diagnostics/run.py"
+      ],
+      [
+        "modal_diagnostics/evaluate_reference.py"
+      ],
+      [
+        "modal_diagnostics/export_modes.py"
+      ],
+      [
+        "interface_case/run.py"
+      ],
+      [
+        "interface_case/analyze.py"
+      ],
+      [
+        "main_residual/run.py"
+      ],
+      [
+        "main_residual/run_interface.py"
+      ],
+      [
+        "main_residual/analyze.py"
+      ],
+      [
+        "total_error_cost/run.py"
+      ],
+      [
+        "total_error_cost/run_interface.py"
+      ],
+      [
+        "total_error_cost/analyze.py"
+      ],
+      [
+        "total_error_cost/analyze_interface.py"
+      ],
+      [
+        "observation_diagnostics/analyze.py"
+      ],
+      [
+        "observation_diagnostics/verify.py"
+      ],
+      [
+        "grid_cost_diagnostics/verify.py"
+      ],
+      [
+        "grid_cost_diagnostics/run.py"
+      ],
+      [
+        "grid_cost_diagnostics/analyze.py"
+      ],
+      [
+        "grid_cost_diagnostics/reference_sensitivity.py"
+      ],
+      [
+        "modal_robustness/run.py"
+      ],
+      [
+        "modal_robustness/verify.py"
+      ],
+      [
+        "unequal_speed_interface/run.py"
+      ],
+      [
+        "unequal_speed_interface/modal.py"
+      ],
+      [
+        "unequal_speed_interface/analyze.py"
+      ],
+      [
+        "source_receiver_validation/run.py"
+      ],
+      [
+        "source_receiver_validation/analyze.py"
+      ],
+      [
+        "source_receiver_validation/verify.py"
+      ],
+      [
+        "frequency_diagnostics/run.py"
+      ],
+      [
+        "frequency_diagnostics/richardson.py"
+      ],
+      [
+        "propagation/run_propagation.py",
+        "--verify"
+      ],
+      [
+        "propagation/assemble_reduced_responses.py",
+        "--verify"
+      ],
+      [
+        "studies/verify_outputs.py"
+      ],
+      [
+        "propagation/verify_reference.py"
+      ],
+      [
+        "accuracy_cost/verify_outputs.py"
+      ],
+      [
+        "modal_diagnostics/verify.py"
+      ],
+      [
+        "total_error_cost/verify_outputs.py"
+      ],
+      [
+        "grid_cost_diagnostics/verify.py",
+        "--results"
+      ],
+      [
+        "grid_cost_diagnostics/reference_sensitivity.py",
+        "--verify"
+      ],
+      [
+        "unequal_speed_interface/verify_outputs.py"
+      ]
+    ],
+    "workdir": "/data/adcomp/models/20261021T041336Z-acoustic-67a32a6c"
+  },
+  "configuration_fingerprint": "18a6c1c46b7729cdc29e23256909bb3d2010ad353eae84b0a4c56e1c0f7a8ca5",
+  "inputs": {},
+  "numerical_configs": {
+    "accuracy_cost/config.json": {
+      "accuracy_thresholds": {
+        "mass_weighted_pressure_relative_error": 0.05,
+        "receiver_relative_error": 0.01
+      },
+      "cb_eigen_tolerance": 1e-10,
+      "chunk_duration": 1.0,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "dimension_rule": "r=n+2*m for both reduced methods",
+      "error_sampling": "All 641 output times, including t=0; equal weights over times and source columns.",
+      "full_model_output": "All full pressure states are generated by the sparse first-order exponential; pressure conversion and receiver observation timed separately. Full-state propagation cost shared by receiver-only and field-output totals.",
+      "grids": [
+        32,
+        64
+      ],
+      "krylov_frequencies": [
+        0.0,
+        0.5454545454545454,
+        1.0909090909090908,
+        1.6363636363636362,
+        2.1818181818181817,
+        2.727272727272727,
+        3.2727272727272725,
+        3.818181818181818,
+        4.363636363636363,
+        4.909090909090908,
+        5.454545454545454,
+        6.0
+      ],
+      "krylov_orthogonalization": "Two projection passes followed by rank-revealing pivoted economic QR; relative numerical rank tolerance 1e-12; final thin QR of the complete basis.",
+      "krylov_sequence": "Cyclic shifts; initial span contains constant-pressure mode and three source vectors; each iteration solves on the last three real orthonormal basis vectors and appends orthogonalized real and imaginary parts.",
+      "krylov_shift_damping": 0.2,
+      "krylov_source_conditioning": "The basis uses the three evaluated source vectors. No claim of generalization to unseen sources.",
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "modes_per_patch": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "physical_scope": "Nondimensional lossless heterogeneous rigid cavity, independently sampled analytic positive coefficients. Comparisons are on the same propagation grid.",
+      "precision": "float64; complex128 shifted solves",
+      "receiver_centres": [
+        [
+          0.22,
+          0.21
+        ],
+        [
+          0.79,
+          0.77
+        ],
+        [
+          0.28,
+          0.69
+        ],
+        [
+          0.68,
+          0.33
+        ]
+      ],
+      "repetitions": 3,
+      "samples": 641,
+      "sigma": 0.07,
+      "source_centres": [
+        [
+          0.19,
+          0.76
+        ],
+        [
+          0.54,
+          0.47
+        ],
+        [
+          0.81,
+          0.22
+        ]
+      ],
+      "threads": 2,
+      "time_end": 8.0,
+      "timing_policy": "Three sequential repetitions per setting after a common small-problem warm-up. Every reduced dimension is built independently; full assembly and basis cost charged for one three-source query. File I/O, error calculation and structure diagnostics excluded. All raw timings retained.",
+      "timing_stages": [
+        "assembly",
+        "basis",
+        "projection_eigensolve",
+        "propagation",
+        "receiver_output",
+        "field_reconstruction"
+      ]
+    },
+    "dispersion/config.json": {
+      "boundary": "rigid",
+      "bulk_modulus": 1.0,
+      "density": 1.0,
+      "domain": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "eigenpair_residual_tolerance": 1e-09,
+      "grids": [
+        16,
+        24,
+        32,
+        48,
+        64,
+        96,
+        128,
+        192,
+        256
+      ],
+      "matrix_exponential_grid": 16,
+      "matrix_exponential_relative_tolerance": 1e-09,
+      "matrix_exponential_samples": 129,
+      "modes": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          8,
+          5
+        ]
+      ],
+      "observation_times": [
+        2.0,
+        8.0
+      ],
+      "quadrature_samples": 65537
+    },
+    "frequency_diagnostics/config.json": {
+      "baseline_gap": 0.005,
+      "baseline_mac": 0.9,
+      "cases": [
+        {
+          "after": [
+            1,
+            0
+          ],
+          "before": [
+            0,
+            0
+          ],
+          "case_id": "source_relocation",
+          "grid": 128,
+          "modes_per_patch": 32,
+          "receiver": 4,
+          "source": 1,
+          "time_end": 2.0
+        },
+        {
+          "after": [
+            0,
+            1
+          ],
+          "before": [
+            0,
+            0
+          ],
+          "case_id": "receiver_relocation",
+          "grid": 64,
+          "modes_per_patch": 32,
+          "receiver": 4,
+          "source": 3,
+          "time_end": 8.0
+        }
+      ],
+      "mac_thresholds": [
+        0.85,
+        0.9,
+        0.95
+      ],
+      "path_definition": "H_theta=(1-theta)*H_rom+theta*H_continuous. Ritz and grid phase terms use H_theta; source/receiver residue differences use (1-theta)*cos(omega_continuous*t)+theta*cos(omega_rom*t). theta=0 is the manuscript's fixed-ROM-residue intervention. Other paths change the attribution convention and hence the intervention; their signs are reported without a success condition.",
+      "relative_frequency_gaps": [
+        0.0025,
+        0.005,
+        0.01
+      ],
+      "residue_paths": {
+        "continuous": 1.0,
+        "rom": 0.0,
+        "symmetric": 0.5
+      },
+      "sampling": "Equally weighted samples at t=j/80; cumulative intervals include both endpoints.",
+      "selection_rule": "Use the two specified relocation examples. Recompute global MAC-maximizing assignments before applying all nine threshold pairs. Assignments and accepted triples are independent of ports. Each before/after comparison uses the same triples; the common set is the intersection across all nine threshold pairs.",
+      "sign_tolerance": 1e-12,
+      "threads": 2
+    },
+    "grid_cost_diagnostics/config.json": {
+      "alternative_reference_grid": 384,
+      "candidate_order": "Material, increasing grid, Verlet CFL 0.25, Verlet CFL 0.125, Craig-Bampton m128; three consecutive independent constructions of each candidate.",
+      "cost": "Include assembly, independent basis construction, projection and eigensolve, propagation, receiver output; exclude reference evaluation, diagnostics and file I/O. Report the median of the three complete stage sums.",
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "dimension": "Full pressure n^2; Craig-Bampton r=n+256. The time recurrence stores two full pressure arrays.",
+      "explicit_cfl_values": [
+        0.25,
+        0.125
+      ],
+      "grids": [
+        64,
+        72,
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128
+      ],
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "methods": [
+        "full_stormer_verlet",
+        "craig_bampton"
+      ],
+      "modes_per_patch": 128,
+      "norm": "Equal-weight Frobenius norm over all 641 output times including t=0, four receivers and three sources.",
+      "purpose": "Grid-density diagnostic for fixed Craig-Bampton m128 and two fixed Stormer-Verlet CFL values. All 81 settings are remeasured in one batch. The original sparse-grid experiment is retained without modification.",
+      "receiver_tolerances": [
+        0.05,
+        0.1
+      ],
+      "reference_grid": 512,
+      "repetitions": 3,
+      "samples": 641,
+      "scope": "The envelopes compare the prescribed candidates over 5-10% receiver tolerance. They do not optimize reduced capacity, CFL, solver family, source distribution or continuum accuracy.",
+      "threads": 2,
+      "time_end": 8.0
+    },
+    "interface_case/config.json": {
+      "bulk_modulus": [
+        1.0,
+        8.0
+      ],
+      "cpu_affinity": [
+        6,
+        7
+      ],
+      "density": [
+        1.0,
+        8.0
+      ],
+      "error_sampling": "All 641 output times including t=0; equal weights over times and sources.",
+      "field_reference": "Continuous beta-weighted L2 pressure error of the piecewise-constant finite-volume reconstruction, including exact subcell projection error. Analytic modal orthogonality supplies the common continuum norm.",
+      "grids": [
+        32,
+        64,
+        96,
+        128,
+        256
+      ],
+      "initial_condition": "Beta-weighted projection of each Gaussian pressure onto exact modes 0<=m<=20, 0<=l<=16 excluding (0,0), normalized to unit acoustic energy; initial velocity is zero. This finite expansion defines the source, not an approximation claimed to be an unfiltered Gaussian.",
+      "initial_energy": 1.0,
+      "interface_x": 0.5,
+      "material": "aligned_impedance_step",
+      "max_x_mode": 20,
+      "max_y_mode": 16,
+      "modes_per_patch": [
+        32,
+        64,
+        128
+      ],
+      "quadrature_order": 192,
+      "receiver_centres": [
+        [
+          0.22,
+          0.21
+        ],
+        [
+          0.79,
+          0.77
+        ],
+        [
+          0.28,
+          0.69
+        ],
+        [
+          0.68,
+          0.33
+        ]
+      ],
+      "receiver_reference": "Continuous Gaussian-weighted pressure averages; Gaussian windows normalized on the unit square.",
+      "reduced_grids": [
+        32,
+        64,
+        96,
+        128
+      ],
+      "samples": 641,
+      "scope": "Interface-aligned two-dimensional rigid cavity with a planar impedance jump of eight and equal sound speeds.",
+      "sigma": 0.07,
+      "source_centres": [
+        [
+          0.19,
+          0.76
+        ],
+        [
+          0.54,
+          0.47
+        ],
+        [
+          0.81,
+          0.22
+        ]
+      ],
+      "threads": 2,
+      "time_end": 8.0
+    },
+    "main_residual/config.json": {
+      "acceptance_thresholds": [
+        0.05,
+        0.1
+      ],
+      "bound": "||B-Wa|| + sqrt(T * a^T[(F^T F) elementwise G_T]a), F=C C^T W-W diag(lambda), G_T=integral_0^T g(t)g(t)^T dt, g_j=sin(sqrt(lambda_j)t)/sqrt(lambda_j), with g_j=t at zero.",
+      "cpu_affinity": [
+        4,
+        5
+      ],
+      "floating_point": "Analytic Gram integration in float64. Negative Gram eigenvalues are raised to zero; a recorded positive diagonal guard and relative 1e-11 final guard are applied. These are checked floating-point evaluations, not interval-certified bounds.",
+      "grids": [
+        32,
+        64
+      ],
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "methods": [
+        "craig_bampton",
+        "rational_krylov"
+      ],
+      "modes_per_patch": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "reduced_models": "Unmodified Ritz spaces, frequencies and initial coefficients from accuracy_cost/results. No basis or cutoff is retuned.",
+      "reference": "Sparse first-order exponential at T=2 and 8; both pressure and velocity retained.",
+      "scope": "Endpoint error in the complete mass-normalized pressure and face-velocity state, relative to the identical semidiscrete full system.",
+      "selection": "The smallest tested dimension satisfying each bound threshold is selected separately for each material, grid, method, source and final time. Full-reference errors are used only to audit the selection.",
+      "source_indices": [
+        0,
+        1,
+        2
+      ],
+      "threads": 2,
+      "times": [
+        2.0,
+        8.0
+      ]
+    },
+    "modal_diagnostics/config.json": {
+      "coarse_grid": 32,
+      "cpu_affinity": [
+        2,
+        3
+      ],
+      "description": "Exploratory modal attribution of computed trajectories with fixed matching rules.",
+      "eigen_tolerance": 1e-10,
+      "fine_grid": 128,
+      "fine_modes": 256,
+      "fine_response_coverage_limit": 0.01,
+      "mac_threshold": 0.9,
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "models": [
+        [
+          "craig_bampton",
+          32
+        ],
+        [
+          "craig_bampton",
+          128
+        ],
+        [
+          "rational_krylov",
+          128
+        ]
+      ],
+      "near_cluster_tolerance": 0.005,
+      "relative_frequency_gap": 0.005,
+      "samples": 641,
+      "threads": 2,
+      "time_end": 8.0
+    },
+    "modal_diagnostics/evaluation_config.json": {
+      "alternative_evaluation_grid": 256,
+      "description": "Evaluate fixed frequency-replacement trajectories against the finer propagation reference using the same assignments, thresholds, frequencies and residues.",
+      "evaluation_reference_grid": 512,
+      "modal_matching_grid": 128
+    },
+    "modal_robustness/config.json": {
+      "baseline_gap": 0.005,
+      "baseline_mac": 0.9,
+      "change_zero_tolerance": 1e-10,
+      "cluster_gap": 0.005,
+      "coarse_grid": 32,
+      "control_models": [
+        [
+          "craig_bampton",
+          128
+        ],
+        [
+          "rational_krylov",
+          128
+        ]
+      ],
+      "cpu_affinity": [
+        2,
+        3
+      ],
+      "cumulative_end_times": [
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "description": "Prespecified sensitivity analysis. The original reduced models, physical ports, and propagation trajectories are retained. All attribution paths and exact/linear error budgets use the same 512-square propagation reference. No thresholds or coefficients are fitted to favorable outcomes.",
+      "eigen_tolerance": 1e-10,
+      "evaluation_reference_grid": 512,
+      "fine_grids": [
+        128,
+        192
+      ],
+      "fine_modes": 256,
+      "linearization_short_end_times": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "mac_thresholds": [
+        0.85,
+        0.9,
+        0.95
+      ],
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "path_semantics": "rom fixes H_r; fine fixes H_f; symmetric fixes (H_r+H_f)/2. Each path is an exact algebraic partition with a compensating coupling term. The alternative interventions are reference-dependent diagnostics, not modified reduced solvers or unique physical percentages.",
+      "prediction_scope": "Gram analyses are reference-assisted local approximations evaluated without fitted parameters. Full q uses the reference response. Exact identities are verification and attribution, not independent forecasts. No reference-free or unseen-source prediction is claimed.",
+      "primary_model": [
+        "craig_bampton",
+        32
+      ],
+      "relative_frequency_gaps": [
+        0.0025,
+        0.005,
+        0.01
+      ],
+      "successive_edges": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "threads": 2,
+      "time_norm": "Equal weights on stored samples. Zero is included. Later disjoint windows exclude their left endpoint. Absolute time since source initialization is used in every derivative."
+    },
+    "observation_diagnostics/config.json": {
+      "cumulative_end_times": [
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "interventions": {
+        "fine_frequency": "Replace the accepted reduced frequencies by their matched 128-grid frequencies, retaining all residues and unmatched contributions.",
+        "remove_ritz": "Replace the accepted reduced frequencies by their full same-grid frequencies, retaining all residues and unmatched contributions."
+      },
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "models": [
+        [
+          "craig_bampton",
+          32
+        ],
+        [
+          "craig_bampton",
+          128
+        ],
+        [
+          "rational_krylov",
+          128
+        ]
+      ],
+      "norm": "Equal weights on the stored output samples; t=0 is included in windows beginning at zero. Later disjoint windows exclude their left endpoint.",
+      "reference_grids": [
+        512,
+        384
+      ],
+      "scope": "Descriptive reanalysis of fixed trajectories; channels are observations of the same wave field. No model or modal assignment is fitted in this analysis.",
+      "squared_relative_change_zero_tolerance": 1e-10,
+      "successive_edges": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "propagation/experiment_config.json": {
+      "boundary": "rigid walls; no boundary-face flux degrees of freedom",
+      "chebyshev_cpu_affinity": [
+        2,
+        3
+      ],
+      "chebyshev_tail_tolerance": 1e-17,
+      "chunk_duration": 0.5,
+      "coefficients": "same analytic rho and bulk modulus K sampled at each grid cell centre",
+      "data_scope": "Three specified development media, with the same fixed sources and receivers at every grid.",
+      "domain": "[0,1]^2; nondimensional coordinates and time",
+      "existing_data_chunk_duration": 1.0,
+      "extended_grid_chunk_duration": 0.25,
+      "extended_grid_cpu_affinity": [
+        0,
+        1
+      ],
+      "face_density": "arithmetic average of adjacent cell-centred rho",
+      "initial_condition": "p(0)=K(x)*f_source(x), p_dot(0)=0; source f has zero discrete mean",
+      "interpretation": "differences between discrete solutions; not rigorous continuum-error bounds",
+      "materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "output_norm": "Frobenius norm over t>0, four receivers, three sources; fine-grid denominator.",
+      "precision": "float64",
+      "propagation_grids": [
+        32,
+        48,
+        64,
+        96,
+        128,
+        192,
+        256,
+        384,
+        512
+      ],
+      "propagator": "Energy-skew sparse exponential through grid 256 and for rotated_stripes at 384; full-order Chebyshev-Bessel matrix cosine for other 384 cases and all 512 cases.",
+      "receiver_centres": [
+        [
+          0.22,
+          0.21
+        ],
+        [
+          0.79,
+          0.77
+        ],
+        [
+          0.28,
+          0.69
+        ],
+        [
+          0.68,
+          0.33
+        ]
+      ],
+      "receiver_port": "unit-integral Gaussian pressure average; mean not removed",
+      "samples": 641,
+      "sigma": 0.07,
+      "snapshot_times": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "source_centres": [
+        [
+          0.19,
+          0.76
+        ],
+        [
+          0.54,
+          0.47
+        ],
+        [
+          0.81,
+          0.22
+        ]
+      ],
+      "source_port": "each Gaussian normalized to unit discrete integral, then mean removed",
+      "threads": 2,
+      "time_end": 8.0
+    },
+    "source_receiver_validation/config.json": {
+      "bulk_modulus": [
+        1.0,
+        12.0
+      ],
+      "density": [
+        1.0,
+        5.333333333333333
+      ],
+      "grids": [
+        64,
+        128
+      ],
+      "initial_condition": "The beta-weighted Gaussian projection onto the first 21 longitudinal modes for each transverse index 0 through 16 defines a finite continuous initial pressure. Remove only the global constant mode and normalize each source to unit acoustic energy. Initial velocity is zero; every propagation grid receives exact cell averages of the same continuous field.",
+      "initial_energy": 1.0,
+      "interface_x": 0.5,
+      "layout_rationale": "Two sources on the left and one on the right, with two receivers on each side, give six same-side and six opposite-side channels. All positions differ from the original layout and no source and receiver are collocated. Reflected cavity arrivals remain part of every trace.",
+      "mac_threshold": 0.9,
+      "material": "aligned_unequal_speed_interface",
+      "max_x_mode": 20,
+      "max_y_mode": 16,
+      "modes_per_patch": [
+        32,
+        64,
+        128
+      ],
+      "quadrature_order": 192,
+      "receiver_centres": [
+        [
+          0.12,
+          0.76
+        ],
+        [
+          0.35,
+          0.41
+        ],
+        [
+          0.65,
+          0.18
+        ],
+        [
+          0.88,
+          0.87
+        ]
+      ],
+      "receiver_definition": "Normalized continuous Gaussian pressure averages, with exact integrated cell weights for finite-volume reconstruction.",
+      "relative_frequency_gap": 0.005,
+      "root_scan_step": 0.02,
+      "samples": 641,
+      "sampling": "Equally weighted samples at t=j/80, j=0,...,640; each cumulative interval includes both endpoints.",
+      "selection_rule": "Layouts, grids, ranks, windows, bandwidth and matching thresholds are fixed within the computational study. Report every prescribed model and channel.",
+      "sigma": 0.07,
+      "source_centres": [
+        [
+          0.16,
+          0.27
+        ],
+        [
+          0.39,
+          0.83
+        ],
+        [
+          0.84,
+          0.61
+        ]
+      ],
+      "threads": 2,
+      "time_end": 8.0,
+      "window_ends": [
+        0.5,
+        2.0,
+        8.0
+      ]
+    },
+    "source_receiver_validation/layout_config.json": {
+      "original_receiver_centres": [
+        [
+          0.22,
+          0.21
+        ],
+        [
+          0.79,
+          0.77
+        ],
+        [
+          0.28,
+          0.69
+        ],
+        [
+          0.68,
+          0.33
+        ]
+      ],
+      "original_source_centres": [
+        [
+          0.19,
+          0.76
+        ],
+        [
+          0.54,
+          0.47
+        ],
+        [
+          0.81,
+          0.22
+        ]
+      ],
+      "rationale": "Separate changes in source excitation and receiver coupling using fixed port positions.",
+      "receiver_layouts": [
+        "original",
+        "second"
+      ],
+      "scope": "All four source/receiver layout combinations use the same material, full eigensystems, Craig--Bampton spaces, grids, dimensions and observation windows.",
+      "source_layouts": [
+        "original",
+        "second"
+      ]
+    },
+    "studies/stage1_1d/protocol.json": {
+      "composition": "consecutive pairs of the 28 development cases, each physical patch length 1; same frequencies",
+      "cost_threads": 2,
+      "deterministic_controls": [
+        "homogeneous",
+        "alternating_impedance_4",
+        "grouped_impedance_4",
+        "smooth_log_sinusoid_8layers"
+      ],
+      "experiment": "layered_passive_response",
+      "frequency": {
+        "count": 513,
+        "development_indices": "i % 4 == 0",
+        "heldout_indices": "i % 4 != 0",
+        "maximum": 37.69911184307752,
+        "minimum": 0.03
+      },
+      "full_fv_cells": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "geometry": "eight ordered equal-width layers, unit total length; exact geometry supplied to every method",
+      "media_seed": 170431,
+      "metrics": [
+        "RMS_complex_scattering_error",
+        "maximum_complex_scattering_error",
+        "amplitude_weighted_transmission_phase",
+        "unitarity",
+        "reciprocity",
+        "query_time",
+        "setup_time"
+      ],
+      "modal_reference_cells": 256,
+      "orders": [
+        4,
+        8,
+        16
+      ],
+      "primary_band": "all 0.03 to 12 pi",
+      "primary_frequency_mask": "heldout indices",
+      "purpose": "development study of model order and computational cost",
+      "random_development_cases": 24,
+      "random_log_rho_log_bulk_bounds": [
+        -0.8,
+        0.8
+      ]
+    },
+    "total_error_cost/config.json": {
+      "alternative_reference_grid": 384,
+      "chebyshev_full_grids": [
+        32,
+        64,
+        96,
+        128
+      ],
+      "chebyshev_rule": "Even Chebyshev\u2013Bessel polynomial for cos(t sqrt(A)); Gershgorin spectral bound and analytic uniform tail bound, shared verified implementation in propagation/chebyshev_reference.py. Include assembly and all output production.",
+      "chebyshev_tail_tolerance": 1e-17,
+      "chunk_duration": 0.5,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "dimension": "r=n+2*m for both reduced methods; all n^2 pressure degrees of freedom for full methods.",
+      "error_windows": [
+        2.0,
+        8.0
+      ],
+      "explicit_cfl_values": [
+        0.25,
+        0.125
+      ],
+      "explicit_full_grids": [
+        64,
+        96,
+        128
+      ],
+      "explicit_rule": "St\u00f6rmer\u2013Verlet for mass-weighted pressure u''=-A u with zero initial derivative. Set dt=output_interval/ceil(output_interval*c_max/(CFL*h)); every output coincides with a time step. The sparse five-point A is applied to all three source columns.",
+      "field_chunk_samples": 16,
+      "interface_field_tolerance": 0.05,
+      "interface_full_grids": [
+        32,
+        64,
+        96,
+        128,
+        256
+      ],
+      "interface_modes_per_patch": [
+        128,
+        256
+      ],
+      "interface_output": "Report receiver-only and receiver-plus-physical-pressure-field costs separately; joint receiver and field tolerances use the latter.",
+      "interface_receiver_tolerances": [
+        0.01,
+        0.05
+      ],
+      "interface_reduced_grids": [
+        32,
+        64,
+        96,
+        128
+      ],
+      "norm": "Equal-weight Frobenius norm over all output times, receivers, and source columns; include t=0. Also retain each source error.",
+      "rational_krylov": "Use exactly the 12 cyclic shifts, damping 0.2, last-three-vector sequence, double reorthogonalization, and source conditioning from accuracy_cost/config.json. Build each requested rank independently.",
+      "reference_grid": 512,
+      "repetitions": 3,
+      "rescoring_full_grids": [
+        32,
+        48,
+        64,
+        96,
+        128,
+        192,
+        256,
+        384
+      ],
+      "samples": 641,
+      "selection": "Candidates and tolerances are fixed. Choose the least expensive tested candidate meeting the error threshold against the stated reference. Report unattained tolerances. The smooth-grid comparison is a finite-reference error.",
+      "smooth_full_grids": [
+        32,
+        64,
+        96,
+        128
+      ],
+      "smooth_materials": [
+        "rotated_stripes",
+        "double_inclusion",
+        "smooth_checker"
+      ],
+      "smooth_output": "Receiver output only. Reconstructing full fields is not required or charged.",
+      "smooth_receiver_tolerances": [
+        0.05,
+        0.1
+      ],
+      "smooth_reduced_modes": {
+        "128": [
+          128,
+          256
+        ],
+        "32": [
+          128
+        ],
+        "64": [
+          128
+        ],
+        "96": [
+          128,
+          256
+        ]
+      },
+      "threads": 2,
+      "timing_policy": "Three sequential independent constructions per candidate after a shared small-case warm-up. Report the median of complete per-repetition totals, not the sum of stage medians. Include setup, basis, projection, propagation, and the requested output. Exclude diagnostic errors, reference evaluation, file I/O, and source generation quadrature defining the interface problem.",
+      "timing_time_end": 8.0
+    },
+    "unequal_speed_interface/config.json": {
+      "bulk_modulus": [
+        1.0,
+        12.0
+      ],
+      "density": [
+        1.0,
+        5.333333333333333
+      ],
+      "error_sampling": "641 equally weighted times including t=0 and all three sources.",
+      "field_reference": "Continuous beta-weighted L2 error of piecewise-constant pressure reconstruction, including the exact subcell projection term.",
+      "grids": [
+        32,
+        64,
+        128
+      ],
+      "initial_condition": "For each transverse index 0<=l<=16, retain the first 21 continuous Sturm-Liouville modes m=0,...,20. Project the Gaussian pressure in the beta inner product, remove only the global constant mode, and normalize to unit initial acoustic energy. The resulting finite expansion defines the initial pressure independently of the propagation grid; initial velocity is zero.",
+      "initial_energy": 1.0,
+      "interface_x": 0.5,
+      "mac_threshold": 0.9,
+      "material": "aligned_unequal_speed_interface",
+      "max_x_mode": 20,
+      "max_y_mode": 16,
+      "modal_grid": 32,
+      "modes_per_patch": [
+        32,
+        64,
+        128
+      ],
+      "quadrature_order": 192,
+      "rational_krylov_modes_per_patch": [
+        32,
+        128
+      ],
+      "receiver_centres": [
+        [
+          0.22,
+          0.21
+        ],
+        [
+          0.79,
+          0.77
+        ],
+        [
+          0.28,
+          0.69
+        ],
+        [
+          0.68,
+          0.33
+        ]
+      ],
+      "relative_frequency_gap": 0.005,
+      "root_scan_step": 0.02,
+      "samples": 641,
+      "sigma": 0.07,
+      "source_centres": [
+        [
+          0.19,
+          0.76
+        ],
+        [
+          0.54,
+          0.47
+        ],
+        [
+          0.81,
+          0.22
+        ]
+      ],
+      "threads": 2,
+      "time_end": 8.0,
+      "timing_scope": "This study measures mechanism and accuracy; comparative costs are computed separately by the timing experiments."
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "accuracy_cost/analyze.py": {
+      "bytes": 5804,
+      "sha256": "746bffc9a7c5b5f6b9179c1feccfb2bc1fe3b1dfe85513c85deeaf422e955ed1"
+    },
+    "accuracy_cost/config.json": {
+      "bytes": 2746,
+      "sha256": "a44df54373a754f8b41147b37b13d57c41cdf62a1bafedb71f97dda01686addb"
+    },
+    "accuracy_cost/run.py": {
+      "bytes": 14879,
+      "sha256": "7bf6060430dd46f92ecb6c22e5a89c871dc2e8d6569ae1196c211747e8e4d7b5"
+    },
+    "accuracy_cost/verify.py": {
+      "bytes": 2373,
+      "sha256": "3b60f644d1917364cc705de11cff44a3588f8ab9cb3ba6c6fa4f591be0105dcd"
+    },
+    "accuracy_cost/verify_outputs.py": {
+      "bytes": 2772,
+      "sha256": "77d8c16aa9cbfffe3ba906d8da57ba730a21ad93470078f62b4439139e25fa70"
+    },
+    "acoustic_core.py": {
+      "bytes": 2370,
+      "sha256": "f7d6365682131c1de9b89c3f548ec77945b590c37632810f0bc8bc22efe7d454"
+    },
+    "dispersion/config.json": {
+      "bytes": 559,
+      "sha256": "79e4b16ae764f0b3587e984750df948466f3e03b917fc8d77b061f669e42f213"
+    },
+    "dispersion/run_dispersion.py": {
+      "bytes": 9240,
+      "sha256": "54138fce0a956d9d32e4770e613ef6e8216c09404b8b367f16a053a2300a95a4"
+    },
+    "frequency_diagnostics/config.json": {
+      "bytes": 1655,
+      "sha256": "aea4dde5c52c458c62fb91d93170b65294b22e656615479aef6cd43759fe5619"
+    },
+    "frequency_diagnostics/richardson.py": {
+      "bytes": 11487,
+      "sha256": "6dd34627c117ccb05c086f27210b2c458ef44e7f16aa52ccce6e73144b1e89fd"
+    },
+    "frequency_diagnostics/run.py": {
+      "bytes": 20973,
+      "sha256": "392303d0d64ed1741d525c13d8f7b733e2e93845dd8a8bc22bd5e1049966a093"
+    },
+    "grid_cost_diagnostics/analyze.py": {
+      "bytes": 10490,
+      "sha256": "b4a57ca14ecace2bdc98d30b2b06b48f910bb00c0629e21b7b8475eae42fd457"
+    },
+    "grid_cost_diagnostics/config.json": {
+      "bytes": 1600,
+      "sha256": "ff23fffc06790bbf4af33a7176d0969aa73fcc68297598fa2a47d24e6534dcd1"
+    },
+    "grid_cost_diagnostics/reference_sensitivity.py": {
+      "bytes": 10890,
+      "sha256": "823931c97165feb7e9cfe4d1a2089cbb683b5c5041dfecf96582944701d87e6b"
+    },
+    "grid_cost_diagnostics/run.py": {
+      "bytes": 7180,
+      "sha256": "192af94a907a8bc517441b7b1ed8c5193505f32b2e7ad480f0dc2f8644262d2d"
+    },
+    "grid_cost_diagnostics/verify.py": {
+      "bytes": 6115,
+      "sha256": "777d43629c37ef31487ced2cce6ba393e504fc4c2f160955ae1a449bcd106263"
+    },
+    "interface_case/analyze.py": {
+      "bytes": 2891,
+      "sha256": "b884b01c820fa46678f8cd731ca4294fc234a7695319a2fc00824bf9dee6820c"
+    },
+    "interface_case/config.json": {
+      "bytes": 1685,
+      "sha256": "793d201259ac742a6acf92c0088c65eeeba2a3f08339858edf2dc7795f1f7f8b"
+    },
+    "interface_case/kernel.py": {
+      "bytes": 9302,
+      "sha256": "4c6e00b94748735e144f94a12bb22928b654d163aec4bf07978122a6c8fd12db"
+    },
+    "interface_case/run.py": {
+      "bytes": 8290,
+      "sha256": "e638384056352bd24134ff1bc5ec0533dba8b6a9d20752a1e349df3f019ebbe1"
+    },
+    "interface_case/verify.py": {
+      "bytes": 6170,
+      "sha256": "7865b0b0405172ba6d03091e98294369f82c8fa2457b726524cec563c35dae29"
+    },
+    "main_residual/analyze.py": {
+      "bytes": 2561,
+      "sha256": "d8de79aa1c4fde086552b00206f152529cbef66d268f104017e552c900a39f44"
+    },
+    "main_residual/config.json": {
+      "bytes": 1494,
+      "sha256": "405b1c026ff2340a38f82d1bf46e111a995ca7d9bb7d04444daae0bb369ffdf6"
+    },
+    "main_residual/run.py": {
+      "bytes": 13220,
+      "sha256": "880d9455b23b8290009adbf1b4ac62ce7561553ba412fabba3065f1b793ad99c"
+    },
+    "main_residual/run_interface.py": {
+      "bytes": 2716,
+      "sha256": "2b0a66b2d57df258200a1c957b14d970c48eb82432cad41ee0f9ff59742dec21"
+    },
+    "main_residual/verify.py": {
+      "bytes": 3884,
+      "sha256": "5a36296d1b23c66fe411496ef87f3d623cc1b96983c9556c611b128dde6558a5"
+    },
+    "modal_diagnostics/config.json": {
+      "bytes": 667,
+      "sha256": "cc593e33d823aeea18e782bce49c4a5e5f80843912aba5f52a98a4dbffef19dd"
+    },
+    "modal_diagnostics/evaluate_reference.py": {
+      "bytes": 2508,
+      "sha256": "30dbe939b5b812cdb48947e5d04d193327a3876e9b2ea816946c16aac77f87f9"
+    },
+    "modal_diagnostics/evaluation_config.json": {
+      "bytes": 283,
+      "sha256": "22f941df72adc6f0bee44cc06e66a853107e4ff64f520cb42e7715c1c3ae0143"
+    },
+    "modal_diagnostics/export_modes.py": {
+      "bytes": 3963,
+      "sha256": "fae9f3f04e452f76baedc0d1ab868ffe782943e6fbb62de459d203c1a9cb1486"
+    },
+    "modal_diagnostics/run.py": {
+      "bytes": 15243,
+      "sha256": "461e20867aa55f36d290a6cd4a354a74d54027623311b3513af17789f5e46201"
+    },
+    "modal_diagnostics/verify.py": {
+      "bytes": 2239,
+      "sha256": "546c80541af0184dacefdff3f2e73c5b7be7d85082c5fe3b00f8b062c82070eb"
+    },
+    "modal_robustness/analyze.py": {
+      "bytes": 8256,
+      "sha256": "bd8b3eaab717ea29674f8a26dc113af47984780909916630961d99583e04c026"
+    },
+    "modal_robustness/config.json": {
+      "bytes": 1985,
+      "sha256": "ef049916e525e2d760c940743add6f820a3a5efac3f8473a4292c0fd457e1639"
+    },
+    "modal_robustness/run.py": {
+      "bytes": 26878,
+      "sha256": "f9e7bc0da5492914d0e1e907f4edb691e20c71a713b0ee7a9c440764650db6ff"
+    },
+    "modal_robustness/verify.py": {
+      "bytes": 149,
+      "sha256": "288a4e30311e4f96c2813e4b2047a902ca8723c0aa5988192815ed356f5b86ee"
+    },
+    "observation_diagnostics/analyze.py": {
+      "bytes": 9734,
+      "sha256": "06ec1f77b2c5d4c6784760c8ddafc525e79af0355bd88350abacc64d25d85db0"
+    },
+    "observation_diagnostics/config.json": {
+      "bytes": 1143,
+      "sha256": "998c8e016a4cbe187cea1488376227493c23c6115cefb09b5c7325608cb8ebe0"
+    },
+    "observation_diagnostics/verify.py": {
+      "bytes": 4518,
+      "sha256": "031856b7894cdc30717cf5c0a50741cf1b2f1b9504d135e33daa5265a79d3f88"
+    },
+    "propagation/analyze_asymptotic.py": {
+      "bytes": 6036,
+      "sha256": "1c7c412e1c0e0c759b3be791639153c7f67b29d1c57962fa69d95db80a6c8132"
+    },
+    "propagation/analyze_propagation.py": {
+      "bytes": 5305,
+      "sha256": "4b9fcf73196a8d21db1bfbd3705bc615a17328f5c681a682667763a5e33042e3"
+    },
+    "propagation/analyze_reduction.py": {
+      "bytes": 3657,
+      "sha256": "6eda543df760126c1f44d0f079f5657894db18fc6f4d22867aaceb36dc586330"
+    },
+    "propagation/assemble_reduced_responses.py": {
+      "bytes": 3027,
+      "sha256": "afcc473b9b5205191eccf84c79d92f5107ec34c24ad7345291f3485769e11a04"
+    },
+    "propagation/chebyshev_reference.py": {
+      "bytes": 9372,
+      "sha256": "212a3bbc5d95295523fc5b85702503a555f49c74564b275f6031c8e9e9deddbb"
+    },
+    "propagation/experiment_config.json": {
+      "bytes": 1946,
+      "sha256": "198e633f56ba2d4ba7b7c5ca25e25ed7e5aa9c711be23b36c193e938f8c86fe6"
+    },
+    "propagation/reference_checks.py": {
+      "bytes": 7727,
+      "sha256": "0925991430a4d49622251fa0c54713aff027f8c0b50820ea823d99edace1032b"
+    },
+    "propagation/run_propagation.py": {
+      "bytes": 9165,
+      "sha256": "2c2907aeba65368fe71f14175645d5c3cf55c90f040a38ccdf0a581bcc95b4af"
+    },
+    "propagation/verify_reference.py": {
+      "bytes": 3393,
+      "sha256": "834917ef9df274238e2d6bb47992fac75a05879b208bac12869c3a6c9ebe6784"
+    },
+    "run.py": {
+      "bytes": 18236,
+      "sha256": "998c9a4dd13db0968327876dfe6943c925dba4f25cf33952c4f219595f63875b"
+    },
+    "runlog.py": {
+      "bytes": 26999,
+      "sha256": "03f7f5ae44564fcddf5fd88fdbabf67878f165991571708b257b2a6aaaaf3bb9"
+    },
+    "source_receiver_validation/analyze.py": {
+      "bytes": 15737,
+      "sha256": "2f8489384fe33e6ca5895c862f74a74f8c7c4b7fd638851972ab51965f7d5f02"
+    },
+    "source_receiver_validation/common.py": {
+      "bytes": 1838,
+      "sha256": "97853a0a9edad3d1611fe00210a898d48750d2852e1f54e3e79005115adc1bed"
+    },
+    "source_receiver_validation/config.json": {
+      "bytes": 1974,
+      "sha256": "a36c05879722b970fb8389233046cac7bed2d809b9cc60c7ea4976d42c44424e"
+    },
+    "source_receiver_validation/layout_config.json": {
+      "bytes": 714,
+      "sha256": "5321598c0caae75ca495bf755d3b1809e34a1d879a8c51d0b2276d0253008d02"
+    },
+    "source_receiver_validation/run.py": {
+      "bytes": 16922,
+      "sha256": "c134f895910e045293ef7dccf3142d477f255eeb5f150fb5c2ccfc30ae527b49"
+    },
+    "source_receiver_validation/verify.py": {
+      "bytes": 15318,
+      "sha256": "b8aa0af4edf3e9176d528f883cda4422fd5dbc8ffdab37eb393ba0424cea53a8"
+    },
+    "studies/patch_2d/audit_patch.py": {
+      "bytes": 2470,
+      "sha256": "b9b04d263f9b7837157f192692909b1740f6efe04794e6eeda92b7cd5ff3134d"
+    },
+    "studies/patch_2d/capacity_followup.py": {
+      "bytes": 3807,
+      "sha256": "557459d503e4b2de34a08cdb6a030654a5171435d880581507f9603d829737e0"
+    },
+    "studies/patch_2d/run_patch.py": {
+      "bytes": 13602,
+      "sha256": "5a2a5c1fb19f8c53ebf982fc92d47186e30e498c8e2d5e51c85a19c068df8488"
+    },
+    "studies/stage1_1d/core.py": {
+      "bytes": 9458,
+      "sha256": "a0e83e0e281a248c510bc5a8fad55c18ae55b00a92eb71b5f95510896c79e9e5"
+    },
+    "studies/stage1_1d/direct_baseline_check.py": {
+      "bytes": 2200,
+      "sha256": "2d2da7de00f30b41cff396dce9ecf9b8bbdf34ac6ac24e5201fa6f6861ffc881"
+    },
+    "studies/stage1_1d/protocol.json": {
+      "bytes": 1230,
+      "sha256": "8d7ab2011b4dec619ffde0490030c76675ab6427e0c052a27dca2d4eace03388"
+    },
+    "studies/stage1_1d/refinement_diagnostic.py": {
+      "bytes": 2169,
+      "sha256": "5d584e6be29d58e9444960b9f01519c65836c63e5c8af54e0e94e87f4d2c69ce"
+    },
+    "studies/stage1_1d/run_experiment.py": {
+      "bytes": 10674,
+      "sha256": "7160eb9632337b6744225ebcaf9509296d413e7296fa4b77f05c0444dd3e3c89"
+    },
+    "studies/stage2_2d/capacity_and_sampling.py": {
+      "bytes": 4961,
+      "sha256": "f44a3840c4642c66e774d156db447f863a2f31ccdbc766c60f59f8108c606597"
+    },
+    "studies/stage2_2d/energy_defect_certificate.py": {
+      "bytes": 10124,
+      "sha256": "34df7a397cea8f23c340fa754d78c100d506efa841bf9d6979098e494ff094ca"
+    },
+    "studies/stage2_2d/run_2d.py": {
+      "bytes": 12606,
+      "sha256": "da6527c3965db107fd8df7012e251edb126cabd0ff8649c360cd1307e13ba762"
+    },
+    "studies/verify_outputs.py": {
+      "bytes": 2239,
+      "sha256": "50d426710a8558ef47e50c3592d1a292b92675bef65a957a7b4988ee59f71220"
+    },
+    "total_error_cost/analyze.py": {
+      "bytes": 10631,
+      "sha256": "23d53040fa83db07de126c9d7531a44e41dfe88410f3530bfa7d22b2861a2b96"
+    },
+    "total_error_cost/analyze_interface.py": {
+      "bytes": 4807,
+      "sha256": "a99d657a6498bb298e5fa8e33c1a6431c3d91f3ec0370b869bd3d83f7c5e5a9f"
+    },
+    "total_error_cost/config.json": {
+      "bytes": 3167,
+      "sha256": "82aa64233079f4fbe10b5ad5bcf23c9d987e12ee1374ebfe42f851d58c79651b"
+    },
+    "total_error_cost/envelope.py": {
+      "bytes": 4198,
+      "sha256": "86256de8bbafcf11290625d903cb3d9a68288f45c3123881a1abf9b30f8777c5"
+    },
+    "total_error_cost/run.py": {
+      "bytes": 13701,
+      "sha256": "87591df27171eb04e4872ad83190422b27c55201fd4b36927d60f4c219d9ddc6"
+    },
+    "total_error_cost/run_interface.py": {
+      "bytes": 10543,
+      "sha256": "78935c8a478b2e3db7c3a769808e9448f757c42291751a01a399d7797f7cf025"
+    },
+    "total_error_cost/verify.py": {
+      "bytes": 3781,
+      "sha256": "e7ae5c0293c212befe0e3045d49a6875037f515e820decf2663eb0ab56167633"
+    },
+    "total_error_cost/verify_interface.py": {
+      "bytes": 2547,
+      "sha256": "c1adc38beb14383f9cfc558afa9bca5a989b6b3975b486dd87d971b87a95604a"
+    },
+    "total_error_cost/verify_outputs.py": {
+      "bytes": 5341,
+      "sha256": "26572163dcad907c1d75fa9a6c58868e8bada1d43dea6a644e1f46d6b633d408"
+    },
+    "unequal_speed_interface/analyze.py": {
+      "bytes": 4108,
+      "sha256": "c1e71be0b500ac809b712b3d5dbabf2588592b265c074c517b497c458c89dcd4"
+    },
+    "unequal_speed_interface/config.json": {
+      "bytes": 1660,
+      "sha256": "0ad770a71f1b04bf823f6d98e48e0458974b1c81fb43f49a6b863f12173be883"
+    },
+    "unequal_speed_interface/io.py": {
+      "bytes": 1012,
+      "sha256": "9c0fcc08fdc766599d3ba8020e0794b5006af48c0dfea3d2e6951d6500be815e"
+    },
+    "unequal_speed_interface/kernel.py": {
+      "bytes": 12945,
+      "sha256": "2cf14b5caaba8adb20d5b9732a8648a4bfc23aa53553f51535a5a93d826036bc"
+    },
+    "unequal_speed_interface/modal.py": {
+      "bytes": 13293,
+      "sha256": "19aeef09aa5a83f04de20e9dad0a6be716662419323d3bfa16df4627af65721d"
+    },
+    "unequal_speed_interface/run.py": {
+      "bytes": 11324,
+      "sha256": "54e9509b36ea1fcd821ead8be545ad513da7f5a5474abf0a3dacee9f5bf3e73c"
+    },
+    "unequal_speed_interface/verify.py": {
+      "bytes": 7980,
+      "sha256": "1fb4f971f73de3ce50cd9f5956df7bfad95b9773628bd3bb53b182abc2cfe517"
+    },
+    "unequal_speed_interface/verify_outputs.py": {
+      "bytes": 9478,
+      "sha256": "40c267025561dd351f857317ffb6ec61c72629bf3257fb542f77fa5342d1d5fd"
+    }
+  },
+  "source_fingerprint": "a9ec3a73c4fa354f9d381c6a24f488b332638297b87a21fa279728731d44037b"
+}

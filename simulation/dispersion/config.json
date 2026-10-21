@@ -1,0 +1,45 @@
+{
+  "domain": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+  ],
+  "density": 1.0,
+  "bulk_modulus": 1.0,
+  "boundary": "rigid",
+  "grids": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    256
+  ],
+  "modes": [
+    [
+      2,
+      1
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      8,
+      5
+    ]
+  ],
+  "observation_times": [
+    2.0,
+    8.0
+  ],
+  "matrix_exponential_grid": 16,
+  "matrix_exponential_samples": 129,
+  "quadrature_samples": 65537,
+  "eigenpair_residual_tolerance": 1e-09,
+  "matrix_exponential_relative_tolerance": 1e-09
+}

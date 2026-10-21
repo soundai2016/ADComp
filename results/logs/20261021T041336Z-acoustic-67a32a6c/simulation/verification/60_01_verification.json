@@ -1,0 +1,7 @@
+{
+  "models_checked": 9,
+  "maximum_fine_decomposition_relative_defect": 2.4437572709235067e-16,
+  "maximum_same_grid_decomposition_relative_defect": 4.7970776723995544e-14,
+  "maximum_recorded_error_difference": 0.0,
+  "passed": true
+}

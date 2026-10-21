@@ -1,0 +1,164 @@
+[stdout] {
+[stdout]   "analysis": "receiver-waveform differences between finite grids",
+[stdout]   "finest_grid_is_not_truth": true,
+[stdout]   "complete_requested_ladder": true,
+[stdout]   "adjacent_grid_summary": [
+[stdout]     {
+[stdout]       "coarse_grid": 32,
+[stdout]       "fine_grid": 48,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.09070209868393368,
+[stdout]       "max_material_relative_difference": 0.12084192808239455,
+[stdout]       "max_source_relative_difference": 0.20518019706992832
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 32,
+[stdout]       "fine_grid": 48,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.26916428183718194,
+[stdout]       "max_material_relative_difference": 0.3202320913277426,
+[stdout]       "max_source_relative_difference": 0.3776447866365556
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 48,
+[stdout]       "fine_grid": 64,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.0329951534315439,
+[stdout]       "max_material_relative_difference": 0.04476711235124222,
+[stdout]       "max_source_relative_difference": 0.07629708084283215
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 48,
+[stdout]       "fine_grid": 64,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.11459766997837241,
+[stdout]       "max_material_relative_difference": 0.1358731386058961,
+[stdout]       "max_source_relative_difference": 0.18728873685128059
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 64,
+[stdout]       "fine_grid": 96,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.022791633461202106,
+[stdout]       "max_material_relative_difference": 0.030194158607610096,
+[stdout]       "max_source_relative_difference": 0.05070112515317452
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 64,
+[stdout]       "fine_grid": 96,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.08226903438580231,
+[stdout]       "max_material_relative_difference": 0.09692217265463676,
+[stdout]       "max_source_relative_difference": 0.130192487120804
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 96,
+[stdout]       "fine_grid": 128,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.007865308873450947,
+[stdout]       "max_material_relative_difference": 0.010347093939244018,
+[stdout]       "max_source_relative_difference": 0.01720452052701326
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 96,
+[stdout]       "fine_grid": 128,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.02991121833467024,
+[stdout]       "max_material_relative_difference": 0.03621948350410463,
+[stdout]       "max_source_relative_difference": 0.048811897757192246
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 128,
+[stdout]       "fine_grid": 192,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.0055740023720279586,
+[stdout]       "max_material_relative_difference": 0.0073139687843089005,
+[stdout]       "max_source_relative_difference": 0.012082522363711443
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 128,
+[stdout]       "fine_grid": 192,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.021403624605938507,
+[stdout]       "max_material_relative_difference": 0.026000937777754054,
+[stdout]       "max_source_relative_difference": 0.03507091261138517
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 192,
+[stdout]       "fine_grid": 256,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.0019438172133711357,
+[stdout]       "max_material_relative_difference": 0.002549004943367486,
+[stdout]       "max_source_relative_difference": 0.00419703327914545
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 192,
+[stdout]       "fine_grid": 256,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.0075216124679176105,
+[stdout]       "max_material_relative_difference": 0.009182672819065258,
+[stdout]       "max_source_relative_difference": 0.0124292828534216
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 256,
+[stdout]       "fine_grid": 384,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.001386062297433152,
+[stdout]       "max_material_relative_difference": 0.001817037597429344,
+[stdout]       "max_source_relative_difference": 0.0029877448622456825
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 256,
+[stdout]       "fine_grid": 384,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.005370140301468092,
+[stdout]       "max_material_relative_difference": 0.006559975105670635,
+[stdout]       "max_source_relative_difference": 0.00888982592791651
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 384,
+[stdout]       "fine_grid": 512,
+[stdout]       "time_end": 2.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.0004846745420351391,
+[stdout]       "max_material_relative_difference": 0.0006352822371052926,
+[stdout]       "max_source_relative_difference": 0.0010438339575642964
+[stdout]     },
+[stdout]     {
+[stdout]       "coarse_grid": 384,
+[stdout]       "fine_grid": 512,
+[stdout]       "time_end": 8.0,
+[stdout]       "materials_completed": 3,
+[stdout]       "mean_relative_difference": 0.0018793873903794507,
+[stdout]       "max_material_relative_difference": 0.0022969538416295916,
+[stdout]       "max_source_relative_difference": 0.003115148885571365
+[stdout]     }
+[stdout]   ],
+[stdout]   "max_energy_relative_drift": 3.886890809212673e-12,
+[stdout]   "energy_sampling": "All 641 output times for sparse exponentials; the five snapshot times for Chebyshev propagation.",
+[stdout]   "sum_simulation_wall_seconds": 4910.273380397353,
+[stdout]   "definition": "relative waveform difference uses fine-grid denominator; each material has 3 sources and 4 receivers",
+[stdout]   "scope": "Three smooth development media, rigid walls, fixed sigma=0.07, nondimensional T=8; 3 sources and 4 receivers.",
+[stdout]   "output_time_quadrature_audit": {
+[stdout]     "grid": 64,
+[stdout]     "material": "rotated_stripes",
+[stdout]     "fine_samples": 1281,
+[stdout]     "coarse_samples": 641,
+[stdout]     "waveform_norm_relative_change": 2.089498758461872e-06,
+[stdout]     "interpretation": "checks the waveform norm quadrature only, not every cross-grid difference numerator"
+[stdout]   }
+[stdout] }

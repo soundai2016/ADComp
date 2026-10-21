@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": {
+    "default_budget_rows": 936,
+    "maximum_scaled_default_replay_difference": 2.2537527399890678e-14,
+    "default_replay_maximum_absolute_difference_by_metric": {
+      "total_receiver_error": 2.220446049250313e-16,
+      "coarse_replacement_error": 2.255140518769849e-16,
+      "change_percentage_points": 2.2537527399890678e-14,
+      "delta_squared_error": 9.020562075079397e-17,
+      "same_mode_term": 0.0,
+      "cross_mode_term": 2.0816681711721685e-17,
+      "remainder_cross_term": 7.19910242530375e-17,
+      "source_cross_term": 1.5612511283791264e-17,
+      "receiver_cross_term": 2.5153490401663703e-17,
+      "unmatched_cross_term": 6.548581121812447e-17,
+      "reference_squared_norm": 0.0
+    },
+    "default_matching_indices_identical": true,
+    "maximum_budget_absolute_defect": 1.457167719820518e-16,
+    "maximum_decomposition_relative_defect": 1.7705243398885418e-14,
+    "budget_rows": 9360,
+    "contrast_rows": 9360,
+    "unique_contrasts": 936,
+    "default_channel_pairs_per_position_factor": 432,
+    "default_aggregate_pairs_per_position_factor": 36
+  }
+}

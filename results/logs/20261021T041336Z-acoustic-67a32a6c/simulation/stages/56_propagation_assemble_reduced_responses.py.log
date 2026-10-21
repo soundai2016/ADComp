@@ -1,0 +1,6 @@
+[stdout] {
+[stdout]   "passed": true,
+[stdout]   "mode": "verify",
+[stdout]   "arrays": 28,
+[stdout]   "maximum_absolute_difference": 0.0
+[stdout] }

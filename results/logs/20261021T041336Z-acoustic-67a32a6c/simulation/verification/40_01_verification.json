@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "channel_rows": 1728,
+  "group_rows": 1152,
+  "input_files_checked": 15,
+  "max_additive_contribution_residual": 1.5337261806444446e-16,
+  "max_disjoint_window_partition_residual": 7.771561172376096e-16,
+  "previous_aggregate_comparisons_checked": 27
+}

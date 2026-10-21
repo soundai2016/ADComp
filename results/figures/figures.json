@@ -1,0 +1,70 @@
+{
+  "figures": {
+    "Fig1": {
+      "width_inches": 6.69,
+      "height_inches": 5.6,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "975e0449e0ec873eaa52e643c28d3ebd24eb875f79eecfc17af05bde3a3c61f3",
+      "png_sha256": "17c4f6dbb6722aef0e129a7738d12863cb2a4544fc907755489bdad48b2e236f"
+    },
+    "Fig2": {
+      "width_inches": 6.69,
+      "height_inches": 6.65,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "40ea020597cda6f9800bb175b2b5e85f30d8f49a82e4a5f66b320172f2d11fb5",
+      "png_sha256": "029113d698bc1320883af998ddac50989a3dbf0886d07bcd2d23099ff6b3a04a"
+    },
+    "Fig3": {
+      "width_inches": 6.69,
+      "height_inches": 6.8,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "bb16684ddb03dff06619c6e1af671075d6d12443890bea5752d1f5c4f62403e4",
+      "png_sha256": "97efc07738839886fd45c06b1b70e59fb40c45dfc9fc3f4e7d77f3e567cc2583"
+    },
+    "Fig4": {
+      "width_inches": 6.69,
+      "height_inches": 4.9,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "46d4dc99c8116598eb1e4efe2f5faf6eb46525da5d52b6b2f62c8507448d3388",
+      "png_sha256": "2e54e07ef61afb6f9c3173b9a7ebadd610e1375d4d8385a5e01c0ce92c4cc73a"
+    },
+    "Fig5": {
+      "width_inches": 6.69,
+      "height_inches": 5.25,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "bdacc21a9bb90d49dbcab05efd2fc3718c020fdb51e6c00a87b750ebfbf0af5c",
+      "png_sha256": "3c65b850fbcb55e571c753f84d5df76d4fd758afead6e99a8e97a2d4e73e4623"
+    },
+    "Fig6": {
+      "width_inches": 6.69,
+      "height_inches": 5.7,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "125d90859caff22b9fee4cfdedb37b772bd9d909dce2fee9ba0d5ffee394f2c4",
+      "png_sha256": "185f035fe881849d35432c8c233aac6fe5f40567c20bf88f98e8d3e17f99eae8"
+    },
+    "Fig7": {
+      "width_inches": 6.69,
+      "height_inches": 6.7,
+      "minimum_text_pt": 8.5,
+      "bounds_check_pass": true,
+      "pdf_sha256": "9f6922c3b191681fbebf78d90f17c2f2f2fe07e11796e0caa6f8c023cc92440d",
+      "png_sha256": "9ba874b34bdf81e31d12fbed1dc4375fbe701d548bde9a3f395ae4f5bec227b2"
+    }
+  },
+  "inputs": {
+    "plot_tables.json": "9d05476534beba2347f85be84f91a685b50719c420372d09ba513ae40ea330be",
+    "plot_arrays.npz": "b51d00689b2dddd30fc34983e2754ec560a552d90b7417104ebb76a6c14db644"
+  },
+  "style": {
+    "width_inches": 6.69,
+    "minimum_text_pt": 8.5,
+    "png_dpi": 300,
+    "signed_colormap": "RdBu: positive blue, negative red; centered at zero"
+  }
+}

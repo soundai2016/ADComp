@@ -1,0 +1,197 @@
+[stdout] Richardson reference comparison: rotated_stripes
+[stdout] Richardson reference comparison: double_inclusion
+[stdout] Richardson reference comparison: smooth_checker
+[stdout] {
+[stdout]   "passed": true,
+[stdout]   "checks": {
+[stdout]     "all_expected_rows": true,
+[stdout]     "maximum_saved_budget_replay_absolute_difference": 1.5543122344752192e-15,
+[stdout]     "maximum_saved_margin_scaled_difference": 3.367201647146952e-11,
+[stdout]     "maximum_reference_identity_defect": 2.766070792553643e-16,
+[stdout]     "maximum_model_modal_replay_relative_difference": 3.884864019479431e-15,
+[stdout]     "maximum_equivalent_richardson_formula_absolute_difference": 1.3322676295501878e-15,
+[stdout]     "all_reference_changes_within_cauchy_bound": true
+[stdout]   },
+[stdout]   "ordinary_channel_window_summary": [
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "grid384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.5201145151333435,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "richardson512",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.1823112895481236,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "richardson384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.1839169436088213,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "grid384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.5201145151333435,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "richardson512",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.1823112895481236,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "richardson384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.1839169436088213,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "grid384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 8.345316329210636,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "richardson512",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 6.490801589386057,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "richardson384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 6.486593797486785,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "grid384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 8.345316329210636,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "richardson512",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 6.490801589386057,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "richardson384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 6.486593797486785,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "grid384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.1833884529140355,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "richardson512",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 94,
+[stdout]       "minimum_margin": 0.9204132411553542,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 128,
+[stdout]       "comparator": "richardson384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 94,
+[stdout]       "minimum_margin": 0.9175543759991455,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "grid384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 96,
+[stdout]       "minimum_margin": 1.1833884529140355,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "richardson512",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 94,
+[stdout]       "minimum_margin": 0.9204132411553542,
+[stdout]       "sign_changes": []
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 192,
+[stdout]       "comparator": "richardson384",
+[stdout]       "comparisons": 96,
+[stdout]       "sign_agreements": 96,
+[stdout]       "margins_greater_than_one": 94,
+[stdout]       "minimum_margin": 0.9175543759991455,
+[stdout]       "sign_changes": []
+[stdout]     }
+[stdout]   ]
+[stdout] }

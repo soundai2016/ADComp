@@ -1,0 +1,37 @@
+[stdout] full state aligned_impedance_step n=32
+[stdout]   craig_bampton m=32: worst T=8 error 0.81281
+[stdout]   craig_bampton m=64: worst T=8 error 0.40806
+[stdout]   craig_bampton m=128: worst T=8 error 0.11233
+[stdout]   rational_krylov m=32: worst T=8 error 0.34101
+[stdout]   rational_krylov m=64: worst T=8 error 0.12227
+[stdout]   rational_krylov m=128: worst T=8 error 0.040407
+[stdout] full state aligned_impedance_step n=64
+[stdout]   craig_bampton m=32: worst T=8 error 0.86899
+[stdout]   craig_bampton m=64: worst T=8 error 0.51149
+[stdout]   craig_bampton m=128: worst T=8 error 0.20435
+[stdout]   rational_krylov m=32: worst T=8 error 0.16871
+[stdout]   rational_krylov m=64: worst T=8 error 0.099302
+[stdout]   rational_krylov m=128: worst T=8 error 0.041429
+[stdout] full state aligned_impedance_step n=96
+[stdout]   craig_bampton m=32: worst T=8 error 0.90448
+[stdout]   craig_bampton m=64: worst T=8 error 0.51582
+[stdout]   craig_bampton m=128: worst T=8 error 0.22086
+[stdout]   rational_krylov m=32: worst T=8 error 0.12122
+[stdout]   rational_krylov m=64: worst T=8 error 0.088793
+[stdout]   rational_krylov m=128: worst T=8 error 0.035466
+[stdout] full state aligned_impedance_step n=128
+[stdout]   craig_bampton m=32: worst T=8 error 0.85549
+[stdout]   craig_bampton m=64: worst T=8 error 0.52712
+[stdout]   craig_bampton m=128: worst T=8 error 0.2259
+[stdout]   rational_krylov m=32: worst T=8 error 0.10826
+[stdout]   rational_krylov m=64: worst T=8 error 0.057965
+[stdout]   rational_krylov m=128: worst T=8 error 0.026605
+[stdout] {
+[stdout]   "model_count": 24,
+[stdout]   "rows": 144,
+[stdout]   "all_bounds_hold": true,
+[stdout]   "minimum_bound_minus_error": 0.007839383458699986,
+[stdout]   "wall_seconds": 40.21369926200714,
+[stdout]   "main_residual_config_sha256": "405b1c026ff2340a38f82d1bf46e111a995ca7d9bb7d04444daae0bb369ffdf6",
+[stdout]   "interface_config_sha256": "793d201259ac742a6acf92c0088c65eeeba2a3f08339858edf2dc7795f1f7f8b"
+[stdout] }

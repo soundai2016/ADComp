@@ -1,0 +1,99 @@
+{
+  "status": "pass",
+  "numerical_checks_pass": true,
+  "grid384_exponential_chebyshev_relative_difference": {
+    "receiver_pressure": 9.857059947819766e-13,
+    "pressure_snapshots": 8.309071245510978e-13
+  },
+  "relative_agreement_tolerance": 2e-10,
+  "energy_sampling": "641 times for the exponential; snapshot times 0,2,4,6,8 for Chebyshev.",
+  "tail_interpretation": "Exact-arithmetic uniform matrix-function truncation estimates; floating-point error is checked by independent propagation.",
+  "verified_implementation_sha256": "064dfae37ef71af8216c2b2f2d3ff698ae8ef9234987b2c4f3f01267d0c4e13a",
+  "reference_cases": [
+    {
+      "material": "rotated_stripes",
+      "grid": 384,
+      "shape_ok": true,
+      "finite": true,
+      "wall_seconds": 1584.15835843503,
+      "energy_relative_drift": 1.0014211682118912e-13,
+      "energy_check_count": 641,
+      "sha256": "0f5dcbb41afc4cda42e753273d471da460f593076b86de06f860d987b07de0bb"
+    },
+    {
+      "material": "double_inclusion",
+      "grid": 384,
+      "shape_ok": true,
+      "finite": true,
+      "wall_seconds": 76.25838470296003,
+      "energy_relative_drift": 8.664180484174722e-13,
+      "energy_check_count": 5,
+      "sha256": "1384b3d067517f2fc37143046736efde30fb710c1b49cf5ca65021c85b4555d0",
+      "polynomial_degree": 8888,
+      "recomputed_uniform_cosine_tail_bound": 8.470812383808575e-18,
+      "recomputed_sinc_coefficient_tail_bound": 7.108949607469697e-36,
+      "recomputed_total_integrated_cosine_tail_bound": 6.77664990704686e-17,
+      "tail_criterion_pass": true
+    },
+    {
+      "material": "smooth_checker",
+      "grid": 384,
+      "shape_ok": true,
+      "finite": true,
+      "wall_seconds": 89.71545260003768,
+      "energy_relative_drift": 3.886890809212673e-12,
+      "energy_check_count": 5,
+      "sha256": "488cc67d77f0697a0f723781c223d46b8c67e2c6ae20fc42cb1229971b358167",
+      "polynomial_degree": 10579,
+      "recomputed_uniform_cosine_tail_bound": 9.17607386506069e-18,
+      "recomputed_sinc_coefficient_tail_bound": 1.2099671197579109e-34,
+      "recomputed_total_integrated_cosine_tail_bound": 7.340859092048552e-17,
+      "tail_criterion_pass": true
+    },
+    {
+      "material": "rotated_stripes",
+      "grid": 512,
+      "shape_ok": true,
+      "finite": true,
+      "wall_seconds": 173.46152099606115,
+      "energy_relative_drift": 9.210410212290299e-13,
+      "energy_check_count": 5,
+      "sha256": "bfd2f5514706c56cbf02c821d8786562f2e29814293a68e62122c7394abdd586",
+      "polynomial_degree": 11198,
+      "recomputed_uniform_cosine_tail_bound": 7.14264349720424e-18,
+      "recomputed_sinc_coefficient_tail_bound": 2.0723725264782416e-34,
+      "recomputed_total_integrated_cosine_tail_bound": 5.714114797763392e-17,
+      "tail_criterion_pass": true
+    },
+    {
+      "material": "double_inclusion",
+      "grid": 512,
+      "shape_ok": true,
+      "finite": true,
+      "wall_seconds": 249.99374034802895,
+      "energy_relative_drift": 1.6999734953060397e-12,
+      "energy_check_count": 5,
+      "sha256": "cce5ee2282317970fb3dda940d626f1e00bf38674a0ad5383b6b00c2dab896b3",
+      "polynomial_degree": 11814,
+      "recomputed_uniform_cosine_tail_bound": 9.721276558360214e-18,
+      "recomputed_sinc_coefficient_tail_bound": 6.6780553489574766e-34,
+      "recomputed_total_integrated_cosine_tail_bound": 7.777021246688171e-17,
+      "tail_criterion_pass": true
+    },
+    {
+      "material": "smooth_checker",
+      "grid": 512,
+      "shape_ok": true,
+      "finite": true,
+      "wall_seconds": 249.39171567501035,
+      "energy_relative_drift": 3.1294966618133913e-12,
+      "energy_check_count": 5,
+      "sha256": "70fba136d6c9068fecc065dc4deab6b1804816006c763fe7d36682d8042be270",
+      "polynomial_degree": 14074,
+      "recomputed_uniform_cosine_tail_bound": 7.623785671535495e-18,
+      "recomputed_sinc_coefficient_tail_bound": 5.7342250235722974e-33,
+      "recomputed_total_integrated_cosine_tail_bound": 6.099028537228396e-17,
+      "tail_criterion_pass": true
+    }
+  ]
+}

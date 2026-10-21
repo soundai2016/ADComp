@@ -1,0 +1,37 @@
+{
+  "materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "coarse_grid": 32,
+  "fine_grid": 128,
+  "fine_modes": 256,
+  "eigen_tolerance": 1e-10,
+  "mac_threshold": 0.9,
+  "relative_frequency_gap": 0.005,
+  "near_cluster_tolerance": 0.005,
+  "fine_response_coverage_limit": 0.01,
+  "models": [
+    [
+      "craig_bampton",
+      32
+    ],
+    [
+      "craig_bampton",
+      128
+    ],
+    [
+      "rational_krylov",
+      128
+    ]
+  ],
+  "cpu_affinity": [
+    2,
+    3
+  ],
+  "threads": 2,
+  "time_end": 8.0,
+  "samples": 641,
+  "description": "Exploratory modal attribution of computed trajectories with fixed matching rules."
+}

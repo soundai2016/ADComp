@@ -1,0 +1,37 @@
+{
+  "started_at_utc": "2026-10-21T06:20:08.069977+00:00",
+  "config_sha256": "a36c05879722b970fb8389233046cac7bed2d809b9cc60c7ea4976d42c44424e",
+  "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:20:25) [GCC 14.3.0]",
+  "platform": "Linux-5.19.0-051900-generic-x86_64-with-glibc2.35",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/chenxiaoliang/anaconda3/envs/acous/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/chenxiaoliang/anaconda3/envs/acous/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "layout_config_sha256": "5321598c0caae75ca495bf755d3b1809e34a1d879a8c51d0b2276d0253008d02",
+  "code_sha256": {
+    "analyze.py": "2f8489384fe33e6ca5895c862f74a74f8c7c4b7fd638851972ab51965f7d5f02",
+    "verify.py": "b8aa0af4edf3e9176d528f883cda4422fd5dbc8ffdab37eb393ba0424cea53a8",
+    "common.py": "97853a0a9edad3d1611fe00210a898d48750d2852e1f54e3e79005115adc1bed",
+    "run.py": "c134f895910e045293ef7dccf3142d477f255eeb5f150fb5c2ccfc30ae527b49"
+  }
+}

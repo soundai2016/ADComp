@@ -1,0 +1,98 @@
+{
+  "description": "Modal frequencies, port factors and port-independent matching assignments.",
+  "compact_sha256": "9cd995452bd9b133d60a0fa94be8a2f3f102f089cc222b0c22a4b4c195d159cd",
+  "accuracy_sha256": "ee14fde6348d5fb98792584f2519c8caa82fca6f1cd477ab47df2447b918e4d6",
+  "source_sha256": {
+    "source_receiver_validation/results/continuous_catalogue.npz": "4e839eec52994dd233e77afbfeac74aa8923b29b4cd4c14c25d5ccaacbc45b12",
+    "source_receiver_validation/results/factorial_reference.npz": "df8b2f6b33832685f44be5998662b43e7b4c8f69a2ca1fa25f4f9da67943310f",
+    "source_receiver_validation/results/n64_full.npz": "5629f190fcdb2b88db808d7a300ddffbb6700c4b88f6e89bc6a3fe8c341f0bfc",
+    "source_receiver_validation/results/n64_cb_m32.npz": "4d8b007d44d0905fb132e8a462d5a778b60f0f0e91c9dedb935a22b396755e29",
+    "source_receiver_validation/results/n64_cb_m64.npz": "7a43ef453f2b945409b7609553ac2a34d1caaaa861f4cc82b9d6dafcc5f44ce3",
+    "source_receiver_validation/results/n64_cb_m128.npz": "830733ab3f0a588f1e0c346ba9c4220bb7b7b40e01c17c11423eba631ca4ab97",
+    "source_receiver_validation/results/n128_full.npz": "8f6f6613ca336df0a687d9211aac6b77589143c44b21e179ef7c76531671d518",
+    "source_receiver_validation/results/n128_cb_m32.npz": "c9b9aa2ab54be0599b757f8c94916db0a596afe210ec1bbbda8a5c1d09d3c72e",
+    "source_receiver_validation/results/n128_cb_m64.npz": "3e110673a9edbbcc7528eba36bdfe6a16ffb20de00bf455411c9358c05fcc7b7",
+    "source_receiver_validation/results/n128_cb_m128.npz": "3fa0766fab241ad0cbc11028b00e7c87d9d7ce4590bf413affcdb4aaff343484",
+    "source_receiver_validation/results/finite_time_budgets.csv": "fa94046bd20ffe7ebecd7f378ddf7dac470446f5d14137593bc16366e0b254c2",
+    "source_receiver_validation/results/accuracy.csv": "ee14fde6348d5fb98792584f2519c8caa82fca6f1cd477ab47df2447b918e4d6"
+  },
+  "extraction_checks": {
+    "reference_modal_replay_relative_difference": 0.0,
+    "rom_modal_replay_relative_difference": 0.0,
+    "baseline_assignment_indices_identical": true,
+    "baseline_assignment_mac_max_abs_difference": 0.0
+  },
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_layouts": [
+    [
+      [
+        0.19,
+        0.76
+      ],
+      [
+        0.54,
+        0.47
+      ],
+      [
+        0.81,
+        0.22
+      ]
+    ],
+    [
+      [
+        0.16,
+        0.27
+      ],
+      [
+        0.39,
+        0.83
+      ],
+      [
+        0.84,
+        0.61
+      ]
+    ]
+  ],
+  "receiver_layouts": [
+    [
+      [
+        0.22,
+        0.21
+      ],
+      [
+        0.79,
+        0.77
+      ],
+      [
+        0.28,
+        0.69
+      ],
+      [
+        0.68,
+        0.33
+      ]
+    ],
+    [
+      [
+        0.12,
+        0.76
+      ],
+      [
+        0.35,
+        0.41
+      ],
+      [
+        0.65,
+        0.18
+      ],
+      [
+        0.88,
+        0.87
+      ]
+    ]
+  ]
+}

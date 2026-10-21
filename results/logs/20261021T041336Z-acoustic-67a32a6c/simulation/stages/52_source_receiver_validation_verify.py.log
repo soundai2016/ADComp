@@ -1,0 +1,2 @@
+[stdout] Verified 13 NPZ archives and 1080 exact budgets: passed.
+[stdout] Maximum independent budget difference: 7.047e-17; report: results/verification.json

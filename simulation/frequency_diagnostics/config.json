@@ -1,0 +1,58 @@
+{
+  "mac_thresholds": [
+    0.85,
+    0.9,
+    0.95
+  ],
+  "relative_frequency_gaps": [
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "baseline_mac": 0.9,
+  "baseline_gap": 0.005,
+  "residue_paths": {
+    "rom": 0.0,
+    "continuous": 1.0,
+    "symmetric": 0.5
+  },
+  "cases": [
+    {
+      "case_id": "source_relocation",
+      "grid": 128,
+      "modes_per_patch": 32,
+      "time_end": 2.0,
+      "source": 1,
+      "receiver": 4,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_id": "receiver_relocation",
+      "grid": 64,
+      "modes_per_patch": 32,
+      "time_end": 8.0,
+      "source": 3,
+      "receiver": 4,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        0,
+        1
+      ]
+    }
+  ],
+  "sampling": "Equally weighted samples at t=j/80; cumulative intervals include both endpoints.",
+  "selection_rule": "Use the two specified relocation examples. Recompute global MAC-maximizing assignments before applying all nine threshold pairs. Assignments and accepted triples are independent of ports. Each before/after comparison uses the same triples; the common set is the intersection across all nine threshold pairs.",
+  "path_definition": "H_theta=(1-theta)*H_rom+theta*H_continuous. Ritz and grid phase terms use H_theta; source/receiver residue differences use (1-theta)*cos(omega_continuous*t)+theta*cos(omega_rom*t). theta=0 is the manuscript's fixed-ROM-residue intervention. Other paths change the attribution convention and hence the intervention; their signs are reported without a success condition.",
+  "sign_tolerance": 1e-12,
+  "threads": 2
+}

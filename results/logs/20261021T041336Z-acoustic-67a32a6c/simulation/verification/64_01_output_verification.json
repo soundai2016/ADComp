@@ -1,0 +1,31 @@
+{
+  "scope": "Independent checks from receiver traces and modal factors; no CB basis rebuild and no rerun of large-grid pressure histories.",
+  "expected_model_count": 14,
+  "model_count": 14,
+  "summary_csv_rows": 28,
+  "summary_json_rows": 28,
+  "modal_model_count": 5,
+  "matched_triples": {
+    "craig_bampton_m128": 35,
+    "craig_bampton_m32": 25,
+    "craig_bampton_m64": 32,
+    "rational_krylov_m128": 36,
+    "rational_krylov_m32": 32
+  },
+  "receiver_window_rows": 480,
+  "expected_receiver_window_rows": 480,
+  "source_hashes_checked": 8,
+  "artifact_hashes_checked": 45,
+  "hash_mismatches": [],
+  "receiver_total_statistic_max_absolute_defect": 0.0,
+  "receiver_same_grid_statistic_max_absolute_defect": 0.0,
+  "receiver_per_source_statistic_max_absolute_defect": 0.0,
+  "window_error_cosine_max_absolute_defect": 0.0,
+  "modal_budget_max_relative_defect": 9.268485500049619e-17,
+  "frequency_terms_reconstructed_max_normalized_defect": 3.398204241727135e-16,
+  "counterfactual_reconstructed_max_normalized_defect": 3.557281557227375e-16,
+  "modal_statistics_max_absolute_defect": 1.6653345369377348e-16,
+  "component_gram_max_absolute_defect": 2.7755575615628914e-17,
+  "receiver_window_statistics_max_absolute_defect": 0.0,
+  "passed": true
+}

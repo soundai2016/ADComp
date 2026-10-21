@@ -1,0 +1,278 @@
+[stdout] {
+[stdout]   "verification": {
+[stdout]     "all_declared_sweep_rows_present": true,
+[stdout]     "all_declared_channel_rows_present": true,
+[stdout]     "all_current_configuration_hashes_match": true,
+[stdout]     "all_current_analysis_hashes_match": true,
+[stdout]     "baseline_stable_quantities_reproduced": true,
+[stdout]     "original_order_baseline_reproduced": true,
+[stdout]     "exact_paths_close": true,
+[stdout]     "exact_budgets_close": true,
+[stdout]     "gram_identity_closes": true,
+[stdout]     "gram_positive_semidefinite_to_roundoff": true,
+[stdout]     "reference_change_identity_closes": true,
+[stdout]     "reference_change_within_cauchy_bound": true,
+[stdout]     "cluster_basis_rotation_preserves_response": true,
+[stdout]     "common_sets_give_identical_results_across_thresholds": true
+[stdout]   },
+[stdout]   "counts": {
+[stdout]     "sensitivity": 324,
+[stdout]     "channel_sensitivity": 33696,
+[stdout]     "finite_time": 1716,
+[stdout]     "cluster": 174
+[stdout]   },
+[stdout]   "summary": [
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 128,
+[stdout]       "default_matched_count": 41.0,
+[stdout]       "matched_count_range": [
+[stdout]         28.0,
+[stdout]         47.0
+[stdout]       ],
+[stdout]       "common_count": 28.0,
+[stdout]       "fixed_rom_error_change_pp_range": [
+[stdout]         2.7754757023870456,
+[stdout]         5.764715527194346
+[stdout]       ],
+[stdout]       "all_paths_all_thresholds_error_change_pp_range": [
+[stdout]         2.7754757023870456,
+[stdout]         6.186213905281765
+[stdout]       ],
+[stdout]       "default_path_error_changes_pp": {
+[stdout]         "rom": 4.6287270479586295,
+[stdout]         "fine": 4.915616355705266,
+[stdout]         "symmetric": 4.759944134689683
+[stdout]       },
+[stdout]       "frequency_compensation_ratio_default": 0.18815773008596282,
+[stdout]       "frequency_compensation_ratio_range": [
+[stdout]         0.16663492509463274,
+[stdout]         0.1976510532848727
+[stdout]       ],
+[stdout]       "modal_coverage_difference": 0.003984950762256062,
+[stdout]       "path_interaction_norm": 0.041487269535410466,
+[stdout]       "channel_full_window_sign_changes_across_thresholds": 0,
+[stdout]       "full_window_threshold_channel_comparisons": 108,
+[stdout]       "linear_sign_agreements": 94,
+[stdout]       "linear_sign_comparisons": 96,
+[stdout]       "reference_margin_gt_one": 96,
+[stdout]       "reference_margin_comparisons": 96,
+[stdout]       "minimum_reference_sign_margin": 1.520114515135357,
+[stdout]       "aggregate_T8_exact_squared_change": 0.03605070045630642,
+[stdout]       "aggregate_T8_linear_squared_change": 0.04465771082261658,
+[stdout]       "aggregate_T8_ritz_linearization_error": 1.1304215636898072,
+[stdout]       "aggregate_T8_grid_linearization_error": 0.6526986370016616,
+[stdout]       "aggregate_T8_maximum_phase_offset": 4.491144361253305
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "rotated_stripes",
+[stdout]       "fine_grid": 192,
+[stdout]       "default_matched_count": 41.0,
+[stdout]       "matched_count_range": [
+[stdout]         27.0,
+[stdout]         47.0
+[stdout]       ],
+[stdout]       "common_count": 27.0,
+[stdout]       "fixed_rom_error_change_pp_range": [
+[stdout]         2.7886653454889316,
+[stdout]         5.764715527194346
+[stdout]       ],
+[stdout]       "all_paths_all_thresholds_error_change_pp_range": [
+[stdout]         2.7886653454889316,
+[stdout]         6.190282685361783
+[stdout]       ],
+[stdout]       "default_path_error_changes_pp": {
+[stdout]         "rom": 4.6287270479586295,
+[stdout]         "fine": 4.919391192590279,
+[stdout]         "symmetric": 4.761560824303155
+[stdout]       },
+[stdout]       "frequency_compensation_ratio_default": 0.1815110642552321,
+[stdout]       "frequency_compensation_ratio_range": [
+[stdout]         0.16181263368054205,
+[stdout]         0.19065413396687408
+[stdout]       ],
+[stdout]       "modal_coverage_difference": 0.003930981208459981,
+[stdout]       "path_interaction_norm": 0.04392345244661302,
+[stdout]       "channel_full_window_sign_changes_across_thresholds": 0,
+[stdout]       "full_window_threshold_channel_comparisons": 108,
+[stdout]       "linear_sign_agreements": 94,
+[stdout]       "linear_sign_comparisons": 96,
+[stdout]       "reference_margin_gt_one": 96,
+[stdout]       "reference_margin_comparisons": 96,
+[stdout]       "minimum_reference_sign_margin": 1.520114515135357,
+[stdout]       "aggregate_T8_exact_squared_change": 0.03605070045630642,
+[stdout]       "aggregate_T8_linear_squared_change": 0.04449910967249681,
+[stdout]       "aggregate_T8_ritz_linearization_error": 1.166864224180423,
+[stdout]       "aggregate_T8_grid_linearization_error": 0.6753514504299533,
+[stdout]       "aggregate_T8_maximum_phase_offset": 4.65525839078839
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 128,
+[stdout]       "default_matched_count": 37.0,
+[stdout]       "matched_count_range": [
+[stdout]         25.0,
+[stdout]         42.0
+[stdout]       ],
+[stdout]       "common_count": 25.0,
+[stdout]       "fixed_rom_error_change_pp_range": [
+[stdout]         4.35905875728122,
+[stdout]         7.672127937077739
+[stdout]       ],
+[stdout]       "all_paths_all_thresholds_error_change_pp_range": [
+[stdout]         4.35905875728122,
+[stdout]         8.497654842292992
+[stdout]       ],
+[stdout]       "default_path_error_changes_pp": {
+[stdout]         "rom": 6.973906590184506,
+[stdout]         "fine": 7.734081101128567,
+[stdout]         "symmetric": 7.312953893610073
+[stdout]       },
+[stdout]       "frequency_compensation_ratio_default": 0.24445221742212883,
+[stdout]       "frequency_compensation_ratio_range": [
+[stdout]         0.21986177067945872,
+[stdout]         0.25899760943877054
+[stdout]       ],
+[stdout]       "modal_coverage_difference": 0.0002038952450778104,
+[stdout]       "path_interaction_norm": 0.07595690863544369,
+[stdout]       "channel_full_window_sign_changes_across_thresholds": 0,
+[stdout]       "full_window_threshold_channel_comparisons": 108,
+[stdout]       "linear_sign_agreements": 94,
+[stdout]       "linear_sign_comparisons": 96,
+[stdout]       "reference_margin_gt_one": 96,
+[stdout]       "reference_margin_comparisons": 96,
+[stdout]       "minimum_reference_sign_margin": 8.34531632921016,
+[stdout]       "aggregate_T8_exact_squared_change": 0.06111439759190314,
+[stdout]       "aggregate_T8_linear_squared_change": 0.07360748262215014,
+[stdout]       "aggregate_T8_ritz_linearization_error": 1.033149887402842,
+[stdout]       "aggregate_T8_grid_linearization_error": 0.6253002325841974,
+[stdout]       "aggregate_T8_maximum_phase_offset": 3.344303569207
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "double_inclusion",
+[stdout]       "fine_grid": 192,
+[stdout]       "default_matched_count": 37.0,
+[stdout]       "matched_count_range": [
+[stdout]         25.0,
+[stdout]         42.0
+[stdout]       ],
+[stdout]       "common_count": 25.0,
+[stdout]       "fixed_rom_error_change_pp_range": [
+[stdout]         4.35905875728122,
+[stdout]         7.672127937077739
+[stdout]       ],
+[stdout]       "all_paths_all_thresholds_error_change_pp_range": [
+[stdout]         4.35905875728122,
+[stdout]         8.520024544725416
+[stdout]       ],
+[stdout]       "default_path_error_changes_pp": {
+[stdout]         "rom": 6.973906590184506,
+[stdout]         "fine": 7.744052902421295,
+[stdout]         "symmetric": 7.316531782830436
+[stdout]       },
+[stdout]       "frequency_compensation_ratio_default": 0.23594013621472265,
+[stdout]       "frequency_compensation_ratio_range": [
+[stdout]         0.21213536007416714,
+[stdout]         0.25006685900601516
+[stdout]       ],
+[stdout]       "modal_coverage_difference": 0.00019706820247708317,
+[stdout]       "path_interaction_norm": 0.08058668410552368,
+[stdout]       "channel_full_window_sign_changes_across_thresholds": 0,
+[stdout]       "full_window_threshold_channel_comparisons": 108,
+[stdout]       "linear_sign_agreements": 94,
+[stdout]       "linear_sign_comparisons": 96,
+[stdout]       "reference_margin_gt_one": 96,
+[stdout]       "reference_margin_comparisons": 96,
+[stdout]       "minimum_reference_sign_margin": 8.34531632921016,
+[stdout]       "aggregate_T8_exact_squared_change": 0.06111439759190314,
+[stdout]       "aggregate_T8_linear_squared_change": 0.07344787115224076,
+[stdout]       "aggregate_T8_ritz_linearization_error": 1.0667052681822873,
+[stdout]       "aggregate_T8_grid_linearization_error": 0.6453323314656771,
+[stdout]       "aggregate_T8_maximum_phase_offset": 3.46408600072445
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 128,
+[stdout]       "default_matched_count": 22.0,
+[stdout]       "matched_count_range": [
+[stdout]         13.0,
+[stdout]         30.0
+[stdout]       ],
+[stdout]       "common_count": 13.0,
+[stdout]       "fixed_rom_error_change_pp_range": [
+[stdout]         0.22388266831987724,
+[stdout]         1.3793804279845987
+[stdout]       ],
+[stdout]       "all_paths_all_thresholds_error_change_pp_range": [
+[stdout]         0.22383934393721572,
+[stdout]         1.3793804279845987
+[stdout]       ],
+[stdout]       "default_path_error_changes_pp": {
+[stdout]         "rom": 0.5915635324038784,
+[stdout]         "fine": 0.5456365918504925,
+[stdout]         "symmetric": 0.568224465197935
+[stdout]       },
+[stdout]       "frequency_compensation_ratio_default": 0.08498091912523573,
+[stdout]       "frequency_compensation_ratio_range": [
+[stdout]         0.06224668679898968,
+[stdout]         0.11991243909405672
+[stdout]       ],
+[stdout]       "modal_coverage_difference": 0.001148073482660643,
+[stdout]       "path_interaction_norm": 0.012443562620386721,
+[stdout]       "channel_full_window_sign_changes_across_thresholds": 2,
+[stdout]       "full_window_threshold_channel_comparisons": 108,
+[stdout]       "linear_sign_agreements": 87,
+[stdout]       "linear_sign_comparisons": 96,
+[stdout]       "reference_margin_gt_one": 96,
+[stdout]       "reference_margin_comparisons": 96,
+[stdout]       "minimum_reference_sign_margin": 1.1833884529134246,
+[stdout]       "aggregate_T8_exact_squared_change": 0.0035343240290616283,
+[stdout]       "aggregate_T8_linear_squared_change": 0.0036634309401147236,
+[stdout]       "aggregate_T8_ritz_linearization_error": 0.6599534024142364,
+[stdout]       "aggregate_T8_grid_linearization_error": 0.5052973430048179,
+[stdout]       "aggregate_T8_maximum_phase_offset": 4.028447974667301
+[stdout]     },
+[stdout]     {
+[stdout]       "material": "smooth_checker",
+[stdout]       "fine_grid": 192,
+[stdout]       "default_matched_count": 22.0,
+[stdout]       "matched_count_range": [
+[stdout]         13.0,
+[stdout]         28.0
+[stdout]       ],
+[stdout]       "common_count": 13.0,
+[stdout]       "fixed_rom_error_change_pp_range": [
+[stdout]         0.22388266831987724,
+[stdout]         1.2118591755163743
+[stdout]       ],
+[stdout]       "all_paths_all_thresholds_error_change_pp_range": [
+[stdout]         0.2238185623543082,
+[stdout]         1.2118591755163743
+[stdout]       ],
+[stdout]       "default_path_error_changes_pp": {
+[stdout]         "rom": 0.5915635324038784,
+[stdout]         "fine": 0.545748085450057,
+[stdout]         "symmetric": 0.5682753912805724
+[stdout]       },
+[stdout]       "frequency_compensation_ratio_default": 0.08193546249612556,
+[stdout]       "frequency_compensation_ratio_range": [
+[stdout]         0.06001297789315806,
+[stdout]         0.09940604767162513
+[stdout]       ],
+[stdout]       "modal_coverage_difference": 0.0011395462095780777,
+[stdout]       "path_interaction_norm": 0.01301041652569183,
+[stdout]       "channel_full_window_sign_changes_across_thresholds": 2,
+[stdout]       "full_window_threshold_channel_comparisons": 108,
+[stdout]       "linear_sign_agreements": 86,
+[stdout]       "linear_sign_comparisons": 96,
+[stdout]       "reference_margin_gt_one": 96,
+[stdout]       "reference_margin_comparisons": 96,
+[stdout]       "minimum_reference_sign_margin": 1.1833884529134246,
+[stdout]       "aggregate_T8_exact_squared_change": 0.0035343240290616283,
+[stdout]       "aggregate_T8_linear_squared_change": 0.003627947831918166,
+[stdout]       "aggregate_T8_ritz_linearization_error": 0.6838747168806572,
+[stdout]       "aggregate_T8_grid_linearization_error": 0.5215648426854546,
+[stdout]       "aggregate_T8_maximum_phase_offset": 4.1757176971458705
+[stdout]     }
+[stdout]   ]
+[stdout] }

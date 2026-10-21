@@ -1,0 +1,35 @@
+{
+  "full_modal_difference": 6.65937867454793e-14,
+  "energy_relative_drift": 8.881784197001252e-16,
+  "reduced_matches": {
+    "craig_bampton": {
+      "full_field_implementation_difference": 0.0,
+      "stored_receiver_representation_difference": 1.1058514235385321e-16,
+      "orthonormality_frobenius": 1.6087414900224748e-15
+    },
+    "rational_krylov": {
+      "full_field_implementation_difference": 0.0,
+      "stored_receiver_representation_difference": 1.2037719106015945e-16,
+      "orthonormality_frobenius": 1.425837644119189e-15
+    }
+  },
+  "chebyshev_modal_difference": 6.669693426240704e-14,
+  "chebyshev_tail_bound": 2.5926452883977684e-19,
+  "stormer_verlet": [
+    {
+      "cfl": 0.25,
+      "time_step": 0.0125,
+      "modal_discrete_difference": 6.814204089942183e-14,
+      "same_grid_time_error": 0.0016951003299135246,
+      "sufficient_stability_product": 0.4563396238693052
+    },
+    {
+      "cfl": 0.125,
+      "time_step": 0.00625,
+      "modal_discrete_difference": 7.125936454130608e-14,
+      "same_grid_time_error": 0.0004224809977673223,
+      "sufficient_stability_product": 0.2281698119346526
+    }
+  ],
+  "status": "pass"
+}

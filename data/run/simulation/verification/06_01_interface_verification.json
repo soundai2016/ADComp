@@ -1,0 +1,19 @@
+{
+  "streamed_continuum_norm_difference": 1.1102230246251565e-16,
+  "minimum_projection_loss": 0.07906390877607328,
+  "reduced": {
+    "craig_bampton": {
+      "receiver_reconstruction_relative_difference": 1.3803794890250604e-16,
+      "continuous_field_error": 0.8020217314752179,
+      "cell_average_field_error": 0.7239766378215596,
+      "all_stages_nonnegative": true
+    },
+    "rational_krylov": {
+      "receiver_reconstruction_relative_difference": 1.445115090212191e-16,
+      "continuous_field_error": 0.6388666822785325,
+      "cell_average_field_error": 0.4588845559873718,
+      "all_stages_nonnegative": true
+    }
+  },
+  "status": "pass"
+}

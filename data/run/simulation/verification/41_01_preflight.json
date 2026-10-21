@@ -1,0 +1,58 @@
+{
+  "settings": 81,
+  "checks": {
+    "rotated_stripes": {
+      "verlet_cfl_0.25": {
+        "relative_error_to_discrete_modal_solution": 6.66647574140568e-14,
+        "sufficient_stability_product": 0.4563396238693052
+      },
+      "verlet_cfl_0.125": {
+        "relative_error_to_discrete_modal_solution": 6.653305117320053e-14,
+        "sufficient_stability_product": 0.2281698119346526
+      },
+      "craig_bampton": {
+        "relative_error_to_full_field_implementation": 0.0,
+        "relative_error_from_saved_modal_representation": 1.1058514235385321e-16
+      }
+    },
+    "double_inclusion": {
+      "verlet_cfl_0.25": {
+        "relative_error_to_discrete_modal_solution": 2.4924618149643273e-14,
+        "sufficient_stability_product": 0.507122485803043
+      },
+      "verlet_cfl_0.125": {
+        "relative_error_to_discrete_modal_solution": 2.473641202136167e-14,
+        "sufficient_stability_product": 0.2535612429015215
+      },
+      "craig_bampton": {
+        "relative_error_to_full_field_implementation": 0.0,
+        "relative_error_from_saved_modal_representation": 1.530704968658041e-16
+      }
+    },
+    "smooth_checker": {
+      "verlet_cfl_0.25": {
+        "relative_error_to_discrete_modal_solution": 1.5328706179867227e-14,
+        "sufficient_stability_product": 0.37509541518790046
+      },
+      "verlet_cfl_0.125": {
+        "relative_error_to_discrete_modal_solution": 1.531932066961486e-14,
+        "sufficient_stability_product": 0.18754770759395023
+      },
+      "craig_bampton": {
+        "relative_error_to_full_field_implementation": 0.0,
+        "relative_error_from_saved_modal_representation": 1.232427321944117e-16
+      }
+    }
+  },
+  "status": "pass",
+  "dependency_sha256": {
+    "grid_cost_diagnostics/config.json": "ff23fffc06790bbf4af33a7176d0969aa73fcc68297598fa2a47d24e6534dcd1",
+    "grid_cost_diagnostics/run.py": "192af94a907a8bc517441b7b1ed8c5193505f32b2e7ad480f0dc2f8644262d2d",
+    "total_error_cost/run.py": "0bcdecccf9b9382f1cd6a0238ae224513b7c8483f944cd101e01e3f662a51ca8",
+    "total_error_cost/config.json": "82aa64233079f4fbe10b5ad5bcf23c9d987e12ee1374ebfe42f851d58c79651b",
+    "accuracy_cost/run.py": "7bf6060430dd46f92ecb6c22e5a89c871dc2e8d6569ae1196c211747e8e4d7b5",
+    "accuracy_cost/config.json": "a44df54373a754f8b41147b37b13d57c41cdf62a1bafedb71f97dda01686addb",
+    "acoustic_core.py": "f7d6365682131c1de9b89c3f548ec77945b590c37632810f0bc8bc22efe7d454",
+    "propagation/chebyshev_reference.py": "064dfae37ef71af8216c2b2f2d3ff698ae8ef9234987b2c4f3f01267d0c4e13a"
+  }
+}

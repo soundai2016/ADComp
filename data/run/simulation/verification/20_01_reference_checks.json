@@ -1,0 +1,51 @@
+{
+  "mode": "full",
+  "passed": true,
+  "modal_cases": 7,
+  "polynomial_cases": 3,
+  "maximum_modal_relative_difference": 1.051342222652018e-12,
+  "maximum_polynomial_relative_difference": 6.748003357902863e-13,
+  "output_sampling": {
+    "grid": 64,
+    "material": "rotated_stripes",
+    "fine_samples": 1281,
+    "coarse_samples": 641,
+    "chunk_durations": [
+      1.0,
+      0.5
+    ],
+    "relative_trace_difference": 0.0,
+    "max_absolute_trace_difference": 0.0,
+    "energy_relative_drift": 1.6431300764452317e-14,
+    "waveform_norm_relative_change": 2.089498758461872e-06,
+    "quantity": "Trapezoidal norm of one waveform, not a cross-grid error numerator.",
+    "passed": true
+  },
+  "segmentation": {
+    "grid": 64,
+    "material": "rotated_stripes",
+    "samples": 641,
+    "chunk_durations": [
+      1.0,
+      0.6625
+    ],
+    "chunk_steps": [
+      80,
+      53
+    ],
+    "relative_trace_difference": 6.228892137996473e-15,
+    "max_absolute_trace_difference": 4.4075854077618715e-14,
+    "energy_relative_drift": 1.4654943925052066e-14,
+    "passed": true
+  },
+  "input_sha256": {
+    "double_inclusion_n32.npz": "85ca1c57a655691c1da8bfb6bad75b157ddfff8267820b4729ba4ccb0dbf31f9",
+    "double_inclusion_n48.npz": "50326860f80fd10912784c49c4419c281fea814d895051c912a61092ad5c1491",
+    "rotated_stripes_n256.npz": "fb47c8754c6c2c121b16a73935921475aa7e3d3152f3a0f508d308279920f65b",
+    "rotated_stripes_n32.npz": "e3b032a442c2cb8096ce90f073518535430021c8ff15dac8fc27b4a0802bde18",
+    "rotated_stripes_n48.npz": "d315fc41a9dcd8635b5761815b14481b5652a4ca6bf45f2ca5f7be2252cbb4dd",
+    "rotated_stripes_n64.npz": "0677b9a8f3ea9c0db35ab49b327b24065bcec932165cef37b4c7eca7ca1e47c5",
+    "smooth_checker_n32.npz": "aef75d930500434aa706a42f7fbd686a43bcf976f72b39c09166a38a4c772c40",
+    "smooth_checker_n48.npz": "25cf076611cb3abd10b5108d013fc0f0b94f453455dd6155bd56484001f848d3"
+  }
+}

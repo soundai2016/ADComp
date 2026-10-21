@@ -1,0 +1,49 @@
+{
+  "experiment": "layered_passive_response",
+  "media_seed": 170431,
+  "random_development_cases": 24,
+  "deterministic_controls": [
+    "homogeneous",
+    "alternating_impedance_4",
+    "grouped_impedance_4",
+    "smooth_log_sinusoid_8layers"
+  ],
+  "geometry": "eight ordered equal-width layers, unit total length; exact geometry supplied to every method",
+  "random_log_rho_log_bulk_bounds": [
+    -0.8,
+    0.8
+  ],
+  "frequency": {
+    "minimum": 0.03,
+    "maximum": 37.69911184307752,
+    "count": 513,
+    "development_indices": "i % 4 == 0",
+    "heldout_indices": "i % 4 != 0"
+  },
+  "orders": [
+    4,
+    8,
+    16
+  ],
+  "full_fv_cells": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "modal_reference_cells": 256,
+  "composition": "consecutive pairs of the 28 development cases, each physical patch length 1; same frequencies",
+  "metrics": [
+    "RMS_complex_scattering_error",
+    "maximum_complex_scattering_error",
+    "amplitude_weighted_transmission_phase",
+    "unitarity",
+    "reciprocity",
+    "query_time",
+    "setup_time"
+  ],
+  "primary_frequency_mask": "heldout indices",
+  "primary_band": "all 0.03 to 12 pi",
+  "purpose": "development study of model order and computational cost",
+  "cost_threads": 2
+}

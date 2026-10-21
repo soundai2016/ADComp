@@ -1,0 +1,42 @@
+{
+  "sha256": {
+    "cost_selections.csv": "fd57006122140be4885575bd6cfaa87334ba4a8e4cbd03bcffc9b1996b63fd0b",
+    "residue_paths.csv": "2405f7c06281ce463433535e9c0fe9756c46660e2193e0216b1134ad9408f389",
+    "grid_comparisons.csv": "e48ae1831d01887f9c8a5da8024d555a2f698ef98776b97ecb9ab4a12eed8614",
+    "residual_acceptance.csv": "b1a7e844c3b598742f924699d8c2e3dc059627b1bcc52233378a11037b76c722",
+    "ports.csv": "538843e885c08336d9062deb917b20dcd304683bbed53effc387b370d8c00417",
+    "material_coefficients.csv": "8b3cdbafd59755c4725c08e8be33c191d66a0bb511d0824d5313ebd1fadc2588"
+  },
+  "run_id": "20261020T091005Z-acoustic-32d32874",
+  "sources": {
+    "cost_selections.csv": {
+      "source": "logs/20261020T091005Z-acoustic-32d32874/simulation/numerical_summaries/44_richardson_summary.json",
+      "key": "selections",
+      "transformation": "Twenty-four cost selections copied without numerical changes.",
+      "source_sha256": "970d093d4a099465459b5ab9c97ef857019c2f75905a55bc81f4a8f980e10f54"
+    },
+    "residue_paths.csv": {
+      "source": "data/figures/plot_tables.json",
+      "key": "relocation_thresholds",
+      "source_sha256": "70e908b79a710a11258da2ea8a2b3f380fcab1e76ad24347b641548be9449e6c"
+    },
+    "grid_comparisons.csv": {
+      "source": "data/figures/plot_tables.json",
+      "key": "grid_comparisons",
+      "source_sha256": "70e908b79a710a11258da2ea8a2b3f380fcab1e76ad24347b641548be9449e6c",
+      "transformation": "Grid indices serialized as integers; all numeric values preserved."
+    },
+    "residual_acceptance.csv": {
+      "source": "tables/residual_acceptance.csv",
+      "source_sha256": "b1a7e844c3b598742f924699d8c2e3dc059627b1bcc52233378a11037b76c722"
+    },
+    "ports.csv": {
+      "source": "tables/ports.csv",
+      "source_sha256": "538843e885c08336d9062deb917b20dcd304683bbed53effc387b370d8c00417"
+    },
+    "material_coefficients.csv": {
+      "source": "tables/media.csv",
+      "source_sha256": "8b3cdbafd59755c4725c08e8be33c191d66a0bb511d0824d5313ebd1fadc2588"
+    }
+  }
+}

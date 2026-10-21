@@ -1,0 +1,85 @@
+{
+  "materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "propagation_grids": [
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    256,
+    384,
+    512
+  ],
+  "domain": "[0,1]^2; nondimensional coordinates and time",
+  "boundary": "rigid walls; no boundary-face flux degrees of freedom",
+  "source_centres": [
+    [
+      0.19,
+      0.76
+    ],
+    [
+      0.54,
+      0.47
+    ],
+    [
+      0.81,
+      0.22
+    ]
+  ],
+  "receiver_centres": [
+    [
+      0.22,
+      0.21
+    ],
+    [
+      0.79,
+      0.77
+    ],
+    [
+      0.28,
+      0.69
+    ],
+    [
+      0.68,
+      0.33
+    ]
+  ],
+  "sigma": 0.07,
+  "time_end": 8.0,
+  "samples": 641,
+  "chunk_duration": 0.5,
+  "initial_condition": "p(0)=K(x)*f_source(x), p_dot(0)=0; source f has zero discrete mean",
+  "source_port": "each Gaussian normalized to unit discrete integral, then mean removed",
+  "receiver_port": "unit-integral Gaussian pressure average; mean not removed",
+  "coefficients": "same analytic rho and bulk modulus K sampled at each grid cell centre",
+  "face_density": "arithmetic average of adjacent cell-centred rho",
+  "propagator": "Energy-skew sparse exponential through grid 256 and for rotated_stripes at 384; full-order Chebyshev-Bessel matrix cosine for other 384 cases and all 512 cases.",
+  "precision": "float64",
+  "threads": 2,
+  "interpretation": "differences between discrete solutions; not rigorous continuum-error bounds",
+  "existing_data_chunk_duration": 1.0,
+  "data_scope": "Three specified development media, with the same fixed sources and receivers at every grid.",
+  "snapshot_times": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "output_norm": "Frobenius norm over t>0, four receivers, three sources; fine-grid denominator.",
+  "extended_grid_chunk_duration": 0.25,
+  "extended_grid_cpu_affinity": [
+    0,
+    1
+  ],
+  "chebyshev_tail_tolerance": 1e-17,
+  "chebyshev_cpu_affinity": [
+    2,
+    3
+  ]
+}

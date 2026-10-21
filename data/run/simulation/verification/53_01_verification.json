@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": {
+    "baseline_matching_indices_identical": true,
+    "baseline_modal_assignment_mac_max_absolute_difference": 0.0,
+    "baseline_waveform_relative_difference": 3.9112122176033854e-16,
+    "reference_modal_replay_relative_difference": 4.524289248983619e-16,
+    "rom_modal_replay_relative_difference": 2.1228024969214484e-16,
+    "baseline_budget_max_absolute_difference": 2.6645352591003757e-15,
+    "maximum_decomposition_relative_defect": 2.622647267433508e-16,
+    "maximum_budget_absolute_defect": 2.7755575615628914e-17,
+    "maximum_independent_budget_absolute_defect": 9.107298248878237e-18,
+    "all_expected_rows_present": true,
+    "q_subterms_sum_defect": 3.469446951953614e-18
+  },
+  "gates": {
+    "baseline_matching_indices_identical": true,
+    "baseline_modal_assignment_mac_max_absolute_difference": true,
+    "baseline_waveform_relative_difference": true,
+    "reference_modal_replay_relative_difference": true,
+    "rom_modal_replay_relative_difference": true,
+    "baseline_budget_max_absolute_difference": true,
+    "maximum_decomposition_relative_defect": true,
+    "maximum_budget_absolute_defect": true,
+    "maximum_independent_budget_absolute_defect": true,
+    "all_expected_rows_present": true,
+    "q_subterms_sum_defect": true
+  },
+  "numerical_tolerance": 1e-10,
+  "budget_rows": 120,
+  "comparison_rows": 60,
+  "no_success_condition_on_scientific_signs": true
+}

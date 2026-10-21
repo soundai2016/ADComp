@@ -1,0 +1,19 @@
+[stdout] {
+[stdout]   "streamed_continuum_norm_difference": 1.1102230246251565e-16,
+[stdout]   "minimum_projection_loss": 0.07906390877607328,
+[stdout]   "reduced": {
+[stdout]     "craig_bampton": {
+[stdout]       "receiver_reconstruction_relative_difference": 1.3803794890250604e-16,
+[stdout]       "continuous_field_error": 0.8020217314752179,
+[stdout]       "cell_average_field_error": 0.7239766378215596,
+[stdout]       "all_stages_nonnegative": true
+[stdout]     },
+[stdout]     "rational_krylov": {
+[stdout]       "receiver_reconstruction_relative_difference": 1.445115090212191e-16,
+[stdout]       "continuous_field_error": 0.6388666822785325,
+[stdout]       "cell_average_field_error": 0.4588845559873718,
+[stdout]       "all_stages_nonnegative": true
+[stdout]     }
+[stdout]   },
+[stdout]   "status": "pass"
+[stdout] }

@@ -1,0 +1,19 @@
+{
+  "table_count": 13,
+  "input_source": "simulation",
+  "csv_rows": {
+    "counts": 4,
+    "selection": 4,
+    "media": 14,
+    "ports": 7,
+    "source_thresholds": 10,
+    "receiver_thresholds": 10,
+    "residue_paths": 6,
+    "modal_budgets": 4,
+    "sweep_counts": 9,
+    "sweep_stability": 4,
+    "grid_differences": 8,
+    "residual_acceptance": 12,
+    "cost_selections": 9
+  }
+}

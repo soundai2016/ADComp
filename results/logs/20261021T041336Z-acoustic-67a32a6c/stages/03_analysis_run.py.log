@@ -1,0 +1,9 @@
+[stdout] n=64, m=32: all layouts/windows/channels, 9 thresholds + intersection
+[stdout] n=64, m=64: all layouts/windows/channels, 9 thresholds + intersection
+[stdout] n=64, m=128: all layouts/windows/channels, 9 thresholds + intersection
+[stdout] n=128, m=32: all layouts/windows/channels, 9 thresholds + intersection
+[stdout] n=128, m=64: all layouts/windows/channels, 9 thresholds + intersection
+[stdout] n=128, m=128: all layouts/windows/channels, 9 thresholds + intersection
+[stdout] source: 46 all-threshold reversals, 34 with fixed direction
+[stdout] receiver: 59 all-threshold reversals, 50 with fixed direction
+[stdout] Verified 9360 budgets and 936 position contrasts.

@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "mode": "assemble",
+  "arrays": 28,
+  "maximum_absolute_difference": null,
+  "array_sources": {
+    "time": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "time"
+    },
+    "rotated_stripes_full32": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "rotated_stripes_n32_full_y"
+    },
+    "rotated_stripes_r0": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "rotated_stripes_n32_r0_y"
+    },
+    "rotated_stripes_r4": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "rotated_stripes_n32_r4_y"
+    },
+    "rotated_stripes_r8": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "rotated_stripes_n32_r8_y"
+    },
+    "rotated_stripes_r16": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "rotated_stripes_n32_r16_y"
+    },
+    "rotated_stripes_r32": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "rotated_stripes_n32_r32_y"
+    },
+    "rotated_stripes_r64": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "rotated_stripes_fixed_interface_modes_r64_y"
+    },
+    "rotated_stripes_r96": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "rotated_stripes_fixed_interface_modes_r96_y"
+    },
+    "rotated_stripes_r128": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "rotated_stripes_fixed_interface_modes_r128_y"
+    },
+    "double_inclusion_full32": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "double_inclusion_n32_full_y"
+    },
+    "double_inclusion_r0": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "double_inclusion_n32_r0_y"
+    },
+    "double_inclusion_r4": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "double_inclusion_n32_r4_y"
+    },
+    "double_inclusion_r8": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "double_inclusion_n32_r8_y"
+    },
+    "double_inclusion_r16": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "double_inclusion_n32_r16_y"
+    },
+    "double_inclusion_r32": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "double_inclusion_n32_r32_y"
+    },
+    "double_inclusion_r64": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "double_inclusion_fixed_interface_modes_r64_y"
+    },
+    "double_inclusion_r96": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "double_inclusion_fixed_interface_modes_r96_y"
+    },
+    "double_inclusion_r128": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "double_inclusion_fixed_interface_modes_r128_y"
+    },
+    "smooth_checker_full32": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "smooth_checker_n32_full_y"
+    },
+    "smooth_checker_r0": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "smooth_checker_n32_r0_y"
+    },
+    "smooth_checker_r4": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "smooth_checker_n32_r4_y"
+    },
+    "smooth_checker_r8": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "smooth_checker_n32_r8_y"
+    },
+    "smooth_checker_r16": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "smooth_checker_n32_r16_y"
+    },
+    "smooth_checker_r32": {
+      "file": "studies/patch_2d/receiver_and_transfer_responses.npz",
+      "key": "smooth_checker_n32_r32_y"
+    },
+    "smooth_checker_r64": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "smooth_checker_fixed_interface_modes_r64_y"
+    },
+    "smooth_checker_r96": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "smooth_checker_fixed_interface_modes_r96_y"
+    },
+    "smooth_checker_r128": {
+      "file": "studies/patch_2d/capacity_followup_responses.npz",
+      "key": "smooth_checker_fixed_interface_modes_r128_y"
+    }
+  },
+  "source_sha256": {
+    "studies/patch_2d/receiver_and_transfer_responses.npz": "80f8fe5b4917ee35d0e82a0d883ee18938d4ecbb6374491f4fb2a31d0b2e9294",
+    "studies/patch_2d/capacity_followup_responses.npz": "354fa56eb7ceef5ce215f9816f9453abcbfd304f2947764db0e4935eff93cf3e"
+  }
+}

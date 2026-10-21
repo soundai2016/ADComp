@@ -1,0 +1,47 @@
+{
+  "materials": [
+    "rotated_stripes",
+    "double_inclusion",
+    "smooth_checker"
+  ],
+  "grids": [
+    64,
+    72,
+    80,
+    88,
+    96,
+    104,
+    112,
+    120,
+    128
+  ],
+  "methods": [
+    "full_stormer_verlet",
+    "craig_bampton"
+  ],
+  "explicit_cfl_values": [
+    0.25,
+    0.125
+  ],
+  "modes_per_patch": 128,
+  "reference_grid": 512,
+  "alternative_reference_grid": 384,
+  "time_end": 8.0,
+  "samples": 641,
+  "receiver_tolerances": [
+    0.05,
+    0.1
+  ],
+  "threads": 2,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "repetitions": 3,
+  "candidate_order": "Material, increasing grid, Verlet CFL 0.25, Verlet CFL 0.125, Craig-Bampton m128; three consecutive independent constructions of each candidate.",
+  "dimension": "Full pressure n^2; Craig-Bampton r=n+256. The time recurrence stores two full pressure arrays.",
+  "norm": "Equal-weight Frobenius norm over all 641 output times including t=0, four receivers and three sources.",
+  "cost": "Include assembly, independent basis construction, projection and eigensolve, propagation, receiver output; exclude reference evaluation, diagnostics and file I/O. Report the median of the three complete stage sums.",
+  "purpose": "Grid-density diagnostic for fixed Craig-Bampton m128 and two fixed Stormer-Verlet CFL values. All 81 settings are remeasured in one batch. The original sparse-grid experiment is retained without modification.",
+  "scope": "The envelopes compare the prescribed candidates over 5-10% receiver tolerance. They do not optimize reduced capacity, CFL, solver family, source distribution or continuum accuracy."
+}

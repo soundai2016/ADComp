@@ -1,0 +1,48 @@
+[stdout] {
+[stdout]   "max_absolute_scattering_difference": 6.421635524853215e-11,
+[stdout]   "median_cost_by_cells": {
+[stdout]     "4": {
+[stdout]       "setup_seconds": 9.638653136789799e-05,
+[stdout]       "query_513freq_seconds": 0.00020482402760535479,
+[stdout]       "one_query_total_seconds": 0.00030119455186650157,
+[stdout]       "100_query_mean_seconds": 0.00020578773284796626
+[stdout]     },
+[stdout]     "8": {
+[stdout]       "setup_seconds": 9.700399823486805e-05,
+[stdout]       "query_513freq_seconds": 0.00036131846718490124,
+[stdout]       "one_query_total_seconds": 0.0004584579146467149,
+[stdout]       "100_query_mean_seconds": 0.00036228682671207935
+[stdout]     },
+[stdout]     "16": {
+[stdout]       "setup_seconds": 9.709398727864027e-05,
+[stdout]       "query_513freq_seconds": 0.0006685524713248014,
+[stdout]       "one_query_total_seconds": 0.0007659344701096416,
+[stdout]       "100_query_mean_seconds": 0.0006695287564070895
+[stdout]     },
+[stdout]     "32": {
+[stdout]       "setup_seconds": 9.741849498823285e-05,
+[stdout]       "query_513freq_seconds": 0.0012773119960911572,
+[stdout]       "one_query_total_seconds": 0.0013759149587713182,
+[stdout]       "100_query_mean_seconds": 0.0012782980257179588
+[stdout]     },
+[stdout]     "64": {
+[stdout]       "setup_seconds": 9.845750173553824e-05,
+[stdout]       "query_513freq_seconds": 0.0026776090380735695,
+[stdout]       "one_query_total_seconds": 0.0027755710761994123,
+[stdout]       "100_query_mean_seconds": 0.002678588658454828
+[stdout]     },
+[stdout]     "128": {
+[stdout]       "setup_seconds": 0.00010212499182671309,
+[stdout]       "query_513freq_seconds": 0.005143762973602861,
+[stdout]       "one_query_total_seconds": 0.005245887965429574,
+[stdout]       "100_query_mean_seconds": 0.005144784223521128
+[stdout]     },
+[stdout]     "256": {
+[stdout]       "setup_seconds": 0.00010711047798395157,
+[stdout]       "query_513freq_seconds": 0.012958415492903441,
+[stdout]       "one_query_total_seconds": 0.013066845014691353,
+[stdout]       "100_query_mean_seconds": 0.012959499788121321
+[stdout]     }
+[stdout]   },
+[stdout]   "status": "Post-stage implementation audit of the same FV equations; direct solve uses no modal eigendecomposition. Exact analytic layers remains available and faster overall."
+[stdout] }

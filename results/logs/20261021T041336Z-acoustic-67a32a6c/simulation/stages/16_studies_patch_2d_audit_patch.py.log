@@ -1,0 +1,44 @@
+[stdout] [
+[stdout]   {
+[stdout]     "material": "rotated_stripes",
+[stdout]     "full_dimension": 64,
+[stdout]     "transformed_dimension": 64,
+[stdout]     "full_basis_eigenvalue_relative_error": 7.428342351566574e-16,
+[stdout]     "full_basis_receiver_relative_error": 3.55332315140237e-14,
+[stdout]     "full_basis_field_relative_error": 3.7794124584115015e-14,
+[stdout]     "full_basis_transfer_relative_error": 3.002929031666417e-14,
+[stdout]     "static_schur_relative_error": 1.4324658928807067e-16,
+[stdout]     "dynamic_system_equivalence_max_relative_error": 6.891158920940916e-14,
+[stdout]     "interface_indices_unique": true,
+[stdout]     "mass_orthonormality_max_error": 2.1094237467877974e-15,
+[stdout]     "pass": true
+[stdout]   },
+[stdout]   {
+[stdout]     "material": "double_inclusion",
+[stdout]     "full_dimension": 64,
+[stdout]     "transformed_dimension": 64,
+[stdout]     "full_basis_eigenvalue_relative_error": 8.819852565647506e-16,
+[stdout]     "full_basis_receiver_relative_error": 5.256760099215045e-14,
+[stdout]     "full_basis_field_relative_error": 3.823222527316221e-14,
+[stdout]     "full_basis_transfer_relative_error": 4.45984513742683e-14,
+[stdout]     "static_schur_relative_error": 9.79203152442572e-17,
+[stdout]     "dynamic_system_equivalence_max_relative_error": 5.718977161852638e-15,
+[stdout]     "interface_indices_unique": true,
+[stdout]     "mass_orthonormality_max_error": 1.5543122344752192e-15,
+[stdout]     "pass": true
+[stdout]   },
+[stdout]   {
+[stdout]     "material": "smooth_checker",
+[stdout]     "full_dimension": 64,
+[stdout]     "transformed_dimension": 64,
+[stdout]     "full_basis_eigenvalue_relative_error": 7.493382946351822e-16,
+[stdout]     "full_basis_receiver_relative_error": 3.392328163240113e-14,
+[stdout]     "full_basis_field_relative_error": 3.532254419249103e-14,
+[stdout]     "full_basis_transfer_relative_error": 2.607043440118039e-14,
+[stdout]     "static_schur_relative_error": 1.5156451603312655e-16,
+[stdout]     "dynamic_system_equivalence_max_relative_error": 5.113408198731116e-14,
+[stdout]     "interface_indices_unique": true,
+[stdout]     "mass_orthonormality_max_error": 2.220446049250313e-15,
+[stdout]     "pass": true
+[stdout]   }
+[stdout] ]

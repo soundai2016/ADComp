@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "settings": 81,
+  "timed_repetitions": 243,
+  "all_configuration_and_runtime_hashes_match": true,
+  "all_raw_hashes_match": true,
+  "maximum_receiver_reconstruction_difference": 1.76581262472287e-16,
+  "maximum_repeated_receiver_difference": 0.0,
+  "maximum_recorded_cost_difference": 0.0,
+  "timing_intervals_do_not_overlap": true
+}

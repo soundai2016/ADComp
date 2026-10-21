@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "grid": 8,
+  "modal_relative_difference": 7.689900469039898e-14,
+  "generator_skew_defect": 0.0,
+  "energy_relative_drift": 6.217248937900877e-15,
+  "chunk_duration": 0.5,
+  "full_grid32_modal_relative_difference": {
+    "rotated_stripes": 1.8533821998129724e-13,
+    "double_inclusion": 2.542238078890237e-13,
+    "smooth_checker": 7.444310944387979e-13
+  }
+}

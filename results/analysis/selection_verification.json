@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_sha256": "ee14fde6348d5fb98792584f2519c8caa82fca6f1cd477ab47df2447b918e4d6",
+  "simulation_input_hash_verified": true,
+  "source_rows": 1440,
+  "aggregate_cb_rows": 72,
+  "comparison_cases": 24,
+  "no_metric_ties": true,
+  "all_candidate_sets_complete": true,
+  "all_within_case_reference_denominators_identical": true
+}
